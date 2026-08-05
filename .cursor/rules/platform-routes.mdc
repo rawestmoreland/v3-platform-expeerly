@@ -1,0 +1,16 @@
+---
+description: Platform app routes — companies, reviewer; PageCanvas, screens, locale-exempt URLs
+globs: app/(platform)/**/*,components/screens/platform/**/*,lib/fixtures/**/*
+alwaysApply: false
+---
+
+# Platform routes
+
+- Canonical paths: [contracts/platform-routes.md](../../contracts/platform-routes.md)
+- Not public www/player — do not add to [public-routes.md](../../contracts/public-routes.md)
+- Routes: `PageCanvas` → `AppContentContainer` (segment layout) → `components/screens/platform/*Screen`
+- No feature UI in `app/(platform)/**` page files
+- URL locale: exempt per `lib/i18n/routing.ts` (`LOCALE_EXEMPT_PATH_PREFIXES`); UI copy still via `t("app.*")`
+- Nav: `lib/app-nav-config.ts` (`companyNavItems`, `reviewerNavItems`, `bdnNavItems` on `/bdn/**`)
+- Design system: `app/(platform)/bdn/designsystem/**` — no `PageCanvas`; showcases ESLint-exempt
+- Also [layout-shell-page-canvas.md](../../contracts/layout-shell-page-canvas.md), [i18n-locales.md](../../contracts/i18n-locales.md)

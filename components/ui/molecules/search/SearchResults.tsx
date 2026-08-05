@@ -18,13 +18,13 @@ export const SearchResults = React.forwardRef<
       ref={ref}
       role="listbox"
       className={cn(
-        "mt-[2px]", // ← lock the gap here
+        "mt-[2px]", // match SelectField sideOffset
         // positioning is handled by parent (SearchField / controller)
         "w-full rounded-lg",
-        // visuals
-        "border-[1.5px] border-foreground-body bg-surface",
-        // spacing + scroll
-        "overflow-y-auto",
+        // visuals — match SelectField.Content
+        "border border-border bg-surface py-1 text-body-small shadow-md",
+        // spacing + scroll — match SelectField.Viewport
+        "flex flex-col gap-0.5 overflow-y-auto px-2",
         className,
       )}
       style={{ maxHeight }}

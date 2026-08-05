@@ -1,12 +1,12 @@
 import * as React from "react";
 import { cn } from "@/lib/utils";
-import { Heading } from "../atoms/Heading";
+import { Heading, type HeadingVariant } from "../atoms/Heading";
 import { Text } from "../atoms/Text";
 
 export interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
   muted?: boolean;
   padding?: "none" | "small" | "medium";
-  surface?: "default" | "background" | "muted";
+  surface?: "default" | "background" | "muted" | "secondary";
 }
 
 const cardPaddingClasses = {
@@ -16,9 +16,10 @@ const cardPaddingClasses = {
 } as const;
 
 const cardSurfaceClasses = {
-  default: "bg-surface shadow-sm",
-  background: "bg-background",
-  muted: "bg-surface-muted",
+  default: "border border-border bg-surface shadow-sm",
+  background: "border border-border bg-background",
+  muted: "border border-border bg-surface-muted",
+  secondary: "border-0 bg-secondary shadow-sm",
 } as const;
 
 export function Card({ muted = false, padding = "medium", surface = "default", className, ...props }: CardProps) {
@@ -27,7 +28,7 @@ export function Card({ muted = false, padding = "medium", surface = "default", c
   return (
     <div
       className={cn(
-        "rounded-lg border border-border",
+        "rounded-lg",
         cardPaddingClasses[padding],
         cardSurfaceClasses[resolvedSurface],
         className,
@@ -37,8 +38,20 @@ export function Card({ muted = false, padding = "medium", surface = "default", c
   );
 }
 
-export function CardTitle({ className, ...props }: React.HTMLAttributes<HTMLHeadingElement>) {
-  return <Heading as="h3" variant="title-bold" className={className} {...props} />;
+type CardTitleProps = React.HTMLAttributes<HTMLHeadingElement> & {
+  variant?: HeadingVariant;
+  tone?: "default" | "on-dark";
+};
+
+export function CardTitle({ variant = "title-bold", tone = "default", className, ...props }: CardTitleProps) {
+  return (
+    <Heading
+      as="h3"
+      variant={variant}
+      className={cn(tone === "on-dark" && "text-foreground-on-dark", className)}
+      {...props}
+    />
+  );
 }
 
 export function CardDescription({ className, ...props }: React.HTMLAttributes<HTMLParagraphElement>) {

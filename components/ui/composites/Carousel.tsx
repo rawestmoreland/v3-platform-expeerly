@@ -1,35 +1,49 @@
 import * as React from "react";
 import { cn } from "@/lib/utils";
 
-const Carousel = React.forwardRef<
-  HTMLDivElement,
-  React.HTMLAttributes<HTMLDivElement>
->(({ className, ...props }, ref) => (
-  <div
-    ref={ref}
-    className={cn("relative", className)}
-    {...props}
-  />
-));
+export type CarouselVariant = "default" | "edgeBleed";
+
+export interface CarouselProps extends React.HTMLAttributes<HTMLDivElement> {
+  variant?: CarouselVariant;
+}
+
+const Carousel = React.forwardRef<HTMLDivElement, CarouselProps>(
+  ({ className, variant = "default", ...props }, ref) => (
+    <div
+      ref={ref}
+      className={cn(
+        "relative",
+        variant === "edgeBleed" && "-mx-6 md:-mx-16 lg:-mx-20",
+        className,
+      )}
+      {...props}
+    />
+  ),
+);
 Carousel.displayName = "Carousel";
 
-const CarouselTrack = React.forwardRef<
-  HTMLDivElement,
-  React.HTMLAttributes<HTMLDivElement>
->(({ className, ...props }, ref) => (
-  <div
-    ref={ref}
-    className={cn(
-      "flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-smooth pb-3",
-      "[-webkit-overflow-scrolling:touch]",
-      className,
-    )}
-    {...props}
-  />
-));
+export interface CarouselTrackProps extends React.HTMLAttributes<HTMLDivElement> {
+  variant?: CarouselVariant;
+}
+
+const CarouselTrack = React.forwardRef<HTMLDivElement, CarouselTrackProps>(
+  ({ className, variant = "default", ...props }, ref) => (
+    <div
+      ref={ref}
+      className={cn(
+        "flex snap-x snap-mandatory overflow-x-auto scroll-smooth pb-2",
+        "[-webkit-overflow-scrolling:touch]",
+        variant === "default" && "gap-4 pb-3",
+        variant === "edgeBleed" && "gap-3 pl-6 pr-6 md:gap-6 md:pl-16 md:pr-16 lg:pl-20 lg:pr-20",
+        className,
+      )}
+      {...props}
+    />
+  ),
+);
 CarouselTrack.displayName = "CarouselTrack";
 
-export type CarouselItemSize = "multi" | "compact";
+export type CarouselItemSize = "multi" | "compact" | "shrink";
 
 export interface CarouselItemProps extends React.HTMLAttributes<HTMLDivElement> {
   size?: CarouselItemSize;
@@ -38,6 +52,7 @@ export interface CarouselItemProps extends React.HTMLAttributes<HTMLDivElement> 
 const carouselItemSizeClasses: Record<CarouselItemSize, string> = {
   multi: "w-[85%] sm:w-[45%] lg:w-[31%]",
   compact: "w-full",
+  shrink: "shrink-0",
 };
 
 const CarouselItem = React.forwardRef<HTMLDivElement, CarouselItemProps>(

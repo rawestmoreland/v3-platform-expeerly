@@ -1,0 +1,14 @@
+---
+description: Supabase v3 project — CLI and migration habits for this repo
+globs: supabase/**/*,lib/supabase/**/*,scripts/seed-*.ts
+alwaysApply: false
+---
+
+# Supabase (v3-platform)
+
+- **Target:** new v3 Supabase project only. Do **not** push migrations to legacy `abwvxbcxzrszhtjnhchr`.
+- **Project ref:** set once known (dashboard URL / `supabase link`). Until then use env `NEXT_PUBLIC_SUPABASE_URL`.
+- **First migration:** `supabase/migrations/20260709095307_minimal_users_analytics_v2_auth.sql` (`users_analytics_v2` + Auth link).
+- **Migrations:** propose exact SQL + matching `contracts/schema.dbml` diff in chat (or `contracts/proposals/`). Write `supabase/migrations/**` only after **explicit approval**.
+- **Clients:** `lib/supabase/client.ts` (browser), `lib/supabase/server.ts` (RSC), `lib/supabase/admin.ts` (service role / seeds).
+- **Auth:** email + password for reviewer v1; profile row is `users_analytics_v2` linked via `auth_user_id`.

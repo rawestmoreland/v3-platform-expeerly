@@ -9,6 +9,7 @@ export const semanticColors = {
     active: "var(--color-primary-active)",
   },
   secondary: "var(--color-secondary)",
+  tertiary: "var(--color-tertiary)",
   background: "var(--color-background)",
   surface: {
     DEFAULT: "var(--color-surface)",

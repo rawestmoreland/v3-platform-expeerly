@@ -15,7 +15,7 @@ tailwind.config.mjs             WIRING (bg-primary → var(--color-primary))
 components/ui, app              USAGE (class names)
         ↓
 tokens/colors.manifest.ts       COLOR TABLE (metadata; hex synced with colors.css)
-locales/…/designsystem.ts       USAGE COPY (“used for …”)
+locales/bdn/{locale}.json       USAGE COPY (“used for …”)
 ```
 
 | Layer | Owns | Does not own |
@@ -43,7 +43,7 @@ locales/…/designsystem.ts       USAGE COPY (“used for …”)
 2. Confirm the matching utility exists in `tokens/tailwind-theme-extend.mjs` / `tailwind.config.mjs` (semantic colors use `var(--color-*)` only).
 3. Run `npm run tokens:check` (semantic hex vs manifest).
 4. For typography docs: `npm run tokens:docs`.
-5. Spot-check `/bnd/designsystem/colors` and a product screen.
+5. Spot-check `/bdn/designsystem/colors` and a product screen.
 
 ## Rules
 
@@ -56,7 +56,7 @@ locales/…/designsystem.ts       USAGE COPY (“used for …”)
 ## Product vs design system
 
 - **Product** (`components/ui`, `app`): semantic utilities only (`bg-primary`, `text-foreground-body`, …).
-- **Design system** (`app/bnd/designsystem/` routes, `app/bnd/designsystem/ui/*` showcases): usage copy in `locales/en/designsystem.ts`; color table reads `tokens/colors.manifest.ts`.
+- **Design system** (`app/bdn/designsystem/` routes, `app/bdn/designsystem/ui/*` showcases): usage copy in `locales/bdn/{locale}.json`; color table reads `tokens/colors.manifest.ts`.
 
 ## Scripts
 

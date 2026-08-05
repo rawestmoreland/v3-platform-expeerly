@@ -8,7 +8,8 @@ alwaysApply: false
 
 - All Lucide icons live in `components/ui/icons/` (one file per icon). Consume via the `Icon` atom or named exports from `@/components/ui/icons`. Do not import `lucide-react` anywhere else in the repo.
 - Molecules must not import from `composites/`.
-- No hardcoded user-facing English in UI or app code. Use `t("ui.*")`, `t("app.*")`, or `t("designsystem.*")` from `@/lib/i18n`. ESLint enforces this via `i18next/no-literal-string` (JSX text and common copy attributes).
-- Add new copy under `locales/en/` (`ui.ts`, `app.ts`, `designsystem.ts`) first, then wire components.
-- **Tokens:** values in `tokens/*.css`; Tailwind utility wiring in `tailwind.config.mjs` / `tokens/tailwind-theme-extend.mjs`. Do not add hex, rgb/hsl literals, legacy `bg-pink-*`, or arbitrary layout brackets in `className`. DS site: `app/bnd/designsystem/` (routes + `ui/` showcases). See [contracts/design-tokens.md](../../contracts/design-tokens.md).
+- **Design-system primitives** stay at `molecules/` / `composites/` root (or existing DS subfolders like `search/`, `navigation/`). **Product-only** pieces go in a feature subfolder (e.g. `molecules/video-reviews/`, `composites/video-reviews/`), not beside DS components.
+- No hardcoded user-facing English in UI or app code. Use `t("ui.*")`, `t("app.*")`, `t("player.*")`, `t("marketing.*")`, or `t("designsystem.*")` from `@/lib/i18n`. ESLint enforces via `i18next/no-literal-string`.
+- Add copy per [contracts/i18n-locales.md](../../contracts/i18n-locales.md) before wiring components.
+- **Tokens:** values in `tokens/*.css`; Tailwind utility wiring in `tailwind.config.mjs` / `tokens/tailwind-theme-extend.mjs`. Do not add hex, rgb/hsl literals, legacy `bg-pink-*`, or arbitrary layout brackets in `className`. DS site: `app/(platform)/bdn/designsystem/` (routes + `ui/` showcases). See [contracts/design-tokens.md](../../contracts/design-tokens.md).
 - **App surfaces:** `app/**` and `components/layout/**` follow the same token, icon, and locale rules. See also `platform-ui-governance.mdc`.

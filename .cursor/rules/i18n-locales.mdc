@@ -1,0 +1,13 @@
+---
+description: Locale JSON layout and t() namespaces
+globs: locales/**/*,lib/i18n/**
+alwaysApply: false
+---
+
+# i18n locales
+
+- Layout and namespaces: [contracts/i18n-locales.md](../../contracts/i18n-locales.md)
+- Product copy: `locales/{locale}.json` (`ui`, `app`, `player`, `marketing`)
+- Design system: `locales/bdn/{locale}.json` (`designsystem` only)
+- Review titles/FAQs/transcripts: fixture JSON + `pickLocalized()` — not locale files
+- Use `t("…")` from `@/lib/i18n`; add keys to JSON before wiring UI

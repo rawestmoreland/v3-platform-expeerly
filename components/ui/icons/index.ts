@@ -4,8 +4,10 @@ import type { ComponentType } from "react";
 import { ActivityIcon } from "./ActivityIcon";
 import { ArchiveIcon } from "./ArchiveIcon";
 import { ArrowRightIcon } from "./ArrowRightIcon";
+import { ArrowUpDownIcon } from "./ArrowUpDownIcon";
 import { AlertCircleIcon } from "./AlertCircleIcon";
 import { BadgeCheckIcon } from "./BadgeCheckIcon";
+import { BanknoteIcon } from "./BanknoteIcon";
 import { BarChart3Icon } from "./BarChart3Icon";
 import { BarcodeIcon } from "./BarcodeIcon";
 import { BlocksIcon } from "./BlocksIcon";
@@ -15,14 +17,19 @@ import { CheckCircleIcon } from "./CheckCircleIcon";
 import { ChevronDownIcon } from "./ChevronDownIcon";
 import { ChevronLeftIcon } from "./ChevronLeftIcon";
 import { ChevronRightIcon } from "./ChevronRightIcon";
+import { CircleOffIcon } from "./CircleOffIcon";
+import { CirclePlayIcon } from "./CirclePlayIcon";
 import { CreditCardIcon } from "./CreditCardIcon";
 import { DownloadIcon } from "./DownloadIcon";
 import { EyeIcon } from "./EyeIcon";
+import { ExternalLinkIcon } from "./ExternalLinkIcon";
 import { FacebookIcon } from "./FacebookIcon";
 import { FileTextIcon } from "./FileTextIcon";
+import { FlameIcon } from "./FlameIcon";
 import { FolderOpenIcon } from "./FolderOpenIcon";
 import { FunnelIcon } from "./FunnelIcon";
 import { GiftIcon } from "./GiftIcon";
+import { GlobeIcon } from "./GlobeIcon";
 import { GithubIcon } from "./GithubIcon";
 import { HeartIcon } from "./HeartIcon";
 import { ImageIcon } from "./ImageIcon";
@@ -38,6 +45,7 @@ import { ListCollapseIcon } from "./ListCollapseIcon";
 import { ListOrderedIcon } from "./ListOrderedIcon";
 import { LoaderCircleIcon } from "./LoaderCircleIcon";
 import { LogOutIcon } from "./LogOutIcon";
+import { MegaphoneIcon } from "./MegaphoneIcon";
 import { MenuIcon } from "./MenuIcon";
 import { MessageSquareIcon } from "./MessageSquareIcon";
 import { MinusIcon } from "./MinusIcon";
@@ -50,12 +58,14 @@ import { PackageOpenIcon } from "./PackageOpenIcon";
 import { PanelsTopLeftIcon } from "./PanelsTopLeftIcon";
 import { PaletteIcon } from "./PaletteIcon";
 import { PencilIcon } from "./PencilIcon";
+import { PlaySquareIcon } from "./PlaySquareIcon";
 import { PlusIcon } from "./PlusIcon";
 import { ReceiptIcon } from "./ReceiptIcon";
 import { ScanBarcodeIcon } from "./ScanBarcodeIcon";
 import { SearchIcon } from "./SearchIcon";
 import { SearchXIcon } from "./SearchXIcon";
 import { SettingsIcon } from "./SettingsIcon";
+import { ShareIcon } from "./ShareIcon";
 import { SlidersHorizontalIcon } from "./SlidersHorizontalIcon";
 import { ShoppingBagIcon } from "./ShoppingBagIcon";
 import { ShoppingCartIcon } from "./ShoppingCartIcon";
@@ -82,8 +92,10 @@ export const iconComponents = {
   "activity": ActivityIcon,
   "archive": ArchiveIcon,
   "arrow-right": ArrowRightIcon,
+  "arrow-up-down": ArrowUpDownIcon,
   "alert-circle": AlertCircleIcon,
   "badge-check": BadgeCheckIcon,
+  "banknote": BanknoteIcon,
   "bar-chart3": BarChart3Icon,
   "barcode": BarcodeIcon,
   "blocks": BlocksIcon,
@@ -93,14 +105,19 @@ export const iconComponents = {
   "chevron-down": ChevronDownIcon,
   "chevron-left": ChevronLeftIcon,
   "chevron-right": ChevronRightIcon,
+  "circle-off": CircleOffIcon,
+  "circle-play": CirclePlayIcon,
   "credit-card": CreditCardIcon,
   "download": DownloadIcon,
   "eye": EyeIcon,
+  "external-link": ExternalLinkIcon,
   "facebook": FacebookIcon,
   "file-text": FileTextIcon,
+  "flame": FlameIcon,
   "folder-open": FolderOpenIcon,
   "funnel": FunnelIcon,
   "gift": GiftIcon,
+  "globe": GlobeIcon,
   "github": GithubIcon,
   "heart": HeartIcon,
   "image": ImageIcon,
@@ -116,6 +133,7 @@ export const iconComponents = {
   "list-ordered": ListOrderedIcon,
   "loader-circle": LoaderCircleIcon,
   "log-out": LogOutIcon,
+  "megaphone": MegaphoneIcon,
   "menu": MenuIcon,
   "message-square": MessageSquareIcon,
   "minus": MinusIcon,
@@ -128,12 +146,14 @@ export const iconComponents = {
   "panels-top-left": PanelsTopLeftIcon,
   "palette": PaletteIcon,
   "pencil": PencilIcon,
+  "play-square": PlaySquareIcon,
   "plus": PlusIcon,
   "receipt": ReceiptIcon,
   "scan-barcode": ScanBarcodeIcon,
   "search": SearchIcon,
   "search-x": SearchXIcon,
   "settings": SettingsIcon,
+  "share": ShareIcon,
   "sliders-horizontal": SlidersHorizontalIcon,
   "shopping-bag": ShoppingBagIcon,
   "shopping-cart": ShoppingCartIcon,
@@ -161,8 +181,10 @@ export {
   ActivityIcon,
   ArchiveIcon,
   ArrowRightIcon,
+  ArrowUpDownIcon,
   AlertCircleIcon,
   BadgeCheckIcon,
+  BanknoteIcon,
   BarChart3Icon,
   BarcodeIcon,
   BlocksIcon,
@@ -172,14 +194,19 @@ export {
   ChevronDownIcon,
   ChevronLeftIcon,
   ChevronRightIcon,
+  CircleOffIcon,
+  CirclePlayIcon,
   CreditCardIcon,
   DownloadIcon,
   EyeIcon,
+  ExternalLinkIcon,
   FacebookIcon,
   FileTextIcon,
+  FlameIcon,
   FolderOpenIcon,
   FunnelIcon,
   GiftIcon,
+  GlobeIcon,
   GithubIcon,
   HeartIcon,
   ImageIcon,
@@ -195,6 +222,7 @@ export {
   ListOrderedIcon,
   LoaderCircleIcon,
   LogOutIcon,
+  MegaphoneIcon,
   MenuIcon,
   MessageSquareIcon,
   MinusIcon,
@@ -207,12 +235,14 @@ export {
   PanelsTopLeftIcon,
   PaletteIcon,
   PencilIcon,
+  PlaySquareIcon,
   PlusIcon,
   ReceiptIcon,
   ScanBarcodeIcon,
   SearchIcon,
   SearchXIcon,
   SettingsIcon,
+  ShareIcon,
   SlidersHorizontalIcon,
   ShoppingBagIcon,
   ShoppingCartIcon,

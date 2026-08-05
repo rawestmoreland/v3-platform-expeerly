@@ -11,14 +11,22 @@ import { cn } from "@/lib/utils";
  * - Size controlled via className
  * - Image source passed directly to AvatarImage
  */
+type AvatarProps = React.ComponentPropsWithoutRef<typeof AvatarPrimitive.Root> & {
+  reviewerRing?: boolean;
+};
+
 const Avatar = React.forwardRef<
   React.ElementRef<typeof AvatarPrimitive.Root>,
-  React.ComponentPropsWithoutRef<typeof AvatarPrimitive.Root>
->(({ className, ...props }, ref) => (
+  AvatarProps
+>(({ className, reviewerRing = false, ...props }, ref) => (
   <AvatarPrimitive.Root
     ref={ref}
     className={cn(
       "relative flex shrink-0 overflow-hidden rounded-full",
+      reviewerRing &&
+        "after:pointer-events-none after:absolute after:inset-0 after:z-10 after:rounded-full after:border-[3px] after:border-tertiary after:content-['']",
+      !reviewerRing &&
+        "has-[img[data-state=loaded]]:after:pointer-events-none has-[img[data-state=loaded]]:after:absolute has-[img[data-state=loaded]]:after:inset-0 has-[img[data-state=loaded]]:after:z-10 has-[img[data-state=loaded]]:after:rounded-full has-[img[data-state=loaded]]:after:border-[3px] has-[img[data-state=loaded]]:after:border-tertiary has-[img[data-state=loaded]]:after:content-['']",
       className,
     )}
     {...props}

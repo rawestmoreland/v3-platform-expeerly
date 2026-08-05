@@ -19,13 +19,14 @@ export const SearchResultItem = React.forwardRef<
       aria-selected="false"
       aria-disabled={disabled}
       className={cn(
-        // layout
-        "flex h-10 w-full items-center px-4",
+        // layout — match SelectItem
+        "flex w-full items-center rounded-md px-3 py-2",
         // typography
-        "text-body-regular text-foreground-title-subtle",
+        "text-body-small text-foreground-title-subtle",
         // interaction
-        "select-none",
-        !disabled && "cursor-pointer hover:bg-surface-hover/50 hover:text-secondary",
+        "select-none outline-none focus:outline-none",
+        !disabled &&
+          "cursor-pointer hover:bg-surface-hover hover:text-secondary focus:bg-surface-hover focus:text-secondary",
         disabled && "pointer-events-none opacity-60",
         className,
       )}

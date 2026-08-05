@@ -35,7 +35,7 @@ yarn-error.log*
 
 # generated analytics logs
 logs/
-data/
+/data/
 
 # vercel
 .vercel

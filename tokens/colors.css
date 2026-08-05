@@ -9,6 +9,7 @@
   --color-primary-hover: #fa0f9c;
   --color-primary-active: #c6186b;
   --color-secondary: #4b49eb;
+  --color-tertiary: #2fedf9;
 
   --color-background: #fafaff;
   --color-surface: #ffffff;
@@ -38,7 +39,7 @@
   --color-destructive-foreground: var(--color-foreground-on-dark);
 
   --color-warning: #ffc122;
-  --color-warning-subtle: #fff8e6;
+  --color-warning-subtle: #ffeab0;
   --color-warning-foreground: #2e2e2f;
 
   --color-success: #2e8b33;

@@ -106,7 +106,7 @@ const eslintConfig = defineConfig([
   },
   {
     files: ["app/**/*.{ts,tsx}"],
-    ignores: ["app/bnd/designsystem/**"],
+    ignores: ["app/(platform)/bdn/designsystem/**"],
     rules: {
       "no-restricted-imports": [
         "error",
@@ -142,8 +142,8 @@ const eslintConfig = defineConfig([
       "locales/**",
       "tokens/**",
       "components/ui/icons/**",
-      "app/bnd/designsystem/ui/**",
-      "app/bnd/designsystem/typography/typography-table.generated.ts",
+      "app/(platform)/bdn/designsystem/ui/**",
+      "app/(platform)/bdn/designsystem/typography/typography-table.generated.ts",
     ],
     plugins: {
       i18next: i18next,
@@ -161,7 +161,7 @@ const eslintConfig = defineConfig([
   },
   {
     files: ["app/**/*.{ts,tsx}", "components/layout/**/*.{ts,tsx}"],
-    ignores: ["app/bnd/designsystem/**"],
+    ignores: ["app/(platform)/bdn/designsystem/**"],
     rules: {
       "no-restricted-syntax": [
         "error",

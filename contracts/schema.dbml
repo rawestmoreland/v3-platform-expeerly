@@ -402,6 +402,8 @@ Table retailer {
 Table users_analytics_v2 {
   id bigint [pk, not null, default: `nextval('users_analytics_v2_id_seq'::regclass)`]
   bubble_id text [unique]
+  auth_user_id uuid [unique, note: 'FK → auth.users.id; set by signup trigger or seed']
+  auth_method auth_method_enum [default: 'email', note: 'How the linked Auth user signed up; v1 email only']
   first_name text
   last_name text
   age integer [note: 'Self-reported age or snapshot; prefer DOB-derived age in product if policy requires']

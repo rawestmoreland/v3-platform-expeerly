@@ -39,6 +39,9 @@ export { DateRangeField } from "./composites/DateRangeField";
 export { FileUploadField } from "./molecules/FileUploadField";
 export { InputField } from "./molecules/InputField";
 export { Pagination } from "./molecules/Pagination";
+export { StatMetric, type StatMetricProps } from "./molecules/StatMetric";
+export { StarRating, type StarRatingProps } from "./molecules/video-reviews/StarRating";
+export { VideoThumbnail, type VideoThumbnailProps } from "./molecules/video-reviews/VideoThumbnail";
 export { ProgressBar } from "./molecules/ProgressBar";
 export { RadioGroupField } from "./molecules/RadioGroupField";
 export { TextareaField } from "./molecules/TextareaField";
@@ -73,12 +76,22 @@ export {
 export { Accordion } from "./composites/Accordion";
 export { AvatarGroup } from "./composites/AvatarGroup";
 export { Card, CardContent, CardDescription, CardFooter, CardTitle } from "./composites/Card";
+export { IconTextCard, type IconTextCardProps } from "./composites/IconTextCard";
 export { Carousel, CarouselItem, CarouselTrack } from "./composites/Carousel";
+export { SectionHeader, type SectionHeaderProps } from "./composites/SectionHeader";
+export { EdgeCarousel, type EdgeCarouselProps } from "./composites/EdgeCarousel";
 export { ContentListItem } from "./composites/ContentListItem";
+export { DataCard, type DataCardProps } from "./composites/DataCard";
 export { DataTable, DataTableCell, DataTableHeaderCell, DataTableRow } from "./composites/DataTable";
 export { EmptyState } from "./composites/EmptyState";
 export { FilterPanel } from "./composites/FilterPanel";
+export {
+  SingleSelectFilterButton,
+  type SingleSelectFilterButtonProps,
+  type SingleSelectFilterOption,
+} from "./composites/SingleSelectFilterButton";
 export { RightMenu } from "./composites/RightMenu";
+export { PublicDesktopHeaderNav, type PublicDesktopHeaderNavProps } from "./composites/PublicDesktopHeaderNav";
 export { TabbedNavigationMenuItem } from "./composites/TabbedNavigationMenuItem";
 export { VerticalNavigationMenuItem } from "./composites/VerticalNavigationMenuItem";
 export {
@@ -90,6 +103,32 @@ export {
 export { InPageAlert } from "./composites/InPageAlert";
 export { Popover } from "./composites/Popover";
 export { InfoBox } from "./composites/InfoBox";
+export { MainVideoCard, type MainVideoCardProps } from "./composites/video-reviews/MainVideoCard";
+export {
+  VideoRatingThumbnailCard,
+  type VideoRatingThumbnailCardProps,
+} from "./composites/video-reviews/VideoRatingThumbnailCard";
+export { ProductGroup, type ProductGroupItem, type ProductGroupProps } from "./composites/ProductGroup";
+export {
+  BrandListCard,
+  type BrandListCardProps,
+} from "./composites/video-reviews/BrandListCard";
+export {
+  BrandLogoTile,
+  type BrandLogoTileProps,
+} from "./composites/video-reviews/BrandLogoTile";
+export {
+  PendingReviewCard,
+  type PendingReviewCardProps,
+} from "./composites/video-reviews/PendingReviewCard";
+export {
+  ReviewFilterToolbar,
+  type ReviewFilterToolbarProps,
+} from "./composites/video-reviews/ReviewFilterToolbar";
+export {
+  BrandMarketingCard,
+  type BrandMarketingCardProps,
+} from "./composites/video-reviews/BrandMarketingCard";
 export {
   Tooltip,
   TooltipContent,

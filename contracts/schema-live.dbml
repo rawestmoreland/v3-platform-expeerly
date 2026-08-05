@@ -1,0 +1,301 @@
+// WARNING: This schema is for context only and is not meant to be run.
+// Table order and constraints may not be valid for execution.
+// Live schema snapshot (SQL export → DBML). Not the product contract — see schema.dbml.
+// Snapshot date: 2026-07-14
+
+Table retailer {
+  id text [pk, not null]
+  access_key text [not null, unique]
+  name text [not null]
+  slug text [unique]
+  created_at timestamptz [default: `now()`]
+  updated_at timestamptz [default: `now()`]
+}
+
+Table brand {
+  id text [pk, not null]
+  name text [not null, unique]
+  logo text
+  created_at timestamptz [default: `now()`]
+  updated_at timestamptz [default: `now()`]
+}
+
+Table companies_analytics_v2 {
+  id bigint [pk, not null, default: `nextval('companies_analytics_v2_id_seq'::regclass)`]
+  bubble_id text [unique]
+  company_name text
+  brand_ids jsonb [default: `'[]'::jsonb`]
+  client_status text
+  brand_analytics_ids bigint[] [default: `'{}'::bigint[]`]
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  hubspot_company_id varchar
+  count_from date [note: "CHECK (count_from IS NULL OR date_trunc('month', count_from)::date = count_from)"]
+}
+
+Table users_analytics_v2 {
+  id bigint [pk, not null, default: `nextval('users_analytics_v2_id_seq'::regclass)`]
+  bubble_id text [unique]
+  full_name text
+  role text [note: "CHECK role IN ('reviewer','company','super_admin')"]
+  company_id text [ref: > companies_analytics_v2.bubble_id]
+  company_analytics_id bigint
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+}
+
+Table brands_analytics_v2 {
+  id bigint [pk, not null, default: `nextval('brands_analytics_v2_id_seq'::regclass)`]
+  bubble_id text [unique]
+  company_id text [ref: > companies_analytics_v2.bubble_id]
+  brand_name text
+  brand_logo text
+  company_analytics_id bigint
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+}
+
+Table processed_videos {
+  bubble_id text [pk, not null, unique]
+  gtin_ean text
+  gtin_ean_variants text[] [note: 'SQL export: ARRAY (element type unspecified)']
+  mux_playback_id text
+  product text [default: `'no'::text`]
+  product_name text
+  asset_group text
+  rating real
+  reviewer_first_name text
+  reviewer_last_name text
+  reviewer_profile_pic text
+  status text
+  upc text
+  upc_variants text[] [note: 'SQL export: ARRAY (element type unspecified)']
+  video_upload text
+  created_at timestamptz [default: `now()`]
+  updated_at timestamptz [default: `now()`]
+  brand_id text [ref: > brand.id]
+  asset_id text
+  Video_Tag_ID text
+  Video_Track_ID text
+  youtube_id text
+  reviewer_id text
+  published text [default: `''::text`]
+  facebook_id text
+  company_id text
+  instagram_id text
+  tiktok_id text
+  loadbee_id text
+  id bigint [not null, default: `nextval('processed_videos_id_seq'::regclass)`]
+  brand_analytics_id bigint [ref: > brands_analytics_v2.id]
+  company_analytics_id bigint [ref: > companies_analytics_v2.id]
+  reviewer_analytics_id bigint [ref: > users_analytics_v2.id]
+}
+
+Table video_track {
+  created_at timestamptz [not null, default: `now()`]
+  File text
+  unique_id text [pk, not null]
+  Video_Tag_ID text
+  Processed_Video_ID text
+  External_ID text
+  ISO_language_code text
+  Language text
+  Migration_version text
+  Status text
+  Type text
+  Value_text text
+  vttFile text
+}
+
+Table video_upload {
+  created_at timestamptz [not null, default: `now()`]
+  Asset_id text
+  unique_id text [pk, not null]
+  "Upload status" text
+  "Upload id" text
+  "Static renditions" text
+  "Selected Partners" text
+  "Selected Channels" text
+  "Public playback ids" text
+  "Private playback ids" text
+  "Original file size" text
+  "Mux playback ID" text
+  "Master url" text
+  "File name" text
+  Duration text
+  Company text
+  Campaign text
+  "Asset status" text
+  "Asset group" text
+  "Aspect ratio" text
+}
+
+Table video_tag {
+  unique_id text [pk, not null]
+  created_at timestamptz [not null, default: `now()`]
+  Video_Upload text
+  Video_Track text
+  Processed_Video_ID text
+  "Subtitle language" text
+  "Subtitle file" text
+  "Script language" text
+  "Plain text script" text
+  "Main language" text
+  "ISO subtitle language codes" text
+  "ISO script language code" text
+  "ISO main language code" text
+  Format text
+  Duration text
+  Company text
+  "Cloudinary Asset ID" text
+  Campaign text
+  Brand text
+  "Asset Group" text
+}
+
+Table pub_youtube {
+  id bigint [pk, not null, default: `nextval('pub_youtube_id_seq'::regclass)`]
+  video_id bigint [not null]
+  youtube_id varchar [not null]
+  recorded_at date [not null]
+  synced_at timestamp [not null, default: `now()`]
+  monthly_views integer [not null, default: 0, note: 'CHECK >= 0']
+  search_views integer [not null, default: 0, note: 'CHECK >= 0']
+  retailer_brack_views integer [not null, default: 0, note: 'CHECK >= 0']
+  retailer_digitec_views integer [not null, default: 0, note: 'CHECK >= 0']
+  retailer_galaxus_views integer [not null, default: 0, note: 'CHECK >= 0']
+  retailer_interdiscount_views integer [not null, default: 0, note: 'CHECK >= 0']
+  retailer_fust_views integer [not null, default: 0, note: 'CHECK >= 0']
+  retailer_nettoshop_views integer [not null, default: 0, note: 'CHECK >= 0']
+  retailer_alltron_views integer [not null, default: 0, note: 'CHECK >= 0']
+  retailer_daydeal_views integer [not null, default: 0, note: 'CHECK >= 0']
+  social_views integer [not null, default: 0, note: 'CHECK >= 0']
+}
+
+Table yt_monthly_checkpoints {
+  pipeline text [not null, note: "CHECK IN ('seed','sync')"]
+  month date [not null]
+  status text [not null, default: `'running'::text`, note: "CHECK IN ('running','completed','failed')"]
+  last_video_id bigint
+  processed_count integer [not null, default: 0, note: 'CHECK >= 0']
+  success_count integer [not null, default: 0, note: 'CHECK >= 0']
+  no_data_count integer [not null, default: 0, note: 'CHECK >= 0']
+  failed_count integer [not null, default: 0, note: 'CHECK >= 0']
+  skipped_invalid_id_count integer [not null, default: 0, note: 'CHECK >= 0']
+  retry_count integer [not null, default: 0, note: 'CHECK >= 0']
+  error_message text
+  started_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  ended_at timestamptz
+
+  indexes {
+    (pipeline, month) [pk]
+  }
+}
+
+Table pub_mux {
+  id bigint [pk, not null, default: `nextval('pub_mux_id_seq'::regclass)`]
+  video_id bigint [not null]
+  mux_asset_id varchar [not null]
+  recorded_at date [not null]
+  synced_at timestamp [not null, default: `now()`]
+  monthly_views integer [not null, default: 0, note: 'CHECK >= 0']
+  search_views integer [not null, default: 0, note: 'CHECK >= 0']
+  retailer_interdiscount_views integer [not null, default: 0, note: 'CHECK >= 0']
+}
+
+Table pub_instagram {
+  id bigint [pk, not null, default: `nextval('pub_instagram_id_seq'::regclass)`]
+  video_id bigint [not null]
+  instagram_id varchar [not null]
+  recorded_at date [not null]
+  synced_at timestamp [not null, default: `now()`]
+  monthly_views integer [not null, default: 0, note: 'CHECK >= 0']
+  lifetime_total_at_sync integer [not null, default: 0, note: 'CHECK >= 0']
+}
+
+Table pub_facebook {
+  id bigint [pk, not null, default: `nextval('pub_facebook_id_seq'::regclass)`]
+  video_id bigint [not null]
+  facebook_id varchar [not null]
+  recorded_at date [not null]
+  synced_at timestamp [not null, default: `now()`]
+  monthly_views integer [not null, default: 0, note: 'CHECK >= 0']
+  lifetime_total_at_sync integer [not null, default: 0, note: 'CHECK >= 0']
+}
+
+Table pub_tiktok {
+  id bigint [pk, not null, default: `nextval('pub_tiktok_id_seq'::regclass)`]
+  video_id bigint [not null]
+  tiktok_id varchar [not null]
+  recorded_at date [not null]
+  synced_at timestamp [not null, default: `now()`]
+  monthly_views integer [not null, default: 0, note: 'CHECK >= 0']
+  lifetime_total_at_sync integer [not null, default: 0, note: 'CHECK >= 0']
+}
+
+Table pub_loadbee {
+  id bigint [pk, not null, default: `nextval('pub_loadbee_id_seq'::regclass)`]
+  video_id bigint [not null]
+  loadbee_id varchar [not null]
+  recorded_at date [not null]
+  synced_at timestamp [not null, default: `now()`]
+  monthly_views integer [not null, default: 0, note: 'CHECK >= 0']
+}
+
+Table top_ups {
+  id bigint [pk, not null, default: `nextval('top_ups_id_seq'::regclass)`]
+  company_analytics_id bigint [not null, ref: > companies_analytics_v2.id]
+  view_top_up integer [not null, default: 0, note: 'CHECK >= 0']
+  recorded_at date [not null, default: `date_trunc('month'::text, now())::date`]
+  synced_at timestamp [not null, default: `now()`]
+  expires_at date
+}
+
+Table company_monthly_balances {
+  id bigint [pk, not null, default: `nextval('company_monthly_balances_id_seq'::regclass)`]
+  company_analytics_id bigint [not null, ref: > companies_analytics_v2.id]
+  month date [not null]
+  opening_view_credits integer [not null, default: 0]
+  monthly_views bigint [not null, default: 0, note: 'CHECK >= 0']
+  view_deduction integer [not null, default: 0, note: 'CHECK >= 0']
+  closing_view_credits integer [not null, default: 0]
+  created_at timestamp [not null, default: `now()`]
+  updated_at timestamp [not null, default: `now()`]
+}
+
+Table hubspot_company_sync_jobs {
+  id bigint [pk, not null, increment]
+  company_analytics_id bigint [not null, unique, ref: > companies_analytics_v2.id]
+  bubble_company_id varchar [not null]
+  status varchar [not null, default: `'pending'::varchar`, note: "CHECK IN ('pending','processing','retry','done','not_found','failed')"]
+  attempt_count integer [not null, default: 0, note: 'CHECK >= 0']
+  next_attempt_at timestamptz [not null, default: `now()`]
+  locked_at timestamptz
+  processed_at timestamptz
+  last_error text
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+}
+
+Table rendered_videos {
+  id bigint [pk, not null, increment]
+  company_bubble_id text [not null]
+  brand_bubble_id text [not null]
+  source_processed_video_id bigint [not null]
+  source_processed_video_bubble_id text
+  source_mux_asset_id text [not null]
+  source_mux_playback_id text [not null]
+  source_mux_track_id text [not null]
+  source_mux_track_passthrough text
+  source_track_name text
+  source_language_code text
+  output_mux_asset_id text
+  output_mux_playback_id text
+  status text [not null, default: `'pending'::text`]
+  error text
+  run_id text
+  attempts integer [not null, default: 0, note: 'CHECK >= 0']
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+}

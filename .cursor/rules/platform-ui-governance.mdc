@@ -5,19 +5,19 @@ alwaysApply: true
 
 # Platform UI governance
 
-Applies to **all product work** (app routes, shells, features). The design system site (`app/bnd/designsystem/`) has **separate layout rules** and must **not** use `PageCanvas`.
+Applies to **all product work** (app routes, shells, features). The design system site (`app/(platform)/bdn/designsystem/`) has **separate layout rules** and must **not** use `PageCanvas`.
 
 ## Locales
 
 - No user-facing English inline in `app/`, `components/`, or `lib/`.
-- Add copy under `locales/en/` first (`ui.ts`, `app.ts`, `designsystem.ts`), then `t("…")` from `@/lib/i18n`.
-- Exception: `app/bnd/designsystem/ui/**` showcase demos only (ESLint ignore).
+- Add copy under `locales/{locale}.json` (product) or `locales/bdn/{locale}.json` (design system). See [contracts/i18n-locales.md](../../contracts/i18n-locales.md). Wire with `t("…")` from `@/lib/i18n`.
+- Exception: `app/(platform)/bdn/designsystem/ui/**` showcase demos only (ESLint ignore).
 
 ## Icons
 
 - Never import `lucide-react` outside `components/ui/icons/`.
 - **Product pages and shells:** use the `Icon` atom (`name` from registry), not `@/components/ui/icons/*Icon` directly.
-- **Design system routes** (`app/bnd/designsystem/**`): registry imports allowed for docs/showcases; prefer `Icon` atom for new code.
+- **Design system routes** (`app/(platform)/bdn/designsystem/**`): registry imports allowed for docs/showcases; prefer `Icon` atom for new code.
 
 ## Tokens
 
@@ -34,8 +34,8 @@ Applies to **all product work** (app routes, shells, features). The design syste
 ## Layout shells
 
 - **`LayoutShell`** (`components/layout/`) — global structure only (header + main slot). No page meaning.
-- **`PageCanvas`** — future app page layout enforcement; no structure/chrome. **Not used under `app/bnd/designsystem/`.**
-- **Design system** — owns padding/max-width in `app/bnd/designsystem/layout.tsx` and nested layouts.
+- **`PageCanvas`** — future app page layout enforcement; no structure/chrome. **Not used under `app/(platform)/bdn/designsystem/`.**
+- **Design system** — owns padding/max-width in `app/(platform)/bdn/designsystem/layout.tsx` and nested layouts.
 
 ## When rules conflict with a mockup
 

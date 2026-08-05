@@ -43,6 +43,13 @@ export const SEMANTIC_COLOR_MANIFEST: SemanticColorManifestSection[] = [
         "legacyName": "blue-500",
         "hex": "#4B49EB",
         "swatchClass": "bg-secondary"
+      },
+      {
+        "id": "tertiary",
+        "token": "--color-tertiary",
+        "legacyName": "—",
+        "hex": "#2FEDF9",
+        "swatchClass": "bg-tertiary"
       }
     ]
   },
@@ -229,7 +236,7 @@ export const SEMANTIC_COLOR_MANIFEST: SemanticColorManifestSection[] = [
         "id": "warningSubtle",
         "token": "--color-warning-subtle",
         "legacyName": "—",
-        "hex": "#FFF8E6",
+        "hex": "#FFEAB0",
         "swatchClass": "bg-warning-subtle"
       },
       {

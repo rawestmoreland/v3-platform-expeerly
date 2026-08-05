@@ -2,7 +2,7 @@
   --radius: 0.5rem;
 
   --layout-header-height: 4.375rem; /* 70px */
-  --layout-content-max-width: 90rem; /* 1440px */
+  --layout-content-max-width: 80rem; /* 1280px */
   --layout-main-min-height: calc(100vh - var(--layout-header-height));
   --layout-menu-dropdown-offset: calc(var(--layout-header-height) + 0.875rem);
   --layout-menu-width: 17.0625rem; /* 273px */

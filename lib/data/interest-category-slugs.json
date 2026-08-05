@@ -1,0 +1,122 @@
+{
+  "clothes-fashion": {
+    "en": "clothes-fashion",
+    "de": "kleidung-mode",
+    "fr": "vetements-mode",
+    "it": "abbigliamento-moda"
+  },
+  "electronics-gadgets": {
+    "en": "electronics-gadgets",
+    "de": "elektronik-gadgets",
+    "fr": "electronique-gadgets",
+    "it": "elettronica-gadget"
+  },
+  "home-kitchen": {
+    "en": "home-kitchen",
+    "de": "zuhause-kueche",
+    "fr": "maison-cuisine",
+    "it": "casa-cucina"
+  },
+  "beauty-personal-care": {
+    "en": "beauty-personal-care",
+    "de": "schoenheit-pflege",
+    "fr": "beaute-soins-personnels",
+    "it": "bellezza-curapersonale"
+  },
+  "sports-outdoors": {
+    "en": "sports-outdoors",
+    "de": "sport-freizeit",
+    "fr": "sports-loisirs",
+    "it": "sport-tempolibero"
+  },
+  "automotive": {
+    "en": "automotive",
+    "de": "auto",
+    "fr": "automobile",
+    "it": "automobili"
+  },
+  "food-beverages": {
+    "en": "food-beverages",
+    "de": "lebensmittel-getraenke",
+    "fr": "alimentation-boissons",
+    "it": "cibo-bevande"
+  },
+  "health-wellness": {
+    "en": "health-wellness",
+    "de": "gesundheit-wellness",
+    "fr": "sante-bien-etre",
+    "it": "salute-benessere"
+  },
+  "toys-games": {
+    "en": "toys-games",
+    "de": "spielzeug-spiele",
+    "fr": "jouets-jeux",
+    "it": "giocattoli-giochi"
+  },
+  "books-media": {
+    "en": "books-media",
+    "de": "buecher-medien",
+    "fr": "livres-medias",
+    "it": "libri-media"
+  },
+  "office-supplies": {
+    "en": "office-supplies",
+    "de": "buerobedarf",
+    "fr": "fournitures-bureau",
+    "it": "ufficio-scolastico"
+  },
+  "pet-supplies": {
+    "en": "pet-supplies",
+    "de": "haustierbedarf",
+    "fr": "animalerie",
+    "it": "animali"
+  },
+  "music-instruments": {
+    "en": "music-instruments",
+    "de": "musikinstrumente",
+    "fr": "instruments-musique",
+    "it": "strumenti-musicali"
+  },
+  "gardening-outdoor-living": {
+    "en": "gardening-outdoor-living",
+    "de": "garten-aussenleben",
+    "fr": "jardin-exterieur",
+    "it": "giardinaggio-esterni"
+  },
+  "tools-home-improvement": {
+    "en": "tools-home-improvement",
+    "de": "werkzeuge-heimwerker",
+    "fr": "outils-bricolage",
+    "it": "attrezzi-faidate"
+  },
+  "furniture-decor": {
+    "en": "furniture-decor",
+    "de": "moebel-dekor",
+    "fr": "meubles-decoration",
+    "it": "mobili-arredamento"
+  },
+  "baby-child-care": {
+    "en": "baby-child-care",
+    "de": "baby-kinderpflege",
+    "fr": "bebe-puericulture",
+    "it": "bambino-creanzaperbambini"
+  },
+  "travel-luggage": {
+    "en": "travel-luggage",
+    "de": "reisen-gepaeck",
+    "fr": "voyage-bagages",
+    "it": "viaggi-bagagli"
+  },
+  "jewelry-watches": {
+    "en": "jewelry-watches",
+    "de": "schmuck-uhren",
+    "fr": "bijoux-montres",
+    "it": "gioielli-orologi"
+  },
+  "arts-crafts": {
+    "en": "arts-crafts",
+    "de": "kunsthandwerk",
+    "fr": "arts-artisanat",
+    "it": "arti-artigianato"
+  }
+}

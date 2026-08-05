@@ -8,6 +8,7 @@ export type PaginationItem = number | "ellipsis";
 export type PaginationProps = {
   currentPage: number;
   totalPages: number;
+  onPageChange?: (page: number) => void;
   items?: readonly PaginationItem[];
   compact?: boolean;
   className?: string;
@@ -32,6 +33,7 @@ function paginationItems(currentPage: number, totalPages: number): PaginationIte
 export function Pagination({
   currentPage,
   totalPages,
+  onPageChange,
   items = paginationItems(currentPage, totalPages),
   compact = false,
   className,
@@ -45,6 +47,7 @@ export function Pagination({
         className="h-8 w-8"
         aria-label={t("ui.pagination.previousPage")}
         disabled={currentPage === 1}
+        onClick={() => onPageChange?.(currentPage - 1)}
         icon={<Icon name="chevron-left" />}
       />
 
@@ -77,6 +80,7 @@ export function Pagination({
                 )}
                 aria-current={isActive ? "page" : undefined}
                 aria-label={t("ui.pagination.page", { n: item })}
+                onClick={() => onPageChange?.(item)}
               >
                 {item}
               </button>
@@ -92,6 +96,7 @@ export function Pagination({
         className="h-8 w-8"
         aria-label={t("ui.pagination.nextPage")}
         disabled={currentPage === totalPages}
+        onClick={() => onPageChange?.(currentPage + 1)}
         icon={<Icon name="chevron-right" />}
       />
     </nav>

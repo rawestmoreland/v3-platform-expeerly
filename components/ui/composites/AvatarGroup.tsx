@@ -14,12 +14,14 @@ export interface AvatarGroupProps extends React.HTMLAttributes<HTMLDivElement> {
   items: AvatarGroupItem[];
   max?: number;
   sizeClassName?: string;
+  reviewerRing?: boolean;
 }
 
 export function AvatarGroup({
   items,
   max = items.length,
   sizeClassName,
+  reviewerRing = false,
   className,
   "aria-label": ariaLabel,
   ...props
@@ -37,7 +39,7 @@ export function AvatarGroup({
     >
       {visibleItems.map((item) => (
         <div key={`${item.alt}-${item.fallback}`} role="listitem">
-          <Avatar className={avatarClassName}>
+          <Avatar className={avatarClassName} reviewerRing={reviewerRing}>
             {item.src && <AvatarImage src={item.src} alt={item.alt} />}
             <AvatarFallback className="text-body-extra-small-bold">{item.fallback}</AvatarFallback>
           </Avatar>
@@ -45,7 +47,7 @@ export function AvatarGroup({
       ))}
       {overflowCount > 0 && (
         <div role="listitem">
-          <Avatar className={avatarClassName}>
+          <Avatar className={avatarClassName} reviewerRing={reviewerRing}>
             <AvatarFallback className="text-body-extra-small-bold">+{overflowCount}</AvatarFallback>
           </Avatar>
         </div>

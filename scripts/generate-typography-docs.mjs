@@ -112,5 +112,5 @@ export const titleTokens = ${JSON.stringify(titleTokens, null, 2)};
 export const bodyTokens = ${JSON.stringify(bodyTokens, null, 2)};
 `;
 
-fs.writeFileSync("app/bnd/designsystem/typography/typography-table.generated.ts", out);
-console.log("Wrote app/bnd/designsystem/typography/typography-table.generated.ts");
+fs.writeFileSync("app/(platform)/bdn/designsystem/typography/typography-table.generated.ts", out);
+console.log("Wrote app/(platform)/bdn/designsystem/typography/typography-table.generated.ts");

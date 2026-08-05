@@ -12,11 +12,12 @@ export interface SearchFieldProps extends React.InputHTMLAttributes<HTMLInputEle
   label?: string;
   state?: "default" | "highlighted" | "error";
   hint?: string;
+  onSearchSubmit?: () => void;
 }
 
 export const SearchField = React.forwardRef<HTMLInputElement, SearchFieldProps>(
   (
-    { label, state = "default", hint, disabled, className, id, ...props },
+    { label, state = "default", hint, disabled, className, id, onSearchSubmit, onKeyDown, ...props },
     ref,
   ) => {
     const generatedId = React.useId();
@@ -41,30 +42,58 @@ export const SearchField = React.forwardRef<HTMLInputElement, SearchFieldProps>(
                 "bg-destructive-subtle border-[1.5px] border-border-error focus:border-border-error",
               className,
             )}
+            onKeyDown={(event) => {
+              if (event.key === "Enter" && onSearchSubmit) {
+                event.preventDefault();
+                onSearchSubmit();
+              }
+              onKeyDown?.(event);
+            }}
             {...props}
           />
 
-          <span
-            className={cn(
-              "pointer-events-none absolute right-3 top-1/2 -translate-y-1/2",
-              "h-4 w-4 flex items-center justify-center", // ✅ true optical centering
-              // default
-              "text-foreground-muted",
-              // focused/active
-              !disabled &&
-                state !== "highlighted" &&
-                state !== "error" &&
-                "peer-focus:text-foreground-body",
-              // highlighted
-              !disabled && state === "highlighted" && "text-foreground-accent",
-              // error
-              !disabled && state === "error" && "text-destructive",
-              // disabled
-              disabled && "text-foreground-disabled",
-            )}
-          >
-            <Icon name="search" />
-          </span>
+          {onSearchSubmit ? (
+            <button
+              type="button"
+              disabled={disabled}
+              onClick={onSearchSubmit}
+              aria-label={label}
+              className={cn(
+                "absolute right-3 top-1/2 flex h-4 w-4 -translate-y-1/2 items-center justify-center",
+                !disabled &&
+                  state !== "highlighted" &&
+                  state !== "error" &&
+                  "text-foreground-muted hover:text-foreground-body",
+                !disabled && state === "highlighted" && "text-foreground-accent",
+                !disabled && state === "error" && "text-destructive",
+                disabled && "cursor-not-allowed text-foreground-disabled",
+              )}
+            >
+              <Icon name="search" />
+            </button>
+          ) : (
+            <span
+              className={cn(
+                "pointer-events-none absolute right-3 top-1/2 -translate-y-1/2",
+                "h-4 w-4 flex items-center justify-center", // ✅ true optical centering
+                // default
+                "text-foreground-muted",
+                // focused/active
+                !disabled &&
+                  state !== "highlighted" &&
+                  state !== "error" &&
+                  "peer-focus:text-foreground-body",
+                // highlighted
+                !disabled && state === "highlighted" && "text-foreground-accent",
+                // error
+                !disabled && state === "error" && "text-destructive",
+                // disabled
+                disabled && "text-foreground-disabled",
+              )}
+            >
+              <Icon name="search" />
+            </span>
+          )}
         </div>
 
         {state === "error" && hint && (

@@ -1,0 +1,3145 @@
+{
+  "brands": [
+    {
+      "slug": "miele",
+      "name": "Miele",
+      "logoSrc": "/brand-logos/miele.svg",
+      "websiteUrl": "https://www.miele.com/",
+      "rating": 4.5,
+      "reviewsCount": 8,
+      "siteTitle": {
+        "en": {
+          "title": "Miele Video Reviews"
+        },
+        "de": {
+          "title": "Miele Video-Bewertungen"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic Miele product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Miele is a German premium home-appliance brand founded in 1899, known for durable engineering, quiet performance, and clean design. From vacuums and laundry to kitchen appliances, Miele builds products meant to last for years of everyday use."
+        },
+        "de": {
+          "text": "Miele ist eine deutsche Premium-Marke für Haushaltsgeräte, gegründet 1899, bekannt für langlebige Technik, leisen Betrieb und klares Design. Von Staubsaugern und Wäschepflege bis zur Küche entwickelt Miele Geräte für den langfristigen Alltagseinsatz."
+        }
+      },
+      "footerText": {
+        "en": {
+          "text": "Miele video reviews on Expeerly are created by independent testers sharing personal experiences. Ratings and opinions reflect individual use cases."
+        }
+      }
+    },
+    {
+      "slug": "dyson",
+      "name": "Dyson",
+      "logoSrc": "/brand-logos/dyson.svg",
+      "websiteUrl": "https://www.dyson.com/",
+      "rating": 4.6,
+      "reviewsCount": 6,
+      "siteTitle": {
+        "en": {
+          "title": "Dyson Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic Dyson product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of Dyson home technology from real expeerly testers before you buy."
+        }
+      }
+    },
+    {
+      "slug": "bamix",
+      "name": "Bamix",
+      "logoSrc": "/brand-logos/bamix.svg",
+      "websiteUrl": "https://www.bamix.com/",
+      "rating": 4.7,
+      "reviewsCount": 1,
+      "siteTitle": {
+        "en": {
+          "title": "Bamix Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic Bamix product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "See how Bamix kitchen tools perform in real homes through independent expeerly video reviews."
+        }
+      }
+    },
+    {
+      "slug": "canon",
+      "name": "Canon",
+      "logoSrc": "/brand-logos/canon.svg",
+      "websiteUrl": "https://www.canon.com/",
+      "rating": 4.5,
+      "reviewsCount": 6,
+      "siteTitle": {
+        "en": {
+          "title": "Canon Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic Canon product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Watch Canon video reviews on expeerly – cameras, printers and more to help you find what fits your needs. On expeerly you'll find video reviews of Canon products from the official online store – whether cameras, printers, lenses or accessories. You'll quickly see the key features, how the devices perform in daily use, and if they suit your needs. The store offers a wide range, free shipping from CHF 30 and usually 2 years warranty on hardware."
+        }
+      }
+    },
+    {
+      "slug": "samsung",
+      "name": "Samsung",
+      "logoSrc": "/brand-logos/samsung.svg",
+      "websiteUrl": "https://www.samsung.com/",
+      "rating": 4.4,
+      "reviewsCount": 7,
+      "siteTitle": {
+        "en": {
+          "title": "Samsung Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic Samsung product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of Samsung products from real expeerly testers before you buy."
+        }
+      }
+    },
+    {
+      "slug": "philips",
+      "name": "Philips",
+      "logoSrc": "/brand-logos/philips.png",
+      "websiteUrl": "https://www.philips.com/",
+      "rating": 4.3,
+      "reviewsCount": 6,
+      "siteTitle": {
+        "en": {
+          "title": "Philips Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic Philips product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of Philips products from real expeerly testers before you buy."
+        }
+      }
+    },
+    {
+      "slug": "sony",
+      "name": "Sony",
+      "logoSrc": "/brand-logos/sony.svg",
+      "websiteUrl": "https://www.sony.com/",
+      "rating": 4.5,
+      "reviewsCount": 6,
+      "siteTitle": {
+        "en": {
+          "title": "Sony Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic Sony product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of Sony products from real expeerly testers before you buy."
+        }
+      }
+    },
+    {
+      "slug": "garmin",
+      "name": "Garmin",
+      "logoSrc": "/brand-logos/garmin.svg",
+      "websiteUrl": "https://www.garmin.com/",
+      "rating": 4.6,
+      "reviewsCount": 6,
+      "siteTitle": {
+        "en": {
+          "title": "Garmin Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic Garmin product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of Garmin products from real expeerly testers before you buy."
+        }
+      }
+    },
+    {
+      "slug": "bose",
+      "name": "Bose",
+      "logoSrc": "/brand-logos/bose.svg",
+      "websiteUrl": "https://www.bose.com/",
+      "rating": 4.5,
+      "reviewsCount": 2,
+      "siteTitle": {
+        "en": {
+          "title": "Bose Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic Bose product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of Bose products from real expeerly testers before you buy."
+        }
+      }
+    },
+    {
+      "slug": "dji",
+      "name": "DJI",
+      "logoSrc": "/brand-logos/dji.svg",
+      "websiteUrl": "https://www.dji.com/",
+      "rating": 4.7,
+      "reviewsCount": 2,
+      "siteTitle": {
+        "en": {
+          "title": "DJI Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic DJI product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of DJI products from real expeerly testers before you buy."
+        }
+      }
+    },
+    {
+      "slug": "trisa",
+      "name": "Trisa",
+      "logoSrc": "/brand-logos/trisa.png",
+      "websiteUrl": "https://www.trisa.ch/",
+      "rating": 4.4,
+      "reviewsCount": 1,
+      "siteTitle": {
+        "en": {
+          "title": "Trisa Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic Trisa product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of Trisa products from real expeerly testers before you buy."
+        }
+      }
+    },
+    {
+      "slug": "kitchenaid",
+      "name": "KitchenAid",
+      "logoSrc": "/brand-logos/kitchenaid.png",
+      "websiteUrl": "https://www.kitchenaid.com/",
+      "rating": 4.5,
+      "reviewsCount": 1,
+      "siteTitle": {
+        "en": {
+          "title": "KitchenAid Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic KitchenAid product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of KitchenAid products from real expeerly testers before you buy."
+        }
+      }
+    },
+    {
+      "slug": "bosch",
+      "name": "Bosch",
+      "logoSrc": "/brand-logos/bosch.svg",
+      "websiteUrl": "https://www.bosch.com/",
+      "rating": 4.4,
+      "reviewsCount": 2,
+      "siteTitle": {
+        "en": {
+          "title": "Bosch Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic Bosch product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of Bosch products from real expeerly testers before you buy."
+        }
+      }
+    },
+    {
+      "slug": "nike",
+      "name": "Nike",
+      "logoSrc": "/brand-logos/nike.svg",
+      "websiteUrl": "https://www.nike.com/",
+      "rating": 4.2,
+      "reviewsCount": 0,
+      "siteTitle": {
+        "en": {
+          "title": "Nike Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic Nike product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of Nike products from real expeerly testers before you buy."
+        }
+      }
+    },
+    {
+      "slug": "apple",
+      "name": "Apple",
+      "logoSrc": "/brand-logos/apple.svg",
+      "websiteUrl": "https://www.apple.com/",
+      "rating": 4.6,
+      "reviewsCount": 0,
+      "siteTitle": {
+        "en": {
+          "title": "Apple Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic Apple product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of Apple products from real expeerly testers before you buy."
+        }
+      }
+    },
+    {
+      "slug": "lg",
+      "name": "LG",
+      "logoSrc": "/brand-logos/lg.svg",
+      "websiteUrl": "https://www.lg.com/",
+      "rating": 4.3,
+      "reviewsCount": 0,
+      "siteTitle": {
+        "en": {
+          "title": "LG Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic LG product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of LG products from real expeerly testers before you buy."
+        }
+      }
+    },
+    {
+      "slug": "hoover",
+      "name": "Hoover",
+      "logoSrc": "/brand-logos/hoover.png",
+      "websiteUrl": "https://www.hoover.com/",
+      "rating": 4.1,
+      "reviewsCount": 0,
+      "siteTitle": {
+        "en": {
+          "title": "Hoover Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic Hoover product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of Hoover products from real expeerly testers before you buy."
+        }
+      }
+    },
+    {
+      "slug": "braun",
+      "name": "Braun",
+      "logoSrc": "/brand-logos/braun.png",
+      "websiteUrl": "https://www.braun.com/",
+      "rating": 4.4,
+      "reviewsCount": 0,
+      "siteTitle": {
+        "en": {
+          "title": "Braun Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic Braun product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of Braun products from real expeerly testers before you buy."
+        }
+      }
+    },
+    {
+      "slug": "nespresso",
+      "name": "Nespresso",
+      "logoSrc": "/brand-logos/nespresso.png",
+      "websiteUrl": "https://www.nespresso.com/",
+      "rating": 4.5,
+      "reviewsCount": 0,
+      "siteTitle": {
+        "en": {
+          "title": "Nespresso Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic Nespresso product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of Nespresso products from real expeerly testers before you buy."
+        }
+      }
+    },
+    {
+      "slug": "delonghi",
+      "name": "DeLonghi",
+      "logoSrc": "/brand-logos/delonghi.svg",
+      "websiteUrl": "https://www.delonghi.com/",
+      "rating": 4.3,
+      "reviewsCount": 0,
+      "siteTitle": {
+        "en": {
+          "title": "DeLonghi Video Reviews"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch authentic DeLonghi product video reviews from real expeerly testers."
+        }
+      },
+      "bodyText": {
+        "en": {
+          "text": "Discover honest video reviews of DeLonghi products from real expeerly testers before you buy."
+        }
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "publicReviewId": "100000041",
+      "categorySlug": "beauty-personal-care",
+      "brandSlug": "dyson",
+      "productSlug": "airwrap-multi-styler-hair-dryer",
+      "productName": "Dyson Airwrap Multi-Styler Hair Dryer",
+      "brandName": "Dyson",
+      "playbackId": "Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU",
+      "videoUrl": "https://stream.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU.m3u8",
+      "posterUrl": "https://image.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Sarah M.",
+      "reviewerName": "Sarah",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Sarah Reviews Dyson Airwrap Multi-Styler Hair Dryer"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Video Test: Dyson Airwrap Multi-Styler Hair Dryer HS05"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Sarah's video review of the Dyson Airwrap Multi-Styler Hair Dryer."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Sarah thinks",
+          "text": "I'm testing the Dyson Airwrap Multi-Styler for expeerly and sharing how it styles and dries my hair at home."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001181",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "canon",
+      "productSlug": "canon-eos-r50-v",
+      "productName": "Canon EOS R50 V Creator Kit",
+      "brandName": "Canon",
+      "playbackId": "WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE",
+      "videoUrl": "https://stream.mux.com/WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE.m3u8",
+      "posterUrl": "https://image.mux.com/WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "James T.",
+      "reviewerName": "James",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: James Reviews Canon EOS R50 V Creator Kit"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Canon EOS R50 V Creator Kit for Vlogging & Streaming"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch James's video review of the Canon EOS R50 V Creator Kit."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What James thinks",
+          "text": "I'm testing the Canon EOS R50 V for expeerly and sharing how it works for vlogging and everyday video."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000258",
+      "categorySlug": "home-kitchen",
+      "brandSlug": "bamix",
+      "productSlug": "m200-swissline",
+      "productName": "Bamix M200 Swissline",
+      "brandName": "Bamix",
+      "playbackId": "4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g",
+      "videoUrl": "https://stream.mux.com/4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g.m3u8",
+      "posterUrl": "https://image.mux.com/4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Nicos B.",
+      "reviewerName": "Nicos",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Nicos Reviews Bamix M200 Swissline"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Review | Nicos Bamix M200 - A Kitchen Must-Have"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Nicos's video review of the Bamix M200 Swissline hand blender."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Nicos thinks",
+          "text": "I'm testing the Bamix M200 Swissline for expeerly and sharing why it's become a kitchen must-have."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000001",
+      "categorySlug": "home-kitchen",
+      "brandSlug": "miele",
+      "productSlug": "triflex-perfomance",
+      "productName": "Miele Triflex Performance HX2 Cat & Dog",
+      "brandName": "Miele",
+      "playbackId": "q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84",
+      "videoUrl": "https://stream.mux.com/q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84.m3u8",
+      "posterUrl": "https://image.mux.com/q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Klaudia D.",
+      "reviewerName": "Klaudia",
+      "videoTitle": {
+        "de": {
+          "title": "Erfahrungsbericht: Klaudia bewertet Miele Triflex Perfomance Staubsauger für Tierhaare"
+        },
+        "en": {
+          "title": "Testimonial: Klaudia Reviews Miele Triflex Perfomance Vacuum Cleaner for Pet Hair"
+        },
+        "fr": {
+          "title": "Témoignage : Klaudia commente l'aspirateur Miele Triflex Perfomance pour les poils d'animaux de compagnie"
+        },
+        "it": {
+          "title": "Testimonianza: Klaudia recensisce l'aspirapolvere Miele Triflex Perfomance per peli di animali domestici"
+        }
+      },
+      "pageTitle": {
+        "de": {
+          "title": "Test-Video: Miele Triflex HX2 Akku Staubsauger"
+        },
+        "en": {
+          "title": "Video Test | Miele Triflex Performance HX2 Cat & Dog Pet Hair"
+        },
+        "fr": {
+          "title": "Avis sur Miele Triflex Performance HX2 Cat & Dog"
+        },
+        "it": {
+          "title": "Recensione Aspirapolvere Miele Triflex Performance HX2 Cat & Dog"
+        }
+      },
+      "metaDescription": {
+        "de": {
+          "desc": "Entdecke Klaudias Erfahrungen mit dem Miele Triflex Performance: ein hochwertiger Akku-Staubsauger für die Entfernung von Tierhaaren in deinem Zuhause."
+        },
+        "en": {
+          "desc": "Discover Klaudia's experience with the Miele Triflex Perfomance, a top-notch vacuum cleaner for pet hair removal in your home and kitchen!"
+        },
+        "fr": {
+          "desc": "Explorez l'expérience de Klaudia avec le Miele Triflex Performance, idéal pour éliminer les poils d'animaux à la maison et dans la cuisine"
+        },
+        "it": {
+          "desc": "Scopri l'esperienza di Klaudia con Miele Triflex Performance, un aspirapolvere di livello top per la rimozione dei peli di animali in casa e in cucina."
+        }
+      },
+      "summary": {
+        "de": {
+          "text": "Der Miele Triflex Perfomance Staubsauger wurde speziell für Haustierbesitzer entwickelt und bietet eine einfache Montage, eine lange Akkulaufzeit und eine effektive Teppichreinigung. Die Tester schätzen die Fähigkeit, mit dem integrierten Licht Haare zu erkennen und die Vielseitigkeit, mit der sich der Staubsauger in einen Handstaubsauger für die Reinigung von Sofas und anderen Möbeln verwandeln lässt. Ideal für Haustierbesitzer, die eine gründliche Reinigungslösung suchen."
+        },
+        "en": {
+          "text": "The Miele Triflex Perfomance vacuum cleaner is designed for pet owners, offering easy assembly, long battery life, and effective carpet cleaning capabilities. Testers appreciate its ability to spot hair with the integrated light and its versatility in converting into a handheld vacuum for cleaning sofas and other furniture. Ideal for pet owners seeking a thorough cleaning solution."
+        },
+        "fr": {
+          "text": "L'aspirateur Miele Triflex Perfomance est conçu pour les propriétaires d'animaux de compagnie, offrant un assemblage facile, une longue durée de vie de la batterie et des capacités de nettoyage de tapis efficaces. Les testeurs apprécient sa capacité à repérer les poils grâce à la lumière intégrée et sa polyvalence qui lui permet de se transformer en aspirateur à main pour nettoyer les canapés et autres meubles. Idéal pour les propriétaires d'animaux de compagnie à la recherche d'une solution de nettoyage en profondeur."
+        },
+        "it": {
+          "text": "L'aspirapolvere Miele Triflex Perfomance è stato progettato per i proprietari di animali domestici e offre facilità di montaggio, lunga durata della batteria ed efficaci capacità di pulizia dei tappeti. I tester hanno apprezzato la sua capacità di individuare i peli grazie alla luce integrata e la sua versatilità nel trasformarsi in un aspirapolvere portatile per pulire divani e altri mobili. Ideale per i proprietari di animali domestici che cercano una soluzione di pulizia profonda."
+        }
+      },
+      "transcript": {
+        "de": {
+          "title": "Was Klaudia denkt",
+          "text": "Hallo, ich bin Klaudia, eine Testerin von expeerly. Für dich teste ich heute zum ersten Mal den Triflex HX2 Staubsauger. Er wurde speziell für Menschen entwickelt, die ein Haustier zu Hause haben und jeden Tag mit vielen Tierhaaren zu kämpfen haben. Was mir auch sehr gut gefällt, ist das Aussehen des Staubsaugers und wie einfach er zusammengebaut werden kann. Es gibt eine kleine Anleitung, wie man alles zusammenbaut. Der Akku hält außerdem bis zu 4 Stunden lang. Der Zusammenbau ist wirklich einfach und dauert nur ein paar Sekunden, und schon ist der Staubsauger einsatzbereit. Da mein Hund ein extrem dichtes Fell hat und vor allem vor dem Sommer viel haart, bin ich froh, dass ich den Triflex habe. Er kann auch auf Teppichen verwendet werden und entfernt alle Haare mühelos. Das integrierte Licht hilft mir, Haare an Stellen zu entdecken, die ich normalerweise nicht sehen würde, und sorgt dafür, dass mein Zuhause gründlich sauber wird. Sehr praktisch ist für mich, dass man ihn ganz einfach in einen Handstaubsauger umwandeln kann. Denn mein Hund hält sich auch gerne auf dem Sofa auf und hinterlässt auch dort seine Haare. Mit dem Triflex Staubsauger habe ich eine tolle Lösung gefunden. Wie sieht es bei dir aus?"
+        },
+        "en": {
+          "title": "What Klaudia thinks",
+          "text": "Hello, I'm Klaudia, a tester from expeerly. For you today, I'm testing the Triflex HX2 vacuum cleaner for the first time. It's designed specifically for people who have a pet at home and struggle with a lot of pet hair every day. Another thing I really like is the vacuum's appearance and how easy it is to assemble. There's a small user manual on how to put everything together. The battery also lasts for up to 4 hours. The assembly process is truly straightforward and takes just a few seconds, and the vacuum is ready for use. Since my dog has an extremely dense coat and sheds a lot, especially before summer, I'm glad I have the Triflex. It can also be used on carpets, and all the hair is removed easily. Its integrated light helps me spot hair in places I wouldn't normally see, ensuring my home gets thoroughly clean. What's very practical for me is that you can easily convert it into a handheld vacuum cleaner. Because my dog also likes to be on the sofa and leaves his hair there as well. With the Triflex vacuum cleaner, I've found a great solution. How about you ?"
+        },
+        "fr": {
+          "title": "Ce que pense Klaudia",
+          "text": "Bonjour, je suis Klaudia, une testeuse d'expeerly. Aujourd'hui, je teste pour la première fois l'aspirateur Triflex HX2. Il est spécialement conçu pour les personnes qui ont un animal de compagnie à la maison et qui doivent faire face à de nombreux poils d'animaux tous les jours. Une autre chose que j'aime beaucoup, c'est l'apparence de l'aspirateur et la facilité avec laquelle il est assemblé. Il y a un petit manuel d'utilisation qui explique comment tout assembler. La batterie a une autonomie de 4 heures. Le processus d'assemblage est vraiment simple et ne prend que quelques secondes, et l'aspirateur est prêt à l'emploi. Comme mon chien a un pelage très dense et qu'il perd beaucoup ses poils, surtout avant l'été, je suis heureuse d'avoir le Triflex. Il peut également être utilisé sur les tapis, et tous les poils sont facilement éliminés. Sa lumière intégrée me permet de repérer les poils dans des endroits que je ne verrais pas normalement, ce qui garantit un nettoyage complet de ma maison. Ce qui est très pratique pour moi, c'est que vous pouvez facilement le transformer en aspirateur à main. En effet, mon chien aime aussi s'installer sur le canapé et y laisse ses poils. Avec l'aspirateur Triflex, j'ai trouvé une solution idéale. Et vous ?"
+        },
+        "it": {
+          "title": "Cosa pensa Klaudia",
+          "text": "Ciao, sono Klaudia, una tester di expeerly. Oggi sto testando l'aspirapolvere Triflex HX2 per la prima volta. L'aspirapolvere Triflex HX2 è stato progettato appositamente per chi ha un animale domestico in casa e deve fare i conti con molti peli ogni giorno. Un'altra cosa che mi piace molto è l'aspetto dell'aspirapolvere e la sua facilità di montaggio. C'è un piccolo manuale d'uso che spiega come montare il tutto. Inoltre, la batteria dura fino a 4 ore. Il processo di montaggio è davvero semplice e richiede solo pochi secondi e l'aspirapolvere è pronto per l'uso. Dato che il mio cane ha un pelo estremamente folto e fa molta polvere, soprattutto prima dell'estate, sono felice di avere il Triflex. Può essere utilizzato anche sui tappeti e tutti i peli vengono rimossi facilmente. La luce integrata mi aiuta a individuare i peli in punti che normalmente non vedrei, assicurandomi che la mia casa venga pulita a fondo. La cosa più pratica per me è che si può facilmente trasformare in un aspirapolvere portatile. Perché anche il mio cane ama stare sul divano e lascia i suoi peli anche lì. Con l'aspirapolvere Triflex ho trovato un'ottima soluzione. E tu?"
+        }
+      },
+      "faqs": [
+        {
+          "de": {
+            "title": "Für wen ist Triflex Performance geeignet?",
+            "text": "Triflex Performance wurde speziell für Tierbesitzer entwickelt, die Probleme mit der Entfernung von Tierhaaren haben."
+          },
+          "en": {
+            "title": "Who is the Triflex Perfomance designed for?",
+            "text": "The Triflex Perfomance is designed specifically for pet owners who struggle with pet hair removal."
+          },
+          "fr": {
+            "title": "À qui s'adresse le Triflex Performance ?",
+            "text": "Le Triflex Performance est spécialement conçu pour les propriétaires d'animaux qui ont du mal à éliminer les poils d'animaux."
+          },
+          "it": {
+            "title": "Per chi è progettato Triflex Perfomance?",
+            "text": "Triflex Perfomance è progettato specificamente per i proprietari di animali domestici che hanno difficoltà a rimuovere i peli."
+          }
+        },
+        {
+          "de": {
+            "title": "Wie lange hält der Akku des Triflex Performance?",
+            "text": "Der Akku des Triflex Performance hält bis zu 4 Stunden und sorgt so für eine verlängerte Reinigungszeit."
+          },
+          "en": {
+            "title": "How long does the battery of the Triflex Perfomance last?",
+            "text": "The battery of the Triflex Perfomance lasts for up to 4 hours, providing extended cleaning time."
+          },
+          "fr": {
+            "title": "Quelle est la durée de vie de la batterie du Triflex Performance ?",
+            "text": "La batterie du Triflex Performance dure jusqu'à 4 heures, offrant ainsi un temps de nettoyage prolongé."
+          },
+          "it": {
+            "title": "Quanto dura la batteria del Triflex Perfomance?",
+            "text": "La batteria del Triflex Perfomance dura fino a 4 ore, garantendo tempi di pulizia prolungati."
+          }
+        },
+        {
+          "de": {
+            "title": "Ist die Montage von Triflex Performance einfach?",
+            "text": "Ja, der Montagevorgang des Triflex Performance wird als unkompliziert beschrieben und dauert nur wenige Sekunden. Zur Orientierung liegt eine kleine Bedienungsanleitung bei."
+          },
+          "en": {
+            "title": "Is the assembly process of the Triflex Perfomance easy?",
+            "text": "Yes, the assembly process of the Triflex Perfomance is described as straightforward and takes just a few seconds, with a small user manual provided for guidance."
+          },
+          "fr": {
+            "title": "Le processus de montage du Triflex Performance est-il simple ?",
+            "text": "Oui, le processus de montage du Triflex Performance est décrit comme simple et ne prend que quelques secondes, avec un petit manuel d'utilisation fourni pour vous guider."
+          },
+          "it": {
+            "title": "Il montaggio del Triflex Perfomance è semplice?",
+            "text": "Sì, il processo di assemblaggio del Triflex Perfomance è descritto come semplice e richiede solo pochi secondi, con un piccolo manuale utente fornito come guida."
+          }
+        },
+        {
+          "de": {
+            "title": "Kann Triflex Performance auf Teppichen verwendet werden?",
+            "text": "Ja, Triflex Performance kann auf Teppichen verwendet werden und entfernt effektiv Tierhaare und andere Verschmutzungen."
+          },
+          "en": {
+            "title": "Can the Triflex Perfomance be used on carpets?",
+            "text": "Yes, the Triflex Perfomance can be used on carpets, effectively removing pet hair and other debris."
+          },
+          "fr": {
+            "title": "Le Triflex Performance peut-il être utilisé sur des tapis ?",
+            "text": "Oui, le Triflex Perfomance peut être utilisé sur les tapis, éliminant efficacement les poils d'animaux et autres débris."
+          },
+          "it": {
+            "title": "Triflex Perfomance può essere utilizzato sui tappeti?",
+            "text": "Sì, Triflex Perfomance può essere utilizzato sui tappeti, rimuovendo efficacemente peli di animali e altri detriti."
+          }
+        },
+        {
+          "de": {
+            "title": "Welche zusätzliche Funktion bietet der Triflex Performance zur Haarerkennung?",
+            "text": "Der Triflex Perfomance verfügt über ein integriertes Licht, das dem Benutzer hilft, Haare an schwer einsehbaren Stellen zu erkennen und so eine gründliche Reinigung zu gewährleisten."
+          },
+          "en": {
+            "title": "What additional feature does the Triflex Perfomance have to help spot hair?",
+            "text": "The Triflex Perfomance has an integrated light that helps users spot hair in hard-to-see places, ensuring thorough cleaning."
+          },
+          "fr": {
+            "title": "Quelle fonctionnalité supplémentaire le Triflex Performance possède-t-il pour aider à repérer les poils ?",
+            "text": "Le Triflex Performance dispose d'une lumière intégrée qui aide les utilisateurs à repérer les cheveux dans les endroits difficiles à voir, assurant ainsi un nettoyage en profondeur."
+          },
+          "it": {
+            "title": "Quale caratteristica aggiuntiva ha Triflex Perfomance per aiutare a individuare i peli?",
+            "text": "Triflex Perfomance è dotato di una luce integrata che aiuta a individuare i peli nei punti più nascosti, garantendo una pulizia accurata."
+          }
+        }
+      ],
+      "product": {
+        "gtinEan": "4002512345678",
+        "vendorProductNumber": "11828560",
+        "buyLink": "https://www.miele.com/"
+      }
+    },
+    {
+      "publicReviewId": "100000002",
+      "categorySlug": "home-kitchen",
+      "brandSlug": "miele",
+      "productSlug": "triflex-perfomance",
+      "productName": "Miele Triflex Performance HX2 Cat & Dog",
+      "brandName": "Miele",
+      "playbackId": "KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU",
+      "videoUrl": "https://stream.mux.com/KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU.m3u8",
+      "posterUrl": "https://image.mux.com/KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Nicola Leonie S.",
+      "reviewerName": "Nicola",
+      "videoTitle": {
+        "de": {
+          "title": "Nicola's analytische Überprüfung: Miele Triflex Perfomance Testimonial - Schluss mit Tierhaarproblemen!"
+        },
+        "en": {
+          "title": "Nicola's Analytical Review: Miele Triflex Perfomance Testimonial - Say Goodbye to Pet Hair Hassles!"
+        },
+        "fr": {
+          "title": "La revue analytique de Nicola : Témoignage Miele Triflex Perfomance - Dites adieu aux problèmes de poils d'animaux !"
+        },
+        "it": {
+          "title": "La recensione analitica di Nicola: Testimonianza di Miele Triflex Perfomance - Dì addio ai peli di animali domestici!"
+        }
+      },
+      "pageTitle": {
+        "de": {
+          "title": "Bewertung-Video | Miele Triflex Performance Staubsauger"
+        },
+        "en": {
+          "title": "Video Review Miele Triflex Performance HX2 Cat & Dog Vacuum"
+        },
+        "fr": {
+          "title": "Le Miele Triflex Performance HX2 Cat & Dog en Revue"
+        },
+        "it": {
+          "title": "Testimonianza Esperta Miele Triflex Performance HX2 Cat & Dog"
+        }
+      },
+      "metaDescription": {
+        "de": {
+          "desc": "Entdecke Nicolas Erfahrungsbericht zum Miele Triflex Performance: Wie entferne ich Tierhaare mühelos? Finde es jetzt heraus!"
+        },
+        "en": {
+          "desc": "See Nicola's expert insights on the Miele Triflex Perfomance automatic vacuum for dog & cat hair, tackling pet hair effortlessly. A must-read testimonial!"
+        },
+        "fr": {
+          "desc": "Nicola partage son avis sur le Miele Triflex Performance, un aspirateur qui élimine les poils d'animaux sans effort. Un témoignage incontournable !"
+        },
+        "it": {
+          "desc": "Leggi le opinioni dell'esperto Nicola su Miele Triflex Performance, che affronta i peli degli animali senza fatica. Una testimonianza da non perdere!"
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "de": {
+          "title": "Was Nicola denkt",
+          "text": "Das ist Gary, das ist Bobby und das bin ich, die expeerly-Testerin Nicola, 27 Jahre alt aus Luzern. Und das ist unser Miele Triflex Staubsauger. Und wir alle haben etwas gemeinsam, nämlich Haare. Sie sind einfach überall, die ganze Zeit. Sie richtig loszuwerden, ist eine Kunst für sich. Aber dafür haben wir ja unseren Triflex. Er wurde speziell für Tierhaare entwickelt. Egal wie lang die Haare sind oder wie fest sie am Stoff haften, der Staubsauger wird sie los. Es ist, als hätte es nie ein einziges Haar gegeben. Im Inneren des Staubsaugers befindet sich ein spezieller Filter, der selbst die kleinsten Partikel auffängt, damit sie nicht wieder in die Luft gelangen, was für Allergiker besonders praktisch ist. Ich kann dir den Triflex wirklich empfehlen, vor allem wenn du Haustiere hast, denn er kommt sehr gut mit Haaren zurecht."
+        },
+        "en": {
+          "title": "What Nicola thinks",
+          "text": "This is Gary, this is Bobby, and this is me; the expeerly tester Nicola, 27 years-old from Lucerne. And this is our Miele Triflex vacuum cleaner. And we all have something in common, which is hair, They are simply everywhere, all the time. Getting rid of them properly is an art in itself. But that's why we have our Triflex. It's specifically designed for pet hair no matter how long the hair is or how tightly it's attached to the fabric, the vacuum cleaner gets rid of it. I mean, it's as if there was never a single hair on it. Inside the vacuum, it has a special filter that captures even the smallest particles so they don't get released back into the air, which is great for allergy sufferers. I can really recommend the Triflex to you especially if you have pets, because it handles hair very well."
+        },
+        "fr": {
+          "title": "Ce que pense Nicola",
+          "text": "Voici Gary, Bobby et moi, Nicola, 27 ans, de Lucerne, l'expeerly testeuse. Et voici notre aspirateur Miele Triflex. Nous avons tous un point commun : les cheveux. Ils sont tout simplement partout, tout le temps. S'en débarrasser correctement est un art en soi. Mais c'est pour cela que nous avons notre Triflex. Il est spécialement conçu pour les poils d'animaux, quelle que soit la longueur des poils ou la façon dont ils sont attachés au tissu, l'aspirateur s'en débarrasse. C'est comme s'il n'y avait jamais eu un seul poil sur le tissu. À l'intérieur de l'aspirateur, il y a un filtre spécial qui capture même les plus petites particules afin qu'elles ne soient pas rejetées dans l'air, ce qui est très bien pour les personnes allergiques. Je peux vraiment vous recommander le Triflex, surtout si vous avez des animaux de compagnie, car il gère très bien les poils."
+        },
+        "it": {
+          "title": "Cosa pensa Nicola",
+          "text": "Questo è Gary, questo è Bobby e questo sono io; l'expeerly tester Nicola, 27 anni di Lucerna. E questo è il nostro aspirapolvere Miele Triflex. Abbiamo tutti qualcosa in comune: i capelli. Sono ovunque, sempre. Sbarazzarsi di loro in modo corretto è un'arte in sé. Ma è per questo che abbiamo il nostro Triflex. È stato progettato specificamente per i peli di animali domestici, non importa quanto siano lunghi o quanto siano attaccati al tessuto: l'aspirapolvere li elimina. Insomma, è come se non ci fosse mai stato un solo pelo. All'interno dell'aspirapolvere c'è un filtro speciale che cattura anche le particelle più piccole in modo che non vengano rilasciate nell'aria, il che è ottimo per chi soffre di allergie. Posso davvero consigliarti il Triflex, soprattutto se hai animali domestici, perché gestisce molto bene i peli."
+        }
+      },
+      "faqs": [],
+      "product": {
+        "gtinEan": "4002512345678",
+        "vendorProductNumber": "11828560",
+        "buyLink": "https://www.miele.com/"
+      }
+    },
+    {
+      "publicReviewId": "100000003",
+      "categorySlug": "home-kitchen",
+      "brandSlug": "miele",
+      "productSlug": "triflex-perfomance",
+      "productName": "Miele Triflex Performance HX2 Cat & Dog",
+      "brandName": "Miele",
+      "playbackId": "lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc",
+      "videoUrl": "https://stream.mux.com/lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc.m3u8",
+      "posterUrl": "https://image.mux.com/lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Raphael O.",
+      "reviewerName": "Raphael",
+      "videoTitle": {
+        "de": {
+          "title": "Raphaels aufschlussreicher Miele Triflex Perfomance Test: Vielseitige, leistungsstarke, blitzsaubere Lösung für Zuhause"
+        },
+        "en": {
+          "title": "Raphael's Insightful Miele Triflex Perfomance Review: Versatile, Powerful, Sparkling Clean Solution for Home"
+        },
+        "fr": {
+          "title": "L'avis éclairé de Raphael sur le Miele Triflex Perfomance : Une solution polyvalente, puissante et étincelante de propreté pour la maison"
+        },
+        "it": {
+          "title": "L'acuta recensione di Miele Triflex Perfomance: Una soluzione versatile, potente e brillante per la pulizia della casa"
+        }
+      },
+      "pageTitle": {
+        "de": {
+          "title": "Bewertung-Video: Miele Triflex Performance Akku-Sauger"
+        },
+        "en": {
+          "title": "Video Test: Miele Triflex Performance HX2 Vacuum Cleaner"
+        },
+        "fr": {
+          "title": "Évaluation du Miele Triflex Performance HX2 Cat & Dog"
+        },
+        "it": {
+          "title": "Valutazione Aspirapolvere Miele Triflex Performance HX2 Cat & Dog"
+        }
+      },
+      "metaDescription": {
+        "de": {
+          "desc": "Lass dich von Raphaels Erfahrungsbericht über den Miele Triflex Performance überzeugen: vielseitig, kraftvoll und unverzichtbar für ein sauberes Zuhause!"
+        },
+        "en": {
+          "desc": "Discover Raphael's review of the Miele Triflex Perfomance pet vacuum cleaner: versatile, powerful, and perfect for pet hair removal!"
+        },
+        "fr": {
+          "desc": "Lisez l'avis de Raphaël sur l'aspirateur Miele Triflex Performance : polyvalent, puissant et parfait pour une maison impeccable"
+        },
+        "it": {
+          "desc": "Dai un'occhiata alla recensione di Miele Triflex Performance: un aspirapolvere efficiente, versatile, potente e perfetto per una casa pulita. Provalo!"
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "de": {
+          "title": "Was Raffi denkt",
+          "text": "Hallo, ich bin Raffi und heute werde ich dir über den Miele Triflex HX2 Staubsauger berichten. Ich bin besonders von der Einfachheit und Vielseitigkeit des Triflex beeindruckt. Er lässt sich sehr leicht zusammenbauen und du kannst ihn nach deinen Vorlieben anpassen. Innerhalb von nur ein oder zwei Minuten ist er einsatzbereit. Ob du die Saugeinheit oben oder unten verwendest, bleibt ganz dir überlassen. Aber das Beste an diesem Staubsauger ist meiner Meinung nach die Möglichkeit, ihn mit wenigen Handgriffen als Handstaubsauger zu verwenden. Die verschiedenen Aufsätze, die mitgeliefert werden, ermöglichen den Einsatz in der ganzen Wohnung. Ich finde auch die Halterung ziemlich cool, denn damit kannst du die Aufsätze während des Staubsaugens einfach wechseln. Die Saugleistung ist hervorragend und das Entleeren des Staubbehälters ist mühelos. Endlich kann ich mich von meinem Beutelstaubsauger verabschieden und ich freue mich schon darauf, mit dem Miele Triflex HX2 meine Wohnung wieder blitzsauber zu machen."
+        },
+        "en": {
+          "title": "What Raffi thinks",
+          "text": "Hello, I'm Raffi and today I'm going to tell you about the Miele Triflex HX2 vacuum cleaner. I am particularly impressed by the simplicity and versatility of the Triflex It is very easy to assemble, and you can customize it according to your preferences. Within just a minute or two. it is ready for use Whether you use the suction unit at the top or bottom is entirely up to you. But the best feature of the vacuum cleaner in my opinion is the ability to use it as a handheld vacuum with just a few simple steps. The various attachments that come with it allow for use throughout the entire apartment I also find the holder quite cool as it allows you to easily switch attachments while vacuuming. The suction power is excellent and emptying the dust container is effortless. Finally, I can say goodbye to my bagged vacuum cleaner and I'm actually looking forward to using the Miele Triflex HX2 to give my apartment a sparkling clean look again."
+        },
+        "fr": {
+          "title": "Ce que pense Raffi",
+          "text": "Bonjour, je suis Raffi et aujourd'hui je vais vous parler de l'aspirateur Miele Triflex HX2. Je suis particulièrement impressionné par la simplicité et la polyvalence du Triflex. Il est très facile à assembler et vous pouvez le personnaliser selon vos préférences. En une minute ou deux, il est prêt à l'emploi. Que vous utilisiez l'unité d'aspiration en haut ou en bas, c'est à vous de décider. Mais la meilleure caractéristique de l'aspirateur, à mon avis, est la possibilité de l'utiliser comme aspirateur à main en quelques étapes simples. Les différents accessoires fournis permettent de l'utiliser dans tout l'appartement. Je trouve également le support assez cool car il vous permet de changer facilement d'accessoire pendant que vous passez l'aspirateur. La puissance d'aspiration est excellente et le bac à poussière se vide sans effort. Enfin, je peux dire adieu à mon aspirateur avec sac et j'ai hâte d'utiliser le Miele Triflex HX2 pour redonner à mon appartement une apparence de propreté étincelante."
+        },
+        "it": {
+          "title": "Cosa pensa Raffi",
+          "text": "Ciao, sono Raffi e oggi ti parlo dell'aspirapolvere Miele Triflex HX2. Sono particolarmente colpito dalla semplicità e dalla versatilità del Triflex È molto facile da montare e puoi personalizzarlo in base alle tue preferenze. In uno o due minuti è pronto per l'uso. Ma la caratteristica migliore dell'aspirapolvere, secondo me, è la possibilità di utilizzarlo come aspirapolvere portatile con pochi semplici passaggi. I vari accessori in dotazione consentono di utilizzare l'aspirapolvere in tutto l'appartamento. Trovo anche che il supporto sia molto utile perché consente di cambiare facilmente gli accessori mentre si aspira. La potenza di aspirazione è eccellente e svuotare il contenitore della polvere è un gioco da ragazzi. Finalmente posso dire addio al mio aspirapolvere a sacco e non vedo l'ora di usare Miele Triflex HX2 per ridare al mio appartamento un aspetto pulito e brillante."
+        }
+      },
+      "faqs": [],
+      "product": {
+        "gtinEan": "4002512345678",
+        "vendorProductNumber": "11828560",
+        "buyLink": "https://www.miele.com/"
+      }
+    },
+    {
+      "publicReviewId": "100000004",
+      "categorySlug": "home-kitchen",
+      "brandSlug": "miele",
+      "productSlug": "triflex-perfomance",
+      "productName": "Miele Triflex Performance HX2 Cat & Dog",
+      "brandName": "Miele",
+      "playbackId": "LStVC00kbhMGnPO5Zd4z54V63sYprmu5uvr8b29wefNU",
+      "videoUrl": "https://stream.mux.com/LStVC00kbhMGnPO5Zd4z54V63sYprmu5uvr8b29wefNU.m3u8",
+      "posterUrl": "https://image.mux.com/LStVC00kbhMGnPO5Zd4z54V63sYprmu5uvr8b29wefNU/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/LStVC00kbhMGnPO5Zd4z54V63sYprmu5uvr8b29wefNU/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Carlos F.",
+      "reviewerName": "Carlos",
+      "videoTitle": {
+        "de": {
+          "title": "Carlos' umfassender Miele Triflex Perfomance Test: Elegante, leise und vielseitige Staubsaugerlösung für vielbeschäftigte Haushalte"
+        },
+        "en": {
+          "title": "Carlos's Comprehensive Miele Triflex Perfomance Review: Stylish, Quiet, and Versatile Vacuum Solution for Busy Homes"
+        },
+        "fr": {
+          "title": "L'avis complet de Carlos sur le Miele Triflex Perfomance : Une solution d'aspiration élégante, silencieuse et polyvalente pour les foyers occupés"
+        },
+        "it": {
+          "title": "Recensione completa di Miele Triflex Perfomance di Carlos: Soluzione di aspirazione elegante, silenziosa e versatile per le case più impegnative"
+        }
+      },
+      "pageTitle": {
+        "de": {
+          "title": "Test-Video | Miele Triflex HX2 Akku-Staubsauger"
+        },
+        "en": {
+          "title": "Video Review | Miele Triflex HX2 Hand-Held Electric Brush"
+        },
+        "fr": {
+          "title": "Avis sur le Miele Triflex Performance HX2 Cat & Dog"
+        },
+        "it": {
+          "title": "Analisi Aspirapolvere Miele Triflex Performance HX2 Cat & Dog"
+        }
+      },
+      "metaDescription": {
+        "de": {
+          "desc": "Entdecke mit Carlos zusammen den angesagten Miele Triflex Performance – der kabellose Akku-Staubsauger für Haus und Küche. Jetzt Lesen!"
+        },
+        "en": {
+          "desc": "Watch Carlos's insights on the stylish Miele Triflex Perfomance Cordless Hoover vacuum for Home and Kitchen!"
+        },
+        "fr": {
+          "desc": "Les commentaires sur l'élégant aspirateur Miele Triflex Performance pour la maison et la cuisine sont disponibles, partagés par Carlos."
+        },
+        "it": {
+          "desc": "Dai un'occhiata agli interessanti approfondimenti di Carlos sull'elegante aspirapolvere Miele Triflex Performance per la casa e la cucina. Da non perdere!"
+        }
+      },
+      "summary": {
+        "de": {
+          "text": "Der Miele Triflex Perfomance Staubsauger bietet Flexibilität, Stil und Bequemlichkeit und verfügt über mitgeliefertes Zubehör und einen zweiten Akku für längere Reinigungseinsätze. Carlos hebt die einfache Bedienung, den leisen Betrieb und die Effektivität auf verschiedenen Oberflächen hervor, wodurch er sich für vielbeschäftigte Haushalte eignet, die eine zuverlässige Reinigungslösung suchen."
+        },
+        "en": {
+          "text": "The Miele Triflex Perfomance vacuum cleaner offers flexibility, style, and convenience, with included accessories and a second battery for extended cleaning sessions. Carlos highlights its ease of use, quiet operation, and effectiveness on various surfaces, making it suitable for busy households seeking a reliable cleaning solution."
+        },
+        "fr": {
+          "text": "L'aspirateur Miele Triflex Perfomance offre flexibilité, style et commodité, avec des accessoires inclus et une deuxième batterie pour des séances de nettoyage prolongées. Carlos souligne sa facilité d'utilisation, son fonctionnement silencieux et son efficacité sur différentes surfaces, ce qui le rend adapté aux ménages occupés à la recherche d'une solution de nettoyage fiable."
+        },
+        "it": {
+          "text": "L'aspirapolvere Miele Triflex Perfomance offre flessibilità, stile e convenienza, con accessori inclusi e una seconda batteria per sessioni di pulizia prolungate. Carlos ne sottolinea la facilità d'uso, la silenziosità e l'efficacia su diverse superfici, rendendolo adatto alle famiglie più impegnate che cercano una soluzione di pulizia affidabile."
+        }
+      },
+      "transcript": {
+        "de": {
+          "title": "Was Carlos denkt",
+          "text": "Hallo zusammen, mein Name ist Carlos und ich teste diesen wunderschönen Miele Staubsauger für euch und für expeerly. Ich wollte ein Gerät, das einfach zu bedienen ist, leise ist und auch noch schick aussieht. Neben der großen Auswahl an Bürsten und Aufsätzen ist auch ein zweiter Akku enthalten. Du kannst ihn ganz einfach mit dem Netzadapter aufladen und nach etwa einer Stunde hast du genug Akkuleistung, um die ganze Wohnung zu saugen. Was ich am meisten am Miele Triflex schätze, ist seine große Flexibilität. Wenn du den langen Griff abnimmst, hast du einen kleinen, praktischen, tragbaren Staubsauger, der überall hinkommt. Ich habe den Miele auf allen Oberflächen testen können und war jedes Mal überrascht, wie sauber das Ergebnis geworden ist. Wenn du wie ich in einem Haushalt lebst, in dem immer etwas los ist, und du nach einem Staubsauger suchst, der dir die Arbeit erleichtert, dann ist der Miele Triflex die richtige Wahl für dich."
+        },
+        "en": {
+          "title": "What Carlos thinks",
+          "text": "Hello everyone, my name is Carlos and I am testing this beautiful Miele vacuum cleaner for you and for expeerly. I wanted a device that is easy to use quiet, and also looks stylish. In addition to the huge selection of brushes and attachments a second battery is also included. You can easily charge it with the power adapter and after about an hour, you have enough battery power to vacuum the entire apartment. What I appreciate most about the Miele Triflex, is its great flexibility. When you remove the long handle, you have a small, practical, portable vacuum cleaner that can reach everywhere. I have been able to test the Miele on all surfaces and it has surprised me every time with how clean the result has become. If you are like me, living in a household where there is always something going on and you are looking for a vacuum cleaner that can make your work easier, then the Miele Triflex is the right choice for you."
+        },
+        "fr": {
+          "title": "Ce que pense Carlos",
+          "text": "Bonjour à tous, je m'appelle Carlos et je teste pour vous et pour expeerly ce magnifique aspirateur Miele. Je voulais un appareil facile à utiliser, silencieux et élégant. En plus de la vaste sélection de brosses et d'accessoires, une deuxième batterie est également incluse. Vous pouvez facilement la charger à l'aide de l'adaptateur secteur et, au bout d'une heure environ, vous disposez de suffisamment de batterie pour aspirer tout l'appartement. Ce que j'apprécie le plus dans le Miele Triflex, c'est sa grande flexibilité. Lorsque vous retirez le long manche, vous disposez d'un petit aspirateur pratique et portable qui peut aller partout. J'ai pu tester le Miele sur toutes les surfaces et il m'a surpris à chaque fois par la propreté du résultat. Si vous êtes comme moi, que vous vivez dans un foyer où il se passe toujours quelque chose et que vous cherchez un aspirateur qui peut vous faciliter le travail, alors le Miele Triflex est le bon choix pour vous."
+        },
+        "it": {
+          "title": "Cosa pensa Carlos",
+          "text": "Ciao a tutti, mi chiamo Carlos e sto testando questo bellissimo aspirapolvere Miele per voi e per expeerly. Volevo un apparecchio facile da usare, silenzioso e dall'aspetto elegante. Oltre alla vasta scelta di spazzole e accessori, è inclusa anche una seconda batteria. Puoi caricarla facilmente con l'adattatore di corrente e dopo circa un'ora avrai abbastanza energia per aspirare l'intero appartamento. Ciò che apprezzo di più del Miele Triflex è la sua grande flessibilità. Quando rimuovi il lungo manico, hai un aspirapolvere piccolo, pratico e portatile che può arrivare ovunque. Ho potuto testare Miele su tutte le superfici e ogni volta mi ha sorpreso per la pulizia ottenuta. Se anche tu, come me, vivi in una casa in cui c'è sempre qualcosa da fare e cerchi un aspirapolvere che ti faciliti il lavoro, allora il Miele Triflex è la scelta giusta per te."
+        }
+      },
+      "faqs": [
+        {
+          "de": {
+            "title": "Welches Zubehör ist im Lieferumfang des Miele Triflex Performance enthalten?",
+            "text": "Zum Lieferumfang des Miele Triflex Performance gehören verschiedene Bürsten und Aufsätze sowie ein zweiter Akku für längere Reinigungssitzungen."
+          },
+          "en": {
+            "title": "What accessories are included with the Miele Triflex Perfomance?",
+            "text": "The Miele Triflex Perfomance comes with a variety of brushes and attachments, as well as a second battery for extended cleaning sessions."
+          },
+          "fr": {
+            "title": "Quels accessoires sont inclus avec le Miele Triflex Performance ?",
+            "text": "Le Miele Triflex Performance est livré avec une variété de brosses et d'accessoires, ainsi qu'une deuxième batterie pour des sessions de nettoyage prolongées."
+          },
+          "it": {
+            "title": "Quali accessori sono inclusi nella confezione del Miele Triflex Perfomance?",
+            "text": "Miele Triflex Perfomance è dotato di una varietà di spazzole e accessori, nonché di una seconda batteria per sessioni di pulizia più lunghe."
+          }
+        },
+        {
+          "de": {
+            "title": "Wie lange dauert das Aufladen des Akkus des Miele Triflex Performance?",
+            "text": "Das Aufladen des Akkus des Miele Triflex Performance dauert etwa eine Stunde und bietet ausreichend Leistung, um die gesamte Wohnung zu saugen."
+          },
+          "en": {
+            "title": "How long does it take to charge the battery of the Miele Triflex Perfomance?",
+            "text": "It takes about an hour to charge the battery of the Miele Triflex Perfomance, providing enough power to vacuum the entire apartment."
+          },
+          "fr": {
+            "title": "Combien de temps faut-il pour charger la batterie du Miele Triflex Performance ?",
+            "text": "Il faut environ une heure pour charger la batterie du Miele Triflex Perfomance, ce qui fournit suffisamment d'énergie pour aspirer tout l'appartement."
+          },
+          "it": {
+            "title": "Quanto tempo ci vuole per caricare la batteria del Miele Triflex Perfomance?",
+            "text": "Per caricare la batteria del Miele Triflex Perfomance ci vuole circa un'ora, ottenendo così energia sufficiente per aspirare l'intero appartamento."
+          }
+        },
+        {
+          "de": {
+            "title": "Welches ist das Hauptmerkmal des Miele Triflex Performance, das Carlos schätzt?",
+            "text": "Carlos schätzt die große Flexibilität des Miele Triflex Performance, insbesondere wenn er sich durch Abnehmen des langen Griffs in einen tragbaren Staubsauger verwandeln lässt."
+          },
+          "en": {
+            "title": "What is the main feature of the Miele Triflex Perfomance that Carlos appreciates?",
+            "text": "Carlos appreciates the great flexibility of the Miele Triflex Perfomance, especially when it can be converted into a portable vacuum cleaner by removing the long handle."
+          },
+          "fr": {
+            "title": "Quelle est la principale caractéristique du Miele Triflex Perfomance que Carlos apprécie ?",
+            "text": "Carlos apprécie la grande flexibilité du Miele Triflex Perfomance, notamment lorsqu'il peut être transformé en aspirateur portable en retirant le long manche."
+          },
+          "it": {
+            "title": "Qual è la caratteristica principale del Miele Triflex Perfomance che Carlos apprezza?",
+            "text": "Carlos apprezza la grande flessibilità del Miele Triflex Perfomance, soprattutto perché può essere trasformato in un aspirapolvere portatile rimuovendo il lungo manico."
+          }
+        },
+        {
+          "de": {
+            "title": "Kann Miele Triflex Performance auf allen Oberflächen verwendet werden?",
+            "text": "Ja, Carlos hat den Miele Triflex Performance auf allen Oberflächen getestet und festgestellt, dass er jedes Mal saubere Ergebnisse liefert, was auf seine Eignung für verschiedene Bodenarten hindeutet."
+          },
+          "en": {
+            "title": "Can the Miele Triflex Perfomance be used on all surfaces?",
+            "text": "Yes, Carlos tested the Miele Triflex Perfomance on all surfaces and found it to deliver clean results every time, indicating its suitability for various floor types."
+          },
+          "fr": {
+            "title": "Le Miele Triflex Performance peut-il être utilisé sur toutes les surfaces ?",
+            "text": "Oui, Carlos a testé le Miele Triflex Performance sur toutes les surfaces et a constaté qu'il donnait des résultats propres à chaque fois, indiquant ainsi sa compatibilité avec différents types de sols."
+          },
+          "it": {
+            "title": "Il detergente Miele Triflex Perfomance può essere utilizzato su tutte le superfici?",
+            "text": "Sì, Carlos ha testato il Miele Triflex Perfomance su tutte le superfici e ha riscontrato risultati puliti ogni volta, il che ne dimostra l'idoneità per vari tipi di pavimento."
+          }
+        },
+        {
+          "de": {
+            "title": "Welche Haushalte profitieren vom Einsatz des Miele Triflex Performance?",
+            "text": "Haushalte mit einem geschäftigen Lebensstil, die einen Staubsauger benötigen, der das Putzen erleichtert, profitieren vom Miele Triflex Performance."
+          },
+          "en": {
+            "title": "What type of households would benefit from using the Miele Triflex Perfomance?",
+            "text": "Households with busy lifestyles and a need for a vacuum cleaner that can make cleaning easier would benefit from using the Miele Triflex Perfomance."
+          },
+          "fr": {
+            "title": "Quel type de foyer bénéficierait de l'utilisation du Miele Triflex Performance ?",
+            "text": "Les ménages ayant un mode de vie actif et ayant besoin d'un aspirateur pouvant faciliter le nettoyage bénéficieraient de l'utilisation du Miele Triflex Performance."
+          },
+          "it": {
+            "title": "Quali tipologie di famiglie trarrebbero beneficio dall'utilizzo di Miele Triflex Perfomance?",
+            "text": "Le famiglie con uno stile di vita frenetico e che necessitano di un aspirapolvere che semplifichi la pulizia trarranno beneficio dall'utilizzo del modello Miele Triflex Perfomance."
+          }
+        }
+      ],
+      "product": {
+        "gtinEan": "4002512345678",
+        "vendorProductNumber": "11828560",
+        "buyLink": "https://www.miele.com/"
+      }
+    },
+    {
+      "publicReviewId": "100000005",
+      "categorySlug": "home-kitchen",
+      "brandSlug": "miele",
+      "productSlug": "triflex-perfomance",
+      "productName": "Miele Triflex Performance HX2 Cat & Dog",
+      "brandName": "Miele",
+      "playbackId": "012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs",
+      "videoUrl": "https://stream.mux.com/012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs.m3u8",
+      "posterUrl": "https://image.mux.com/012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Kristina J.",
+      "reviewerName": "Kristina",
+      "videoTitle": {
+        "de": {
+          "title": "Kristinas vielseitiger Miele Triflex Perfomance Test: Mühelose Reinigung für vielbeschäftigte Familien"
+        },
+        "en": {
+          "title": "Kristina's Versatile Miele Triflex Perfomance Review: Effortless Cleaning for Busy Families"
+        },
+        "fr": {
+          "title": "L'avis de Kristina sur l'appareil polyvalent Miele Triflex Perfomance : Un nettoyage sans effort pour les familles occupées"
+        },
+        "it": {
+          "title": "La recensione del versatile Miele Triflex Perfomance di Kristina: Pulizia senza sforzo per famiglie impegnate"
+        }
+      },
+      "pageTitle": {
+        "de": {
+          "title": "Bewertung-Video: Miele Triflex Akku-Staubsauger"
+        },
+        "en": {
+          "title": "Video Test - Miele Triflex HX2 Cordless Hoover Performance"
+        },
+        "fr": {
+          "title": "Évaluation du Miele Triflex Performance HX2 Cat & Dog"
+        },
+        "it": {
+          "title": "Test Aspirapolvere Miele Triflex Perfomance HX2 Cat & Dog"
+        }
+      },
+      "metaDescription": {
+        "de": {
+          "desc": "Entdecke mit Kristina, wie der Miele Triflex Performance Handstaubsauger mit Elektrobürste deine Haushaltsreinigung revolutioniert!"
+        },
+        "en": {
+          "desc": "Discover how Kristina's testimonial of the Miele Triflex Performance hand-held electric brush simplifies home cleaning for busy families!"
+        },
+        "fr": {
+          "desc": "Comment le nettoyage de la maison pour les familles occupées est-il simplifié par le test de Miele Triflex Performance par Kristina ?"
+        },
+        "it": {
+          "desc": "Scopri come il test di Miele Triflex Performance semplifica le lunghe e noiose pulizie domestiche per le famiglie più indaffarate. Provalo oggi stesso!"
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "de": {
+          "title": "Was Kristina denkt",
+          "text": "Hallo, ich bin Kristina und ich bin eine expeerly Testerin. Heute teste ich den Triflex HX2 Staubsauger für dich. Er lässt sich leicht zusammenbauen und ist flexibel, sodass er in jeder Situation schnell einsatzbereit ist. Das 3-in-1-Design ermöglicht eine vielseitige und mühelose Reinigung. Die Kinder lieben es, beim Malen zu naschen und merken gar nicht, wie schmutzig der Boden und der Tisch am Ende aussehen. Aber das ist überhaupt kein Problem, denn ich gehe nur einmal mit dem Staubsauger drüber und schon ist es wieder sauber. Deshalb kann ich diesen Staubsauger vor allem jungen Familien empfehlen. Wenn die Kinder auf dem Sofa spielen und essen, ist es unvermeidlich, dass es schmutzig wird. Aber da kommt das Gerät ins Spiel und alle Krümel sind weg. Du kannst den Staubsauger auch zum Reinigen von Teppichen und Hartböden verwenden. Zum Aufladen finde ich persönlich es praktisch an der Wand. Der Staubsauger ist sehr leistungsstark und sieht auch noch super modern aus."
+        },
+        "en": {
+          "title": "What Kristina thinks",
+          "text": "Hello, I'm Kristina, and I'm an expeerly tester. Today, I'm testing the Triflex HX2 vacuum cleaner for you. It's easy to assemble and flexible making it quick to use in any situation. The 3-in-1 design allows for versatile and effortless cleaning. The kids love to snack while drawing and they don't even realize how dirty the floor and table look in the end. But that's not a problem at all because I just go over it once with the vacuum cleaner and it's clean again. That's why I can highly recommend this vacuum cleaner especially to young families, When the kids play and eat on the sofa it's inevitable that it gets dirty. But that's where the power unit comes in and all the crumbs are gone. You can also use the vacuum cleaner to clean both carpets and hard floors. For charging, I personally find it convenient on the wall. The vacuum cleaner is very powerful and has a super modern look as well."
+        },
+        "fr": {
+          "title": "Ce que pense Kristina",
+          "text": "Bonjour, je m'appelle Kristina et je suis une testeuse expeerly. Aujourd'hui, je teste pour vous l'aspirateur Triflex HX2. Il est facile à assembler et flexible, ce qui permet de l'utiliser rapidement dans n'importe quelle situation. La conception 3 en 1 permet un nettoyage polyvalent et sans effort. Les enfants adorent grignoter en dessinant et ils ne se rendent même pas compte à quel point le sol et la table sont sales à la fin. Mais ce n'est pas un problème car il suffit de passer l'aspirateur pour que tout redevienne propre. C'est pourquoi je recommande vivement cet aspirateur, en particulier aux jeunes familles. Lorsque les enfants jouent et mangent sur le canapé, il est inévitable qu'il se salisse. Lorsque les enfants jouent et mangent sur le canapé, il est inévitable qu'il se salisse. Mais c'est là que l'unité d'alimentation entre en jeu et que toutes les miettes disparaissent. Vous pouvez également utiliser l'aspirateur pour nettoyer les tapis et les sols durs. Pour le chargement, je trouve personnellement qu'il est pratique de l'accrocher au mur. L'aspirateur est très puissant et a un look très moderne."
+        },
+        "it": {
+          "title": "Cosa pensa Kristina",
+          "text": "Ciao, sono Kristina e sono una tester expeerly. Oggi sto testando l'aspirapolvere Triflex HX2 per te. L'aspirapolvere è facile da assemblare e flessibile, per cui è veloce da usare in qualsiasi situazione. Il design 3-in-1 consente una pulizia versatile e senza sforzo. I bambini amano fare merenda mentre disegnano e non si rendono conto di quanto il pavimento e il tavolo siano sporchi alla fine. Ma non è affatto un problema, perché basta passare una volta l'aspirapolvere e tutto è di nuovo pulito. Ecco perché consiglio vivamente questo aspirapolvere soprattutto alle famiglie giovani: quando i bambini giocano e mangiano sul divano è inevitabile che si sporchi. Ma è qui che entra in gioco l'aspirapolvere e tutte le briciole spariscono. Puoi usare l'aspirapolvere anche per pulire tappeti e pavimenti duri. Per la ricarica, personalmente lo trovo comodo da appendere alla parete. L'aspirapolvere è molto potente e ha anche un look super moderno."
+        }
+      },
+      "faqs": [],
+      "product": {
+        "gtinEan": "4002512345678",
+        "vendorProductNumber": "11828560",
+        "buyLink": "https://www.miele.com/"
+      }
+    },
+    {
+      "publicReviewId": "100000006",
+      "categorySlug": "home-kitchen",
+      "brandSlug": "miele",
+      "productSlug": "triflex-perfomance",
+      "productName": "Miele Triflex Performance HX2 Cat & Dog",
+      "brandName": "Miele",
+      "playbackId": "R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI",
+      "videoUrl": "https://stream.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI.m3u8",
+      "posterUrl": "https://image.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Maurice L.",
+      "reviewerName": "Maurice",
+      "videoTitle": {
+        "de": {
+          "title": "Erfahrungsbericht: Maurice erkundet Miele Triflex Performance Staubsauger für Haus und Küche"
+        },
+        "en": {
+          "title": "Testimonial: Maurice Explores Miele Triflex Performance Vacuum Cleaner for Home & Kitchen"
+        },
+        "fr": {
+          "title": "Témoignage : Maurice explore l'aspirateur Miele Triflex Performance pour la maison et la cuisine"
+        },
+        "it": {
+          "title": "Testimonianza: Maurice esplora l'aspirapolvere Miele Triflex Performance per casa e cucina"
+        }
+      },
+      "pageTitle": {
+        "de": {
+          "title": "Test-Video | Miele Triflex Performance Akkustaubsauger"
+        },
+        "en": {
+          "title": "Video Review: Miele Triflex Performance HX2 Vacuum Cleaner"
+        },
+        "fr": {
+          "title": "Critique du Miele Triflex Performance HX2 Cat & Dog"
+        },
+        "it": {
+          "title": "Opinione Aspirapolvere Miele Triflex Perfomance HX2 Cat & Dog"
+        }
+      },
+      "metaDescription": {
+        "de": {
+          "desc": "Erhalte Insider Einblicke von Maurice' über den Miele Triflex Performance kabellosen Handstaubsauger mit Elektrobürste. Der beste Akkusauger für zu Hause!"
+        },
+        "en": {
+          "desc": "Discover Maurice's experience with the Miele Triflex Performance Cordless Vacuum Cleaner. Insights, assembly, and cleaning - all covered. A must-read!"
+        },
+        "fr": {
+          "desc": "L'expérience de Maurice avec l'aspirateur Miele Triflex Performance : assemblage, nettoyage et plus. Parfait pour la maison et la cuisine."
+        },
+        "it": {
+          "desc": "Leggi dell'esperienza Miele con l'aspirapolvere Triflex Performance. Approfondimenti, assemblaggio e pulizia: tutto incluso. Ideale per casa e cucina."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "de": {
+          "title": "Was Maurice denkt",
+          "text": "Hallo, ich bin Maurice, ein expeerly-Tester. Ich bin hier, um dir den Miele Triflex Performance Staubsauger zu zeigen und über die Erfahrungen zu berichten, die unsere Familie mit ihm gemacht hat. Im Paket sind verschiedene Teile enthalten: der Motor mit Akku-Saugrohr, die Elektrobürste, die Handbürste, der Teppichaufsatz, die Fugendüse, die Ladestation für den Bürstenaufsatz, Ersatzteile und ein zweiter Akku Der kabellose Staubsauger kann auf verschiedene Arten zusammengesetzt werden. erstens als Handstaubsauger, zweitens mit dem Motor oben, um unter Möbeln zu saugen, und drittens mit dem Motor unten Unsere Jungs spielen oft im Wald, deshalb gibt es meistens irgendwo im Haus Schmutz Wir versuchen, ihn gleich aufzusaugen, und hier geht's los mit dem Rennauto; Kontrolle des Hartholzbodens Badezimmerboden mit Fugen: Kontrolle Teppich: Kontrolle Nach erfolgreichem Saugen nimmst du den Staubbehälter ab und leerst ihn in den Mülleimer Aber was ich am coolsten finde, ist, dass der Staubsauger aufrecht bleibt, wenn du ihn abstellst. Fazit: Er passt perfekt."
+        },
+        "en": {
+          "title": "What Maurice thinks",
+          "text": "Hi, I'm Maurice, an expeerly tester. I'm here to show you the Miele Triflex Performance vacuum cleaner and share the experiences our family has had with it. The package includes various parts: the motor with battery suction tube, electric brush, handheld brush, carpet attachment, crevice tool, brush attachment charging station, spare parts, and a second battery The cordless vacuum cleaner can be assembled in different ways. first, as a handheld vacuum, second, with the motor on top for cleaning under furniture, and third, with the motor on the bottom Our boys often play in the woods, so there's usually dirt somewhere in the house We'll try to vacuum it up right away, and here we go with the race car; checking the hardwood floor Bathroom floor with grout: check Carpet: check After successful vacuuming, detach the dust container and empty it into the trash But what I find the coolest, is that the vacuum cleaner remains upright when you put it down. Conclusion: it's a perfect fit."
+        },
+        "fr": {
+          "title": "Ce que pense Maurice",
+          "text": "Bonjour, je suis Maurice, un testeur expeerly. Je suis ici pour vous présenter l'aspirateur Miele Triflex Performance et partager les expériences que notre famille a eues avec lui. L'emballage comprend différents éléments : le moteur avec le tube d'aspiration de la batterie, la brosse électrique, la brosse à main, l'accessoire pour tapis, le suceur plat, la station de charge de l'accessoire pour brosse, les pièces de rechange et une deuxième batterie. Nos garçons jouent souvent dans les bois, il y a donc souvent de la saleté quelque part dans la maison. Nous essayons de l'aspirer tout de suite, et voici la voiture de course ; vérification du parquet Plancher de la salle de bains avec joints : vérification Moquette : vérification Après avoir passé l'aspirateur, détachez le bac à poussière et videz-le dans la poubelle Mais ce que je trouve le plus cool, c'est que l'aspirateur reste en position verticale lorsque vous le posez. Conclusion : il est parfaitement adapté."
+        },
+        "it": {
+          "title": "Cosa pensa Maurizio",
+          "text": "Ciao, sono Maurice, un tester expeerly. Sono qui per mostrarti l'aspirapolvere Miele Triflex Performance e condividere le esperienze che la nostra famiglia ha avuto con esso. La confezione include diverse parti: il motore con tubo di aspirazione a batteria, la spazzola elettrica, la spazzola manuale, l'accessorio per tappeti, l'attrezzo per le fessure, la stazione di ricarica dell'accessorio per spazzole, i pezzi di ricambio e una seconda batteria L'aspirapolvere senza fili può essere assemblato in diversi modi. I nostri ragazzi giocano spesso nei boschi, quindi di solito c'è della sporcizia da qualche parte in casa. Cercheremo di aspirarla subito, ed eccoci qui con la macchina da corsa; controllo del pavimento in legno duro Pavimento del bagno con stucco: controllo Tappeto: controllo Dopo aver passato l'aspirapolvere con successo, stacca il contenitore della polvere e svuotalo nella spazzatura Ma la cosa più bella è che l'aspirapolvere rimane in piedi quando lo metti a terra. Conclusione: è un prodotto perfetto."
+        }
+      },
+      "faqs": [],
+      "product": {
+        "gtinEan": "4002512345678",
+        "vendorProductNumber": "11828560",
+        "buyLink": "https://www.miele.com/"
+      }
+    },
+    {
+      "publicReviewId": "100000101",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "samsung",
+      "productSlug": "galaxy-s24-ultra",
+      "productName": "Galaxy S24 Ultra",
+      "brandName": "Samsung",
+      "playbackId": "WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE",
+      "videoUrl": "https://stream.mux.com/WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE.m3u8",
+      "posterUrl": "https://image.mux.com/WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Alex P.",
+      "reviewerName": "Alex",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Alex Reviews Samsung Galaxy S24 Ultra"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Samsung Galaxy S24 Ultra Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Alex's video review of the Samsung Galaxy S24 Ultra."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Alex thinks",
+          "text": "I'm testing the Galaxy S24 Ultra for expeerly and sharing how the camera and battery hold up in daily use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000102",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "samsung",
+      "productSlug": "the-frame-tv",
+      "productName": "The Frame TV",
+      "brandName": "Samsung",
+      "playbackId": "KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU",
+      "videoUrl": "https://stream.mux.com/KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU.m3u8",
+      "posterUrl": "https://image.mux.com/KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Emma L.",
+      "reviewerName": "Emma",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Emma Reviews Samsung The Frame TV"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Samsung The Frame TV Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Emma's video review of Samsung The Frame TV."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Emma thinks",
+          "text": "I'm testing The Frame for expeerly and sharing how it blends into our living room as art when we're not watching."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000103",
+      "categorySlug": "home-kitchen",
+      "brandSlug": "samsung",
+      "productSlug": "bespoke-jet-ai",
+      "productName": "Bespoke Jet AI",
+      "brandName": "Samsung",
+      "playbackId": "lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc",
+      "videoUrl": "https://stream.mux.com/lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc.m3u8",
+      "posterUrl": "https://image.mux.com/lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Chris R.",
+      "reviewerName": "Chris",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Chris Reviews Samsung Bespoke Jet AI"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Samsung Bespoke Jet AI Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Chris's video review of the Samsung Bespoke Jet AI cordless vacuum."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Chris thinks",
+          "text": "I'm testing the Bespoke Jet AI for expeerly and sharing how it handles pet hair and tight corners."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000104",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "samsung",
+      "productSlug": "galaxy-watch7",
+      "productName": "Galaxy Watch7",
+      "brandName": "Samsung",
+      "playbackId": "LStVC00kbhMGnPO5Zd4z54V63sYprmu5uvr8b29wefNU",
+      "videoUrl": "https://stream.mux.com/LStVC00kbhMGnPO5Zd4z54V63sYprmu5uvr8b29wefNU.m3u8",
+      "posterUrl": "https://image.mux.com/LStVC00kbhMGnPO5Zd4z54V63sYprmu5uvr8b29wefNU/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/LStVC00kbhMGnPO5Zd4z54V63sYprmu5uvr8b29wefNU/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Priya K.",
+      "reviewerName": "Priya",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Priya Reviews Samsung Galaxy Watch7"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Samsung Galaxy Watch7 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Priya's video review of the Samsung Galaxy Watch7."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Priya thinks",
+          "text": "I'm testing the Galaxy Watch7 for expeerly and sharing how sleep tracking and workouts feel day to day."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000105",
+      "categorySlug": "home-kitchen",
+      "brandSlug": "samsung",
+      "productSlug": "bespoke-refrigerator",
+      "productName": "Bespoke 4-Door Flex Refrigerator",
+      "brandName": "Samsung",
+      "playbackId": "012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs",
+      "videoUrl": "https://stream.mux.com/012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs.m3u8",
+      "posterUrl": "https://image.mux.com/012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Jordan M.",
+      "reviewerName": "Jordan",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Jordan Reviews Samsung Bespoke Refrigerator"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Samsung Bespoke 4-Door Flex Refrigerator Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Jordan's video review of the Samsung Bespoke 4-Door Flex Refrigerator."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Jordan thinks",
+          "text": "I'm testing the Bespoke refrigerator for expeerly and sharing how flexible storage works for a busy family kitchen."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000201",
+      "categorySlug": "home-kitchen",
+      "brandSlug": "philips",
+      "productSlug": "airfryer-xxl",
+      "productName": "Airfryer XXL",
+      "brandName": "Philips",
+      "playbackId": "Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU",
+      "videoUrl": "https://stream.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU.m3u8",
+      "posterUrl": "https://image.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Lisa H.",
+      "reviewerName": "Lisa",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Lisa Reviews Philips Airfryer XXL"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Philips Airfryer XXL Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Lisa's video review of the Philips Airfryer XXL."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Lisa thinks",
+          "text": "I'm testing the Philips Airfryer XXL for expeerly and sharing weeknight meals we've made with it."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000202",
+      "categorySlug": "beauty-personal-care",
+      "brandSlug": "philips",
+      "productSlug": "sonicare-diamondclean",
+      "productName": "Sonicare DiamondClean",
+      "brandName": "Philips",
+      "playbackId": "4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g",
+      "videoUrl": "https://stream.mux.com/4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g.m3u8",
+      "posterUrl": "https://image.mux.com/4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Tom W.",
+      "reviewerName": "Tom",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Tom Reviews Philips Sonicare DiamondClean"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Philips Sonicare DiamondClean Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Tom's video review of the Philips Sonicare DiamondClean."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Tom thinks",
+          "text": "I'm testing the Sonicare DiamondClean for expeerly and sharing how it compares to my old electric toothbrush."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000203",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "philips",
+      "productSlug": "hue-starter-kit",
+      "productName": "Hue White and Color Ambiance Starter Kit",
+      "brandName": "Philips",
+      "playbackId": "R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI",
+      "videoUrl": "https://stream.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI.m3u8",
+      "posterUrl": "https://image.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Nina S.",
+      "reviewerName": "Nina",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Nina Reviews Philips Hue Starter Kit"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Philips Hue Starter Kit Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Nina's video review of the Philips Hue White and Color Ambiance Starter Kit."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Nina thinks",
+          "text": "I'm testing the Hue starter kit for expeerly and sharing how easy setup was and the scenes we use most."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000204",
+      "categorySlug": "home-kitchen",
+      "brandSlug": "philips",
+      "productSlug": "lattego-coffee-machine",
+      "productName": "LatteGo Coffee Machine",
+      "brandName": "Philips",
+      "playbackId": "q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84",
+      "videoUrl": "https://stream.mux.com/q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84.m3u8",
+      "posterUrl": "https://image.mux.com/q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Marco D.",
+      "reviewerName": "Marco",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Marco Reviews Philips LatteGo Coffee Machine"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Philips LatteGo Coffee Machine Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Marco's video review of the Philips LatteGo Coffee Machine."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Marco thinks",
+          "text": "I'm testing the LatteGo for expeerly and sharing morning cappuccinos and how quick cleanup really is."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000301",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "sony",
+      "productSlug": "wh-1000xm5",
+      "productName": "WH-1000XM5",
+      "brandName": "Sony",
+      "playbackId": "R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI",
+      "videoUrl": "https://stream.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI.m3u8",
+      "posterUrl": "https://image.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Nina W.",
+      "reviewerName": "Nina",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Nina W. Reviews Sony WH-1000XM5"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Sony WH-1000XM5 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Nina W.'s video review of the Sony WH-1000XM5."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Nina thinks",
+          "text": "I'm testing the WH-1000XM5 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000302",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "sony",
+      "productSlug": "alpha-7-iv",
+      "productName": "Alpha 7 IV",
+      "brandName": "Sony",
+      "playbackId": "q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84",
+      "videoUrl": "https://stream.mux.com/q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84.m3u8",
+      "posterUrl": "https://image.mux.com/q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Tom H.",
+      "reviewerName": "Tom",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Tom H. Reviews Sony Alpha 7 IV"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Sony Alpha 7 IV Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Tom H.'s video review of the Sony Alpha 7 IV."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Tom thinks",
+          "text": "I'm testing the Alpha 7 IV for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000303",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "sony",
+      "productSlug": "playstation-5",
+      "productName": "PlayStation 5",
+      "brandName": "Sony",
+      "playbackId": "4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g",
+      "videoUrl": "https://stream.mux.com/4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g.m3u8",
+      "posterUrl": "https://image.mux.com/4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Jake R.",
+      "reviewerName": "Jake",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Jake R. Reviews Sony PlayStation 5"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Sony PlayStation 5 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Jake R.'s video review of the Sony PlayStation 5."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Jake thinks",
+          "text": "I'm testing the PlayStation 5 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000304",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "sony",
+      "productSlug": "bravia-xr-a80l",
+      "productName": "BRAVIA XR A80L",
+      "brandName": "Sony",
+      "playbackId": "012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs",
+      "videoUrl": "https://stream.mux.com/012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs.m3u8",
+      "posterUrl": "https://image.mux.com/012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Lisa K.",
+      "reviewerName": "Lisa",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Lisa K. Reviews Sony BRAVIA XR A80L"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Sony BRAVIA XR A80L Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Lisa K.'s video review of the Sony BRAVIA XR A80L."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Lisa thinks",
+          "text": "I'm testing the BRAVIA XR A80L for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000305",
+      "categorySlug": "home-kitchen",
+      "brandSlug": "dyson",
+      "productSlug": "v15-detect",
+      "productName": "V15 Detect",
+      "brandName": "Dyson",
+      "playbackId": "lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc",
+      "videoUrl": "https://stream.mux.com/lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc.m3u8",
+      "posterUrl": "https://image.mux.com/lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Hannah B.",
+      "reviewerName": "Hannah",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Hannah B. Reviews Dyson V15 Detect"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Dyson V15 Detect Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Hannah B.'s video review of the Dyson V15 Detect."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Hannah thinks",
+          "text": "I'm testing the V15 Detect for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000306",
+      "categorySlug": "home-kitchen",
+      "brandSlug": "dyson",
+      "productSlug": "purifier-cool",
+      "productName": "Purifier Cool",
+      "brandName": "Dyson",
+      "playbackId": "KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU",
+      "videoUrl": "https://stream.mux.com/KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU.m3u8",
+      "posterUrl": "https://image.mux.com/KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Oliver S.",
+      "reviewerName": "Oliver",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Oliver S. Reviews Dyson Purifier Cool"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Dyson Purifier Cool Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Oliver S.'s video review of the Dyson Purifier Cool."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Oliver thinks",
+          "text": "I'm testing the Purifier Cool for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000307",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "garmin",
+      "productSlug": "fenix-7",
+      "productName": "Fenix 7",
+      "brandName": "Garmin",
+      "playbackId": "LStVC00kbhMGnPO5Zd4z54V63sYprmu5uvr8b29wefNU",
+      "videoUrl": "https://stream.mux.com/LStVC00kbhMGnPO5Zd4z54V63sYprmu5uvr8b29wefNU.m3u8",
+      "posterUrl": "https://image.mux.com/LStVC00kbhMGnPO5Zd4z54V63sYprmu5uvr8b29wefNU/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/LStVC00kbhMGnPO5Zd4z54V63sYprmu5uvr8b29wefNU/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Ryan C.",
+      "reviewerName": "Ryan",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Ryan C. Reviews Garmin Fenix 7"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Garmin Fenix 7 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Ryan C.'s video review of the Garmin Fenix 7."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Ryan thinks",
+          "text": "I'm testing the Fenix 7 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000308",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "garmin",
+      "productSlug": "forerunner-965",
+      "productName": "Forerunner 965",
+      "brandName": "Garmin",
+      "playbackId": "WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE",
+      "videoUrl": "https://stream.mux.com/WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE.m3u8",
+      "posterUrl": "https://image.mux.com/WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Mia T.",
+      "reviewerName": "Mia",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Mia T. Reviews Garmin Forerunner 965"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Garmin Forerunner 965 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Mia T.'s video review of the Garmin Forerunner 965."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Mia thinks",
+          "text": "I'm testing the Forerunner 965 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000309",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "garmin",
+      "productSlug": "venu-3",
+      "productName": "Venu 3",
+      "brandName": "Garmin",
+      "playbackId": "Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU",
+      "videoUrl": "https://stream.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU.m3u8",
+      "posterUrl": "https://image.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Daniel F.",
+      "reviewerName": "Daniel",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Daniel F. Reviews Garmin Venu 3"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Garmin Venu 3 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Daniel F.'s video review of the Garmin Venu 3."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Daniel thinks",
+          "text": "I'm testing the Venu 3 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100000310",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "canon",
+      "productSlug": "eos-r6-mark-ii",
+      "productName": "EOS R6 Mark II",
+      "brandName": "Canon",
+      "playbackId": "R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI",
+      "videoUrl": "https://stream.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI.m3u8",
+      "posterUrl": "https://image.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Sophie L.",
+      "reviewerName": "Sophie",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Sophie L. Reviews Canon EOS R6 Mark II"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Canon EOS R6 Mark II Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Sophie L.'s video review of the Canon EOS R6 Mark II."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Sophie thinks",
+          "text": "I'm testing the EOS R6 Mark II for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001182",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "samsung",
+      "productSlug": "hub-product-6",
+      "productName": "Samsung Product 6",
+      "brandName": "Samsung",
+      "playbackId": "Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU",
+      "videoUrl": "https://stream.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU.m3u8",
+      "posterUrl": "https://image.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Oliver S.",
+      "reviewerName": "Oliver",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Oliver S. Reviews Samsung Product 6"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Samsung Samsung Product 6 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Oliver S.'s video review of the Samsung Product 6."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Oliver thinks",
+          "text": "I'm testing the Samsung Product 6 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001183",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "philips",
+      "productSlug": "hub-product-5",
+      "productName": "Philips Product 5",
+      "brandName": "Philips",
+      "playbackId": "WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE",
+      "videoUrl": "https://stream.mux.com/WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE.m3u8",
+      "posterUrl": "https://image.mux.com/WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Hannah B.",
+      "reviewerName": "Hannah",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Hannah B. Reviews Philips Product 5"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Philips Philips Product 5 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Hannah B.'s video review of the Philips Product 5."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Hannah thinks",
+          "text": "I'm testing the Philips Product 5 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001184",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "philips",
+      "productSlug": "hub-product-6",
+      "productName": "Philips Product 6",
+      "brandName": "Philips",
+      "playbackId": "4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g",
+      "videoUrl": "https://stream.mux.com/4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g.m3u8",
+      "posterUrl": "https://image.mux.com/4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Oliver S.",
+      "reviewerName": "Oliver",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Oliver S. Reviews Philips Product 6"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Philips Philips Product 6 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Oliver S.'s video review of the Philips Product 6."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Oliver thinks",
+          "text": "I'm testing the Philips Product 6 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001185",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "sony",
+      "productSlug": "hub-product-5",
+      "productName": "Sony Product 5",
+      "brandName": "Sony",
+      "playbackId": "q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84",
+      "videoUrl": "https://stream.mux.com/q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84.m3u8",
+      "posterUrl": "https://image.mux.com/q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Hannah B.",
+      "reviewerName": "Hannah",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Hannah B. Reviews Sony Product 5"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Sony Sony Product 5 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Hannah B.'s video review of the Sony Product 5."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Hannah thinks",
+          "text": "I'm testing the Sony Product 5 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001186",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "sony",
+      "productSlug": "hub-product-6",
+      "productName": "Sony Product 6",
+      "brandName": "Sony",
+      "playbackId": "KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU",
+      "videoUrl": "https://stream.mux.com/KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU.m3u8",
+      "posterUrl": "https://image.mux.com/KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Oliver S.",
+      "reviewerName": "Oliver",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Oliver S. Reviews Sony Product 6"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Sony Sony Product 6 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Oliver S.'s video review of the Sony Product 6."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Oliver thinks",
+          "text": "I'm testing the Sony Product 6 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001187",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "dyson",
+      "productSlug": "hub-product-4",
+      "productName": "Dyson Product 4",
+      "brandName": "Dyson",
+      "playbackId": "lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc",
+      "videoUrl": "https://stream.mux.com/lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc.m3u8",
+      "posterUrl": "https://image.mux.com/lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Lisa K.",
+      "reviewerName": "Lisa",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Lisa K. Reviews Dyson Product 4"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Dyson Dyson Product 4 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Lisa K.'s video review of the Dyson Product 4."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Lisa thinks",
+          "text": "I'm testing the Dyson Product 4 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001188",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "dyson",
+      "productSlug": "hub-product-5",
+      "productName": "Dyson Product 5",
+      "brandName": "Dyson",
+      "playbackId": "LStVC00kbhMGnPO5Zd4z54V63sYprmu5uvr8b29wefNU",
+      "videoUrl": "https://stream.mux.com/LStVC00kbhMGnPO5Zd4z54V63sYprmu5uvr8b29wefNU.m3u8",
+      "posterUrl": "https://image.mux.com/LStVC00kbhMGnPO5Zd4z54V63sYprmu5uvr8b29wefNU/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/LStVC00kbhMGnPO5Zd4z54V63sYprmu5uvr8b29wefNU/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Hannah B.",
+      "reviewerName": "Hannah",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Hannah B. Reviews Dyson Product 5"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Dyson Dyson Product 5 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Hannah B.'s video review of the Dyson Product 5."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Hannah thinks",
+          "text": "I'm testing the Dyson Product 5 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001189",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "dyson",
+      "productSlug": "hub-product-6",
+      "productName": "Dyson Product 6",
+      "brandName": "Dyson",
+      "playbackId": "012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs",
+      "videoUrl": "https://stream.mux.com/012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs.m3u8",
+      "posterUrl": "https://image.mux.com/012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Oliver S.",
+      "reviewerName": "Oliver",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Oliver S. Reviews Dyson Product 6"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Dyson Dyson Product 6 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Oliver S.'s video review of the Dyson Product 6."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Oliver thinks",
+          "text": "I'm testing the Dyson Product 6 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001190",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "garmin",
+      "productSlug": "hub-product-4",
+      "productName": "Garmin Product 4",
+      "brandName": "Garmin",
+      "playbackId": "R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI",
+      "videoUrl": "https://stream.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI.m3u8",
+      "posterUrl": "https://image.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Lisa K.",
+      "reviewerName": "Lisa",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Lisa K. Reviews Garmin Product 4"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Garmin Garmin Product 4 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Lisa K.'s video review of the Garmin Product 4."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Lisa thinks",
+          "text": "I'm testing the Garmin Product 4 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001191",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "garmin",
+      "productSlug": "hub-product-5",
+      "productName": "Garmin Product 5",
+      "brandName": "Garmin",
+      "playbackId": "Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU",
+      "videoUrl": "https://stream.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU.m3u8",
+      "posterUrl": "https://image.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Hannah B.",
+      "reviewerName": "Hannah",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Hannah B. Reviews Garmin Product 5"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Garmin Garmin Product 5 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Hannah B.'s video review of the Garmin Product 5."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Hannah thinks",
+          "text": "I'm testing the Garmin Product 5 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001192",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "garmin",
+      "productSlug": "hub-product-6",
+      "productName": "Garmin Product 6",
+      "brandName": "Garmin",
+      "playbackId": "WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE",
+      "videoUrl": "https://stream.mux.com/WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE.m3u8",
+      "posterUrl": "https://image.mux.com/WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/WFVzFj013QPrwBJNMgBrxyehw6RXeBFBItor02eNMEmlE/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Oliver S.",
+      "reviewerName": "Oliver",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Oliver S. Reviews Garmin Product 6"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Garmin Garmin Product 6 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Oliver S.'s video review of the Garmin Product 6."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Oliver thinks",
+          "text": "I'm testing the Garmin Product 6 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001193",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "canon",
+      "productSlug": "hub-product-3",
+      "productName": "Canon Product 3",
+      "brandName": "Canon",
+      "playbackId": "4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g",
+      "videoUrl": "https://stream.mux.com/4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g.m3u8",
+      "posterUrl": "https://image.mux.com/4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/4YQmDrdBHR2N008Bbkv01G5PCyrZ7wVmUW902EeK6IPr4g/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Jake R.",
+      "reviewerName": "Jake",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Jake R. Reviews Canon Product 3"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Canon Canon Product 3 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Jake R.'s video review of the Canon Product 3."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Jake thinks",
+          "text": "I'm testing the Canon Product 3 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001194",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "canon",
+      "productSlug": "hub-product-4",
+      "productName": "Canon Product 4",
+      "brandName": "Canon",
+      "playbackId": "q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84",
+      "videoUrl": "https://stream.mux.com/q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84.m3u8",
+      "posterUrl": "https://image.mux.com/q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/q2EyUPCM0000k3QbfjLVTmEL5N6PDL701aovfWx7QByv84/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Lisa K.",
+      "reviewerName": "Lisa",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Lisa K. Reviews Canon Product 4"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Canon Canon Product 4 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Lisa K.'s video review of the Canon Product 4."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Lisa thinks",
+          "text": "I'm testing the Canon Product 4 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001195",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "canon",
+      "productSlug": "hub-product-5",
+      "productName": "Canon Product 5",
+      "brandName": "Canon",
+      "playbackId": "KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU",
+      "videoUrl": "https://stream.mux.com/KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU.m3u8",
+      "posterUrl": "https://image.mux.com/KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/KNhrqwxdxpvYIJZ5Y6SnImb00knWjkjG15uYBfrmZlcU/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 4,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Hannah B.",
+      "reviewerName": "Hannah",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Hannah B. Reviews Canon Product 5"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Canon Canon Product 5 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Hannah B.'s video review of the Canon Product 5."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Hannah thinks",
+          "text": "I'm testing the Canon Product 5 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001196",
+      "categorySlug": "electronics-gadgets",
+      "brandSlug": "canon",
+      "productSlug": "hub-product-6",
+      "productName": "Canon Product 6",
+      "brandName": "Canon",
+      "playbackId": "lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc",
+      "videoUrl": "https://stream.mux.com/lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc.m3u8",
+      "posterUrl": "https://image.mux.com/lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/lDKiDQJ69SAkpP5ib7tow401y2hhETjTshyvQPWhyhsc/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Oliver S.",
+      "reviewerName": "Oliver",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Oliver S. Reviews Canon Product 6"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Canon Canon Product 6 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Oliver S.'s video review of the Canon Product 6."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Oliver thinks",
+          "text": "I'm testing the Canon Product 6 for expeerly and sharing how it performs in everyday use."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001197",
+      "categorySlug": "home-kitchen",
+      "brandSlug": "miele",
+      "productSlug": "hub-product-hub-7",
+      "productName": "Miele Product hub-7",
+      "brandName": "Miele",
+      "playbackId": "012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs",
+      "videoUrl": "https://stream.mux.com/012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs.m3u8",
+      "posterUrl": "https://image.mux.com/012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/012G5ZjE5kfztdEcgA1ALgA77BQGwr012Mjk63Hx902Tzs/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Patricia G.",
+      "reviewerName": "Patricia",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Patricia G. Reviews Miele Product hub-7"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Miele Miele Product hub-7 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Patricia G.'s video review of the Miele Product hub-7."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Patricia thinks",
+          "text": "I'm testing the Miele Product hub-7 for expeerly."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001198",
+      "categorySlug": "home-kitchen",
+      "brandSlug": "miele",
+      "productSlug": "hub-product-hub-8",
+      "productName": "Miele Product hub-8",
+      "brandName": "Miele",
+      "playbackId": "R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI",
+      "videoUrl": "https://stream.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI.m3u8",
+      "posterUrl": "https://image.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/R3VzswMI2OY9I9aG6h01EzGT02Xg01kowX02RE02Yuz9PsDI/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Robert K.",
+      "reviewerName": "Robert",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Robert K. Reviews Miele Product hub-8"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Miele Miele Product hub-8 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Robert K.'s video review of the Miele Product hub-8."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Robert thinks",
+          "text": "I'm testing the Miele Product hub-8 for expeerly."
+        }
+      },
+      "faqs": []
+    },
+    {
+      "publicReviewId": "100001199",
+      "categorySlug": "home-kitchen",
+      "brandSlug": "samsung",
+      "productSlug": "hub-product-hub-7",
+      "productName": "Samsung Product hub-7",
+      "brandName": "Samsung",
+      "playbackId": "Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU",
+      "videoUrl": "https://stream.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU.m3u8",
+      "posterUrl": "https://image.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU/thumbnail.png",
+      "reviewerAvatarUrl": "https://image.mux.com/Uay5TyYaKWbf11hj01DzzC86aI9ACb2XbgUfa3LV7jVU/thumbnail.jpg?width=200&height=200&fit_mode=smartcrop",
+      "starRating": 5,
+      "resolution": "9/16",
+      "published": true,
+      "reviewerDisplayName": "Wei L.",
+      "reviewerName": "Wei",
+      "videoTitle": {
+        "en": {
+          "title": "Testimonial: Wei L. Reviews Samsung Product hub-7"
+        }
+      },
+      "pageTitle": {
+        "en": {
+          "title": "Samsung Samsung Product hub-7 Video Review"
+        }
+      },
+      "metaDescription": {
+        "en": {
+          "desc": "Watch Wei L.'s video review of the Samsung Product hub-7."
+        }
+      },
+      "summary": {},
+      "transcript": {
+        "en": {
+          "title": "What Wei thinks",
+          "text": "I'm testing the Samsung Product hub-7 for expeerly."
+        }
+      },
+      "faqs": []
+    }
+  ],
+  "reviewOpportunities": [
+    {
+      "id": "dyson-v15",
+      "brandSlug": "dyson",
+      "brandName": "Dyson",
+      "productSlug": "v15-detect",
+      "productName": "V15 Detect",
+      "imageSrc": "https://8c5b537fbba62e8aa25fb9516a59d494.cdn.bubble.io/f1738241052241x369644496249543300/394167-01.png"
+    },
+    {
+      "id": "dyson-airwrap",
+      "brandSlug": "dyson",
+      "brandName": "Dyson",
+      "productSlug": "airwrap-complete",
+      "productName": "Airwrap Complete",
+      "imageSrc": "https://8c5b537fbba62e8aa25fb9516a59d494.cdn.bubble.io/f1738241456027x868329800101995400/Airwrap_Lite_PDP_Transparent_PBackground_800x864.jpeg"
+    },
+    {
+      "id": "dyson-purifier",
+      "brandSlug": "dyson",
+      "brandName": "Dyson",
+      "productSlug": "purifier-cool",
+      "productName": "Purifier Cool",
+      "imageSrc": "https://8c5b537fbba62e8aa25fb9516a59d494.cdn.bubble.io/f1738241987609x860123775452519700/11476732.jpg"
+    },
+    {
+      "id": "bamix-deluxe",
+      "brandSlug": "bamix",
+      "brandName": "Bamix",
+      "productSlug": "deluxe-m200",
+      "productName": "Deluxe M200",
+      "imageSrc": "https://8c5b537fbba62e8aa25fb9516a59d494.cdn.bubble.io/f1715071463259x220127872892288860/Swissline_anthra.webp"
+    },
+    {
+      "id": "bamix-swissline",
+      "brandSlug": "bamix",
+      "brandName": "Bamix",
+      "productSlug": "swissline",
+      "productName": "SwissLine",
+      "imageSrc": "https://8c5b537fbba62e8aa25fb9516a59d494.cdn.bubble.io/f1715071463259x220127872892288860/Swissline_anthra.webp"
+    },
+    {
+      "id": "bamix-mono",
+      "brandSlug": "bamix",
+      "brandName": "Bamix",
+      "productSlug": "mono-350",
+      "productName": "Mono 350",
+      "imageSrc": "https://8c5b537fbba62e8aa25fb9516a59d494.cdn.bubble.io/f1732634884664x494542022611401000/Bamix_1051003_mood.webp"
+    },
+    {
+      "id": "canon-r50",
+      "brandSlug": "canon",
+      "brandName": "Canon",
+      "productSlug": "eos-r50",
+      "productName": "EOS R50",
+      "imageSrc": "https://8c5b537fbba62e8aa25fb9516a59d494.cdn.bubble.io/f1755245158211x894938900015258100/eos-r50-v_hotspot_01_9df423bcf55546b081cd4494d67bd701.webp"
+    },
+    {
+      "id": "canon-r6",
+      "brandSlug": "canon",
+      "brandName": "Canon",
+      "productSlug": "eos-r6-mark-ii",
+      "productName": "EOS R6 Mark II",
+      "imageSrc": "https://8c5b537fbba62e8aa25fb9516a59d494.cdn.bubble.io/f1755245158211x894938900015258100/eos-r50-v_hotspot_01_9df423bcf55546b081cd4494d67bd701.webp"
+    },
+    {
+      "id": "canon-powershot",
+      "brandSlug": "canon",
+      "brandName": "Canon",
+      "productSlug": "powershot-v10",
+      "productName": "PowerShot V10",
+      "imageSrc": "https://8c5b537fbba62e8aa25fb9516a59d494.cdn.bubble.io/f1755243817354x623661478303928400/selphy-qx20_hero_5a56aa6023314a769f66475ada7e4bad.webp"
+    },
+    {
+      "id": "miele-scout",
+      "brandSlug": "miele",
+      "brandName": "Miele",
+      "productSlug": "scout-rx2",
+      "productName": "Scout RX2",
+      "imageSrc": "https://8c5b537fbba62e8aa25fb9516a59d494.cdn.bubble.io/f1738237052088x849623767977699000/e005e4d9-d829-4595-846e-89dd0e7788bb.avif"
+    },
+    {
+      "id": "miele-w1",
+      "brandSlug": "miele",
+      "brandName": "Miele",
+      "productSlug": "w1-washing-machine",
+      "productName": "W1 Washing Machine",
+      "imageSrc": "https://8c5b537fbba62e8aa25fb9516a59d494.cdn.bubble.io/f1738237052088x849623767977699000/e005e4d9-d829-4595-846e-89dd0e7788bb.avif"
+    },
+    {
+      "id": "miele-food-processor",
+      "brandSlug": "miele",
+      "brandName": "Miele",
+      "productSlug": "smart-food-processor",
+      "productName": "Smart Food Processor",
+      "imageSrc": "https://8c5b537fbba62e8aa25fb9516a59d494.cdn.bubble.io/f1738237052088x849623767977699000/e005e4d9-d829-4595-846e-89dd0e7788bb.avif"
+    },
+    {
+      "id": "samsung-galaxy-s24",
+      "brandSlug": "samsung",
+      "brandName": "Samsung",
+      "productSlug": "galaxy-s24-ultra",
+      "productName": "Galaxy S24 Ultra",
+      "imageSrc": "https://8c5b537fbba62e8aa25fb9516a59d494.cdn.bubble.io/f1755245158211x894938900015258100/eos-r50-v_hotspot_01_9df423bcf55546b081cd4494d67bd701.webp"
+    },
+    {
+      "id": "samsung-frame-tv",
+      "brandSlug": "samsung",
+      "brandName": "Samsung",
+      "productSlug": "the-frame-tv",
+      "productName": "The Frame TV",
+      "imageSrc": "https://8c5b537fbba62e8aa25fb9516a59d494.cdn.bubble.io/f1738241987609x860123775452519700/11476732.jpg"
+    },
+    {
+      "id": "philips-airfryer",
+      "brandSlug": "philips",
+      "brandName": "Philips",
+      "productSlug": "airfryer-xxl",
+      "productName": "Airfryer XXL",
+      "imageSrc": "https://8c5b537fbba62e8aa25fb9516a59d494.cdn.bubble.io/f1738241052241x369644496249543300/394167-01.png"
+    },
+    {
+      "id": "philips-sonicare",
+      "brandSlug": "philips",
+      "brandName": "Philips",
+      "productSlug": "sonicare-diamondclean",
+      "productName": "Sonicare DiamondClean",
+      "imageSrc": "https://8c5b537fbba62e8aa25fb9516a59d494.cdn.bubble.io/f1715071463259x220127872892288860/Swissline_anthra.webp"
+    }
+  ],
+  "reviewerProfiles": {
+    "Alex": {
+      "city": "Paris",
+      "bio": {
+        "en": {
+          "text": "Paris-based reviewer with an eye for style—honest takes on fashion, lifestyle, and everyday essentials."
+        }
+      }
+    },
+    "Carlos": {
+      "city": "Madrid",
+      "bio": {
+        "en": {
+          "text": "Madrid home cook who tests kitchen gear for real meals and shares what actually earns a spot on the counter."
+        }
+      }
+    },
+    "Chris": {
+      "city": "Dublin",
+      "bio": {
+        "en": {
+          "text": "Dublin gadget lover who explains tech in plain language for shoppers who want clarity, not hype."
+        }
+      }
+    },
+    "Daniel": {
+      "city": "Rome",
+      "bio": {
+        "en": {
+          "text": "Rome-based design fan who values craftsmanship and shares thoughtful reviews of products built to last."
+        }
+      }
+    },
+    "Emma": {
+      "city": "Amsterdam",
+      "bio": {
+        "en": {
+          "text": "Amsterdam urbanite focused on sustainable living—testing gear that works in compact, modern homes."
+        }
+      }
+    },
+    "Hannah": {
+      "city": "Munich",
+      "bio": {
+        "en": {
+          "text": "Munich parent who reviews family-friendly tech with a busy household and real routines in mind."
+        }
+      }
+    },
+    "Jake": {
+      "city": "Zurich",
+      "bio": {
+        "en": {
+          "text": "Zurich photographer who cares about build quality, optics, and how gear performs outside the studio."
+        }
+      }
+    },
+    "James": {
+      "city": "London",
+      "bio": {
+        "en": {
+          "text": "London creator and early adopter sharing hands-on takes on filming tools and everyday creative gear."
+        }
+      }
+    },
+    "Jordan": {
+      "city": "Barcelona",
+      "bio": {
+        "en": {
+          "text": "Barcelona traveler who tests portability and durability—the kind of reviews you pack with you."
+        }
+      }
+    },
+    "Klaudia": {
+      "city": "Warsaw",
+      "bio": {
+        "en": {
+          "text": "Warsaw home organizer who loves appliances that simplify cleaning and keep everyday life running smoothly."
+        }
+      }
+    },
+    "Kristina": {
+      "city": "Stockholm",
+      "bio": {
+        "en": {
+          "text": "Stockholm reviewer drawn to quiet, efficient products with clean design and Nordic practicality."
+        }
+      }
+    },
+    "Lisa": {
+      "city": "Hamburg",
+      "bio": {
+        "en": {
+          "text": "Hamburg beauty and lifestyle reviewer focused on what genuinely holds up in daily routines."
+        }
+      }
+    },
+    "Marco": {
+      "city": "Milan",
+      "bio": {
+        "en": {
+          "text": "Milan style-conscious tester who pairs design taste with honest notes on real-world performance."
+        }
+      }
+    },
+    "Maurice": {
+      "city": "Brussels",
+      "bio": {
+        "en": {
+          "text": "Brussels audiophile and tech reviewer who notices the details most shoppers never think to check."
+        }
+      }
+    },
+    "Mia": {
+      "city": "Copenhagen",
+      "bio": {
+        "en": {
+          "text": "Copenhagen wellness enthusiast who tests personal care and health products with a calm, thoughtful lens."
+        }
+      }
+    },
+    "Nicola": {
+      "city": "Lisbon",
+      "bio": {
+        "en": {
+          "text": "Lisbon-based reviewer who brings warmth and honesty to every video—relatable, upbeat, and direct."
+        }
+      }
+    },
+    "Nicos": {
+      "city": "Athens",
+      "bio": {
+        "en": {
+          "text": "Athens outdoor lover who puts cameras and gear through hikes, trips, and unpredictable weather."
+        }
+      }
+    },
+    "Nina": {
+      "city": "Vienna",
+      "bio": {
+        "en": {
+          "text": "Vienna minimalist who reviews everyday essentials with a calm, considered tone and no clutter."
+        }
+      }
+    },
+    "Oliver": {
+      "city": "Berlin",
+      "bio": {
+        "en": {
+          "text": "Berlin smart-home enthusiast sharing honest, everyday takes from the products he actually lives with."
+        }
+      }
+    },
+    "Patricia": {
+      "city": "Prague",
+      "bio": {
+        "en": {
+          "text": "Prague homebody who tests comfort products for cozy spaces and slower, intentional living."
+        }
+      }
+    },
+    "Priya": {
+      "city": "Mumbai",
+      "bio": {
+        "en": {
+          "text": "Mumbai professional who reviews gadgets that fit a fast-paced life without sacrificing quality."
+        }
+      }
+    },
+    "Raphael": {
+      "city": "Geneva",
+      "bio": {
+        "en": {
+          "text": "Geneva precision-minded reviewer who values reliability, fit, and finish in tools and tech."
+        }
+      }
+    },
+    "Robert": {
+      "city": "Edinburgh",
+      "bio": {
+        "en": {
+          "text": "Edinburgh pragmatist who tests products in damp weather and tells you what survives real life."
+        }
+      }
+    },
+    "Ryan": {
+      "city": "Boston",
+      "bio": {
+        "en": {
+          "text": "Boston reviewer who cares about value, durability, and whether a product is worth the shelf space."
+        }
+      }
+    },
+    "Sarah": {
+      "city": "Manchester",
+      "bio": {
+        "en": {
+          "text": "Manchester cleaning obsessive who puts vacuums and home appliances through genuinely tough tests."
+        }
+      }
+    },
+    "Sophie": {
+      "city": "Lyon",
+      "bio": {
+        "en": {
+          "text": "Lyon home chef who reviews kitchen tools for ease, results, and whether they earn daily use."
+        }
+      }
+    },
+    "Tom": {
+      "city": "Cologne",
+      "bio": {
+        "en": {
+          "text": "Cologne fitness enthusiast who tests wearables and outdoor gear on real runs and weekend adventures."
+        }
+      }
+    },
+    "Wei": {
+      "city": "Singapore",
+      "bio": {
+        "en": {
+          "text": "Singapore reviewer who judges products for compact living, humid climates, and everyday practicality."
+        }
+      }
+    }
+  }
+}

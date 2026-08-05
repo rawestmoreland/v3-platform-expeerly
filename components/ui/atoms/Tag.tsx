@@ -27,7 +27,7 @@ export function Tag({
   return (
     <span
       className={cn(
-        "inline-flex h-7 items-center justify-center gap-1 rounded-lg bg-surface-hover px-3 py-1 transition-colors",
+        "inline-flex h-[32px] items-center justify-center gap-1 rounded-lg bg-surface-hover px-4 transition-colors",
         "text-body-extra-small text-foreground-title-subtle",
         !disabled && "hover:bg-background hover:text-foreground-title",
         disabled && "opacity-60",

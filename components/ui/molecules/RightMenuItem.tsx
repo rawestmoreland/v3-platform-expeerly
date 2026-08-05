@@ -17,6 +17,7 @@ export interface RightMenuItemProps {
   nested?: boolean;
   submenu?: readonly RightMenuSubmenuItem[];
   defaultSubmenuOpen?: boolean;
+  submenuIndicator?: "down" | "right";
 }
 
 export function RightMenuItem({
@@ -26,6 +27,7 @@ export function RightMenuItem({
   nested = false,
   submenu,
   defaultSubmenuOpen = false,
+  submenuIndicator = "down",
 }: RightMenuItemProps) {
   const hasSubmenu = Boolean(submenu?.length);
   const [isSubmenuOpen, setIsSubmenuOpen] = useState(defaultSubmenuOpen);
@@ -55,11 +57,12 @@ export function RightMenuItem({
       {hasSubmenu ? (
         <span className="shrink-0">
           <Icon
-            name="chevron-down"
+            name={submenuIndicator === "right" ? "chevron-right" : "chevron-down"}
             size="md"
             className={cn(
               "text-foreground-title transition-transform duration-200",
-              isSubmenuOpen && "rotate-180",
+              submenuIndicator === "down" && isSubmenuOpen && "rotate-180",
+              submenuIndicator === "right" && isSubmenuOpen && "rotate-90",
             )}
           />
         </span>

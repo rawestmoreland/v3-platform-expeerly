@@ -1,0 +1,674 @@
+{
+  "ui": {
+    "breadcrumbs": {
+      "ariaLabel": "Brotkrumen-Navigation"
+    },
+    "dateField": {
+      "openCalendar": "Kalender öffnen",
+      "placeholder": "JJJJ-MM-TT"
+    },
+    "fileUpload": {
+      "bytes": {
+        "kilobytes": "{size} KB",
+        "megabytes": "{size} MB"
+      },
+      "uploading": "Wird hochgeladen",
+      "prompt": "Tippen zum Hochladen oder Datei hierher ziehen",
+      "selectMultiple": "Eine oder mehrere Dateien auswählen.",
+      "selectSingle": "Eine Datei auswählen.",
+      "accepted": "Akzeptiert: {accept}",
+      "maxSize": "Max. Größe: {maxSize}",
+      "clear": "Löschen",
+      "errors": {
+        "invalidType": "{name} ist kein akzeptierter Dateityp.",
+        "oversized": "{name} ist größer als {maxSize}."
+      }
+    },
+    "progress": {
+      "ariaLabel": "Fortschritt"
+    },
+    "pagination": {
+      "ariaLabel": "Seitennummerierung",
+      "previousPage": "Vorherige Seite",
+      "nextPage": "Nächste Seite",
+      "page": "Seite {n}"
+    },
+    "calendar": {
+      "previousMonth": "Vorheriger Monat",
+      "nextMonth": "Nächster Monat",
+      "weekdays": [
+        "So",
+        "Mo",
+        "Di",
+        "Mi",
+        "Do",
+        "Fr",
+        "Sa"
+      ]
+    },
+    "dialog": {
+      "close": "Dialog schließen"
+    },
+    "alert": {
+      "close": "Hinweis schließen"
+    },
+    "avatarGroup": {
+      "ariaLabel": "Avatar-Gruppe"
+    },
+    "productGroup": {
+      "ariaLabel": "Produktgruppe",
+      "overflowCount": "+{count}"
+    },
+    "tag": {
+      "removeAriaLabel": "{label} entfernen"
+    },
+    "starRating": {
+      "valueLabel": "{value} of {max} stars",
+      "unset": "—"
+    }
+  },
+  "app": {
+    "layout": {
+      "title": "Expeerly",
+      "description": "Authentische Video-Produktreviews"
+    },
+    "home": {
+      "title": "Expeerly",
+      "designSystemLink": "Designsystem",
+      "logoAlt": "Expeerly-Logo"
+    },
+    "menuButton": {
+      "open": "Menü öffnen",
+      "close": "Menü schließen"
+    },
+    "auth": {
+      "signUpLabel": "Registrieren",
+      "signUpAriaLabel": "Bei Expeerly registrieren",
+      "loginLabel": "Anmelden",
+      "loginAriaLabel": "Bei deinem Expeerly-Konto anmelden",
+      "signIn": {
+        "title": "Anmelden",
+        "metaTitle": "Anmelden",
+        "metaDescription": "Melde dich bei deinem Expeerly-Konto an.",
+        "description": "Melde dich an, um Marke, Reviews und Analytics zu verwalten.",
+        "emailLabel": "E-Mail",
+        "emailPlaceholder": "du@unternehmen.com",
+        "passwordLabel": "Passwort",
+        "passwordPlaceholder": "Passwort eingeben",
+        "forgotPassword": "Passwort vergessen?",
+        "submit": "Anmelden",
+        "noAccount": "Noch kein Konto?",
+        "registerLink": "Hier registrieren"
+      },
+      "signUp": {
+        "title": "Registrieren",
+        "metaTitle": "Registrieren",
+        "metaDescription": "Erstelle dein Expeerly-Konto.",
+        "description": "Werde Teil von Expeerly, um authentische Video-Reviews zu teilen oder zu entdecken.",
+        "roleLabel": "Ich registriere mich als",
+        "roleCustomer": "Kunde",
+        "roleReviewer": "Reviewer",
+        "submit": "Weiter",
+        "haveAccount": "Bereits ein Konto?",
+        "logInLink": "Anmelden",
+        "reviewerCredentials": {
+          "title": "Konto erstellen",
+          "description": "Gib deine E-Mail-Adresse ein und wähle ein Passwort.",
+          "passwordLabel": "Passwort",
+          "passwordPlaceholder": "Passwort erstellen",
+          "confirmPasswordLabel": "Passwort bestätigen",
+          "confirmPasswordPlaceholder": "Passwort erneut eingeben",
+          "passwordMismatch": "Die Passwörter stimmen nicht überein.",
+          "submit": "Registrieren"
+        },
+        "verify": {
+          "title": "E-Mail bestätigen",
+          "description": "Gib den 6-stelligen Code ein, den wir an {email} gesendet haben.",
+          "codeLabel": "Bestätigungscode",
+          "codePlaceholder": "000000",
+          "invalidCode": "Bitte einen 6-stelligen Code eingeben.",
+          "submit": "Bestätigen",
+          "resend": "Code erneut senden",
+          "sending": "Code wird gesendet…",
+          "changeEmail": "Andere E-Mail verwenden"
+        },
+        "checkEmail": {
+          "title": "E-Mail prüfen",
+          "description": "Wir haben einen Bestätigungslink an {email} gesendet. Öffne ihn, um dein Konto zu aktivieren, und melde dich danach an.",
+          "submit": "Zurück zum Login",
+          "resend": "Bestätigungs-E-Mail erneut senden",
+          "sending": "Wird gesendet…",
+          "changeEmail": "Andere E-Mail verwenden",
+          "resent": "Bestätigungs-E-Mail wurde erneut gesendet."
+        }
+      },
+      "errors": {
+        "generic": "Etwas ist schiefgelaufen. Bitte erneut versuchen.",
+        "invalidCredentials": "Ungültige E-Mail oder Passwort.",
+        "emailNotConfirmed": "Bestätige deine E-Mail, bevor du dich anmeldest.",
+        "emailTaken": "Ein Konto mit dieser E-Mail existiert bereits.",
+        "weakPassword": "Passwort zu schwach. Mindestens 6 Zeichen."
+      }
+    },
+    "reviewerMyReviews": {
+      "metaTitle": "Meine Reviews",
+      "metaDescription": "Deine selbst eingereichten und Kampagnen-Video-Reviews.",
+      "title": "Meine Reviews",
+      "description": "Community submissions you handed in, plus self-submitted and campaign reviews.",
+      "emptySection": "In diesem Bereich gibt es noch keine Reviews.",
+      "selfSubmitted": {
+        "title": "Selbst eingereichte Reviews",
+        "description": "Produkte, die du gekauft und selbst bewertet hast — 20 $ pro Freigabe plus View-Performance.",
+        "listAriaLabel": "Selbst eingereichte Reviews"
+      },
+      "campaign": {
+        "title": "Kampagnen-Reviews",
+        "description": "Reviews, die du im Rahmen einer Markenkampagne eingereicht hast.",
+        "listAriaLabel": "Kampagnen-Reviews"
+      },
+      "campaigns": {
+        "mieleCordlessLaunch": "Miele Cordless Launch",
+        "mieleHomeKitchen": "Miele Home & Kitchen"
+      },
+      "communitySubmitted": {
+        "title": "Community submissions",
+        "description": "Reviews you handed in with EAN, receipt, and video — awaiting moderation in this prototype.",
+        "listAriaLabel": "Community review submissions",
+        "cta": "Submit a community review",
+        "eanMeta": "EAN {ean}",
+        "filesMeta": "Receipt: {receipt} · Video: {video}",
+        "statusInReview": "In review"
+      }
+    },
+    "reviewerOnboarding": {
+      "metaTitle": "Reviewer home",
+      "metaDescription": "Your Expeerly reviewer home — submit community reviews or join brand campaigns.",
+      "title": "Willkommen, Reviewer",
+      "description": "Dein Konto ist bestätigt. Wähle, wie du mit Expeerly verdienen möchtest.",
+      "submitReview": {
+        "title": "Produktreview einreichen",
+        "description": "Reiche eine Review zu einem Produkt ein, das du gekauft hast.",
+        "baseReward": "20 $ pro freigegebener Review",
+        "viewPerformance": "View-Performance: 10 $ pro 1.000 Impressionen"
+      },
+      "campaign": {
+        "title": "An einer Kampagne teilnehmen",
+        "description": "Nimm an Markenkampagnen mit Briefing, Zeitplan und kampagnenspezifischen Rewards teil."
+      },
+      "campaignListTitle": "Participate in a running campaign",
+      "campaignListDescription": "Join brand campaigns with a set brief, timeline, and campaign-specific rewards.",
+      "selfSubmitTitle": "Or submit your own review"
+    },
+    "reviewerCampaigns": {
+      "metaTitle": "Running campaigns",
+      "metaDescription": "Browse and join brand review campaigns.",
+      "title": "Running campaigns",
+      "description": "Apply to open campaigns or track campaigns you've joined. Each campaign includes a brief, timeline, and reward details.",
+      "listAriaLabel": "Available review campaigns",
+      "apply": "Apply",
+      "applyAriaLabel": "Apply to {campaign}",
+      "viewDetails": "View details",
+      "viewCampaignAriaLabel": "View {campaign}",
+      "footerNote": "Campaign detail and application flows are prototype placeholders.",
+      "status": {
+        "open": "Open",
+        "applied": "Applied",
+        "closed": "Closed"
+      },
+      "endingSoon": "Ending soon!",
+      "dueToday": "Due Today, {time}",
+      "dueOnDate": "Due {date}",
+      "statusNote": {
+        "waitingForApproval": "Waiting for approval",
+        "applicationsClosed": "Applications closed"
+      },
+      "items": {
+        "mieleCordlessLaunch": {
+          "title": "Miele Cordless Launch",
+          "reward": "CHF 120",
+          "language": "German"
+        },
+        "mieleHomeKitchen": {
+          "title": "Miele Home & Kitchen",
+          "reward": "CHF 80",
+          "language": "German"
+        },
+        "dysonAirwrap": {
+          "title": "Dyson Airwrap Campaign",
+          "reward": "CHF 100",
+          "language": "English"
+        },
+        "philipsAirfryer": {
+          "title": "Philips Airfryer Series",
+          "reward": "CHF 90",
+          "language": "German"
+        },
+        "samsungBespoke": {
+          "title": "Samsung Bespoke Home",
+          "reward": "CHF 110",
+          "language": "English"
+        },
+        "boschPowerTools": {
+          "title": "Bosch Power Tools",
+          "reward": "CHF 95",
+          "language": "German"
+        },
+        "canonMirrorless": {
+          "title": "Canon Mirrorless Creator",
+          "reward": "CHF 130",
+          "language": "English"
+        },
+        "sonyHeadphones": {
+          "title": "Sony Headphones Studio",
+          "reward": "CHF 105",
+          "language": "English"
+        },
+        "garminFitnessWatch": {
+          "title": "Garmin Fitness Watch",
+          "reward": "CHF 115",
+          "language": "German"
+        }
+      },
+      "listHeading": "Open and joined campaigns"
+    },
+    "reviewerDashboard": {
+      "metaSeparator": " · ",
+      "seeAll": "See all",
+      "seeAllCampaignsAriaLabel": "See all running campaigns",
+      "seeAllReviewsAriaLabel": "See all your reviews",
+      "profile": {
+        "greeting": "Hi {name}",
+        "roleLocation": "Reviewer · Zürich, CH"
+      },
+      "stats": {
+        "reviewsLabel": "Reviews",
+        "earnedLabel": "Earned",
+        "earnedValue": "${amount}",
+        "impressionsLabel": "Views"
+      },
+      "submitReview": {
+        "body": "Share your honest video take on any product you own. Earn $20 per approved review · $10 per 1,000 views",
+        "cta": "Submit a review"
+      },
+      "reviews": {
+        "title": "Your reviews",
+        "listAriaLabel": "Your recent reviews",
+        "viewsCount": "{count} views",
+        "viewsThousands": "{count}k views",
+        "timeAgoHours": "{count}h ago",
+        "timeAgoDays": "{count}d ago",
+        "timeAgoWeeks": "{count}w ago",
+        "status": {
+          "live": "Live",
+          "inReview": "In review"
+        },
+        "philips": {
+          "productName": "Philips Sonicare 9900"
+        },
+        "braun": {
+          "productName": "Braun Series 9 Shaver"
+        }
+      }
+    },
+    "stub": {
+      "description": "Dieser Bereich ist im Prototyp noch nicht verfügbar."
+    },
+    "companiesAllReviews": {
+      "metaTitle": "Alle Video-Reviews",
+      "metaDescription": "Community- und Kampagnen-Video-Reviews für deine Marke.",
+      "title": "Alle Video-Reviews",
+      "description": "Community-Reviews von unabhängigen Reviewern und Reviews aus deinen Kampagnen.",
+      "emptySection": "In diesem Bereich gibt es noch keine Reviews.",
+      "community": {
+        "title": "Community-Reviews",
+        "description": "Von Reviewern zu gekauften Produkten eingereicht, ohne Kampagnen-Briefing.",
+        "listAriaLabel": "Community-Reviews"
+      },
+      "campaign": {
+        "title": "Kampagnen-Reviews",
+        "description": "Über deine Review-Kampagnen eingereicht.",
+        "listAriaLabel": "Kampagnen-Reviews"
+      },
+      "campaigns": {
+        "mieleCordlessLaunch": "Miele Cordless Launch",
+        "mieleHomeKitchen": "Miele Home & Kitchen"
+      }
+    },
+    "companiesHome": {
+      "metaTitle": "Unternehmens-Dashboard",
+      "metaDescription": "Video-Reviews, Kampagnen und Marken-Assets verwalten.",
+      "title": "Unternehmens-Dashboard",
+      "description": "Über das Menü verwaltest du Kampagnen, Assets, Analytics und Credits."
+    },
+    "nav": {
+      "ariaLabel": "Hauptnavigation",
+      "dashboard": "Dashboard",
+      "manageBrandAssets": "Marken-Assets & Produkte verwalten",
+      "distributionAnalytics": "Distribution & Analytics",
+      "adminPortal": "Admin-Portal",
+      "accountSettings": "Kontoeinstellungen",
+      "companies": {
+        "seeAllVideoReviews": "Alle Video-Reviews ansehen",
+        "manageReviewCampaigns": "Review-Kampagnen verwalten",
+        "credits": "Credits"
+      },
+      "reviewer": {
+        "myReviews": "Meine Reviews",
+        "runningCampaigns": "Laufende Kampagnen",
+        "home": "Home"
+      },
+      "designSystem": "Designsystem",
+      "designSystemOverview": "Übersicht",
+      "designSystemTypography": "Typografie",
+      "designSystemColor": "Farben",
+      "designSystemStyles": "Stile",
+      "designSystemAccessibility": "Barrierefreiheit",
+      "designSystemComponents": "Komponenten",
+      "logout": "Abmelden",
+      "public": {
+        "exploreReviews": "Reviews entdecken",
+        "learnMore": "Mehr erfahren",
+        "submitVideoReview": "Review einreichen",
+        "forBrandsAndRetailers": "Für Marken und Händler",
+        "forBrands": "Für Marken & Unternehmen",
+        "forRetailers": "Für Händler & Marktplätze",
+        "brands": "Marken",
+        "categories": "Kategorien",
+        "language": "Sprache",
+        "locale": {
+          "en": "English (EN)",
+          "de": "Deutsch (DE)",
+          "fr": "Français (FR)",
+          "it": "Italiano (IT)"
+        }
+      }
+    },
+    "reviewerWelcome": {
+      "metaTitle": "Reviewer home",
+      "metaDescription": "Your Expeerly reviewer home — submit community reviews or join brand campaigns.",
+      "submitReview": {
+        "title": "Hand in a community review",
+        "body": "Bought a product yourself? Enter the EAN, upload your receipt or order confirmation, and submit your review video. Earn $20 per approved review · $10 per 1,000 views.",
+        "cta": "Submit a community review"
+      },
+      "campaignListTitle": "Or join a sampled campaign",
+      "campaignListDescription": "Apply to brand campaigns with a set brief, timeline, and campaign-specific rewards. Profile onboarding is only required when you apply."
+    },
+    "reviewerCommunitySubmit": {
+      "metaTitle": "Submit a community review",
+      "metaDescription": "Submit a community product review with EAN, receipt, and video.",
+      "title": "Submit a community review",
+      "description": "Bestätige das Produkt mit der EAN, lade den Kaufbeleg hoch, füge dein Review-Video hinzu und bewerte das Produkt.",
+      "steps": {
+        "ean": "Step 1 of 5 · Product EAN",
+        "receipt": "Step 2 of 5 · Receipt",
+        "video": "Step 3 of 5 · Video",
+        "rating": "Step 4 of 5 · Rating",
+        "confirm": "Step 5 of 5 · Confirm",
+        "success": "Submitted"
+      },
+      "ean": {
+        "title": "Enter the product EAN",
+        "description": "Find the barcode number on the packaging or receipt.",
+        "label": "EAN / GTIN",
+        "placeholder": "e.g. 4002512345678",
+        "notFound": "We could not match that EAN. Try a demo EAN from the hint below.",
+        "demoHint": "Demo EANs: 4002512345678, 8710103891234, 4210201309876, 8806094876543"
+      },
+      "receipt": {
+        "title": "Upload your receipt",
+        "description": "Add a photo or PDF of your receipt or order confirmation.",
+        "label": "Receipt or order confirmation",
+        "hint": "Images or PDF, up to 10 MB.",
+        "required": "Add a receipt or order confirmation to continue."
+      },
+      "video": {
+        "title": "Upload your review video",
+        "description": "Share an honest take on the product you bought.",
+        "label": "Review video",
+        "hint": "Video files up to 500 MB.",
+        "required": "Add a review video to continue."
+      },
+      "confirm": {
+        "title": "Confirm your submission",
+        "description": "Check the details below, then hand in your community review.",
+        "product": "Product",
+        "ean": "EAN",
+        "receipt": "Receipt",
+        "video": "Video",
+        "moderationNote": "Moderation is out of scope in this prototype — submissions appear as in review on My reviews.",
+        "rating": "Rating"
+      },
+      "success": {
+        "title": "Review submitted",
+        "description": "Your community review is in the queue. You can track it under My reviews.",
+        "viewMyReviews": "View my reviews",
+        "backHome": "Back to home"
+      },
+      "matched": {
+        "label": "Matched product",
+        "ean": "EAN {ean}"
+      },
+      "actions": {
+        "continue": "Continue",
+        "back": "Back",
+        "cancel": "Cancel",
+        "submit": "Submit review",
+        "backHome": "Back to reviewer home"
+      },
+      "rating": {
+        "title": "Rate this product",
+        "description": "How would you rate your experience with this product?",
+        "label": "Your rating",
+        "required": "Select a star rating to continue.",
+        "summary": "{rating}/5"
+      }
+    },
+    "reviewerCampaignApply": {
+      "onboarding": {
+        "title": "Complete your reviewer profile",
+        "description": "Sampled campaigns need a short profile before you can apply to {campaign}.",
+        "displayNameLabel": "Display name",
+        "cityLabel": "City",
+        "required": "Enter your display name and city to continue."
+      },
+      "success": {
+        "title": "Application sent",
+        "description": "You applied to {campaign}. We will follow up when a spot opens."
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "completeAndApply": "Save and apply",
+        "close": "Close",
+        "viewCampaigns": "View campaigns"
+      }
+    }
+  },
+  "player": {
+    "hub": {
+      "title": "Marken, die du liebst. Reviews, denen du vertrauen kannst.",
+      "titleLine1": "Marken, die du liebst.",
+      "titleLine2": "Reviews, denen du vertrauen kannst.",
+      "brandSearchLabel": "Marke",
+      "brandSearchPlaceholder": "Marke suchen",
+      "brandSearchNoReviewsTitle": "Noch keine Reviews für diese Marke",
+      "brandSearchNoReviewsDescription": "Wir haben noch keine Reviews für {brand}.",
+      "brandSearchBeFirst": "Sei der Erste, der bewertet",
+      "brandSortLabel": "Sortieren nach",
+      "brandSortMostReviewed": "Meiste Reviews",
+      "brandSortTopRated": "Beste Bewertung",
+      "brandSortNewest": "Neueste",
+      "brandReviewCount": "{count} Reviews",
+      "brandAverageRating": "{rating} Ø",
+      "seeAllBrand": "Alle ansehen",
+      "seeAllBrandAriaLabel": "Alle {brand}-Reviews ansehen",
+      "brandCarouselAriaLabel": "{brand} Video-Reviews",
+      "viewBrand": "Marke ansehen",
+      "allBrandsHeading": "Alle Marken",
+      "allBrandsAriaLabel": "Alle Marken von A bis Z"
+    },
+    "category": {
+      "backToHub": "Zurück zu Video-Reviews",
+      "reviewsHeading": "Video-Reviews in dieser Kategorie"
+    },
+    "brand": {
+      "videoReviewsSuffix": "Video-Reviews",
+      "reviewsCount": "({count} Reviews)",
+      "reviewsHeading": "Reviews",
+      "watchReview": "Review ansehen",
+      "backToHub": "Zurück zu Video-Reviews",
+      "backToAllBrands": "Alle Marken",
+      "reviewsCountInline": "{count} Reviews",
+      "reviewCountInline": "{count} Review",
+      "ratingReviewsSummary": "{rating} · {count} Reviews",
+      "statTotalReviews": "{count} Reviews",
+      "statReviewsLabel": "Reviews",
+      "statAverageRating": "{rating} Ø Bewertung",
+      "statAvgRatingLabel": "Ø Bewertung",
+      "statAverageRatingEmpty": "Noch keine Bewertungen",
+      "statProductCount": "{count} Produkte",
+      "statProductsLabel": "Produkte",
+      "statReviewersAriaLabel": "Reviewer für diese Marke",
+      "statProductsAriaLabel": "Produkte für diese Marke",
+      "allReviewsHeading": "Alle Reviews",
+      "loadMoreReviews": "Mehr laden",
+      "viewCount": "{count} Aufrufe",
+      "productsNeedingReviewsHeading": "Produkte ohne Reviews",
+      "zeroReviewsYet": "{count} Reviews bisher",
+      "ownProductTitle": "Hast du ein {brand}-Produkt?",
+      "ownProductDescription": "Teile eine ehrliche Video-Review zu einem Produkt, das du gekauft hast, und hilf anderen beim Kauf.",
+      "becomeReviewer": "Reviewer werden",
+      "becomeReviewerAriaLabel": "Reviewer werden",
+      "reviewerFabAriaLabel": "Ein {brand}-Produkt reviewen",
+      "ctaTitle": "Authentische Video-Reviews – überall, wo Käufer:innen einkaufen",
+      "ctaDescription": "Erreiche Käufer:innen mit authentischen Video-Reviews auf Expeerly.",
+      "ctaButton": "So helfen wir Marken",
+      "ctaButtonAriaLabel": "Erfahre, wie wir Marken helfen",
+      "filtersTitle": "Filter",
+      "filterButton": "Filter",
+      "filterReset": "Zurücksetzen",
+      "sortButton": "Sortieren",
+      "filterCategoryLabel": "Kategorie",
+      "filterProductLabel": "Produkt",
+      "filterReviewerLabel": "Reviewer",
+      "filterAllCategories": "Alle Kategorien",
+      "filterAllProducts": "Alle Produkte",
+      "filterAllReviewers": "Alle Reviewer",
+      "sortLabel": "Sortieren nach",
+      "sortMostReviewed": "Meiste Reviews",
+      "sortHighestRated": "Beste Bewertung",
+      "sortMostViewed": "Meist angesehen",
+      "sortNewest": "Neueste",
+      "reviewsGridAriaLabel": "Marken-Video-Reviews",
+      "reviewsResultsCount": "{count} Reviews",
+      "reviewsLoadingMore": "Weitere Reviews werden geladen…",
+      "reviewsEmptyTitle": "Keine Reviews entsprechen deinen Filtern",
+      "reviewsEmptyDescription": "Versuche ein anderes Produkt oder einen anderen Reviewer auszuwählen."
+    },
+    "review": {
+      "ratingLabel": "Bewertung",
+      "reviewSummary": "Review-Zusammenfassung",
+      "productDetails": "Produktdetails",
+      "brandName": "Markenname",
+      "productName": "Produktname",
+      "gtinEan": "GTIN/EAN",
+      "vendorProductNumber": "Händler-Produktnummer",
+      "transcriptHeading": "Transkript",
+      "faqHeading": "Häufig gestellte Fragen",
+      "moreVideosOn": "Weitere Videos zu",
+      "backToBrand": "Zurück zur Marke",
+      "follow": "Follow",
+      "detailsTab": "Details",
+      "transcriptTab": "Vollständiges Transkript",
+      "tabsAriaLabel": "Review content",
+      "category": "Category",
+      "reviewed": "Reviewed",
+      "reviewMeta": "by {reviewer}",
+      "moreBrandReviews": "More {brand} reviews",
+      "moreReviewerReviews": "More reviews from {reviewer}",
+      "brandCardReviews": "{count} reviews on expeerly",
+      "allBrandReviews": "All {brand} reviews ({count})",
+      "playAriaLabel": "Video abspielen",
+      "buyNow": "Jetzt kaufen",
+      "buyNowAriaLabel": "Zum im Video gezeigten Produkt",
+      "shareAriaLabel": "Review teilen",
+      "shareTitle": "{product}-Review teilen",
+      "reviewerProfileAriaLabel": "Profil von {reviewer} ansehen",
+      "stickyOwnProductQuestion": "Besitzt du dieses Produkt?",
+      "stickyOwnProductDescription": "Teile deine ehrliche Video-Review von {product}.",
+      "notAvailable": "—"
+    },
+    "notFound": {
+      "title": "Seite nicht gefunden",
+      "description": "Diese Review- oder Markenseite existiert nicht.",
+      "backHome": "Zur Startseite"
+    }
+  },
+  "marketing": {
+    "landing": {
+      "siteTitle": "Vertrauenswürdige Video-Reviews für Produkte, die du in Betracht ziehst | Expeerly",
+      "metaDescription": "Sieh dir authentische Video-Reviews von echten Menschen an, die Produkte gekauft, getestet und selbst gefilmt haben.",
+      "heroTitle": "Vertrauenswürdige Video-Reviews zu deinen Lieblingsprodukten",
+      "heroSubtitle": "Von echten Menschen, die gekauft, getestet und selbst gefilmt haben",
+      "searchPlaceholder": "Produkte oder Marken suchen",
+      "searchAriaLabel": "Produkte oder Marken suchen",
+      "shopByBrandHeading": "Marken, die du liebst",
+      "seeAllBrands": "Alle ansehen",
+      "seeAllBrandsAriaLabel": "Alle Marken ansehen",
+      "trendingHeading": "Trending diese Woche",
+      "mostWatched": "Meistgesehen",
+      "mostWatchedAriaLabel": "Meistgesehene Reviews ansehen",
+      "beFirstHeading": "Sei der Erste, der bewertet",
+      "reviewIt": "Bewerten",
+      "reviewItAriaLabel": "{product} bewerten",
+      "meetReviewersHeading": "Lerne unsere Reviewer kennen",
+      "communityBanner": "Teile deine ehrliche Meinung",
+      "communityBannerSub": "Werde Teil unserer Reviewer-Community",
+      "communityBannerAvatarsAlt": "Expeerly-Reviewer",
+      "joinCommunity": "Reviewer werden",
+      "joinCommunityAriaLabel": "Reviewer werden",
+      "giftedLabel": "Geschenkt",
+      "justAddedHeading": "Gerade hinzugefügt",
+      "forBrandsTitle": "Für Marken",
+      "forBrandsBody": "Steigern Sie Ihre Reichweite und Ihren Umsatz mit Video-Reviews, die über Suche, Social Media und Handelskanäle verteilt werden.",
+      "forRetailersTitle": "Für Händler",
+      "forRetailersBody": "Reviews dort einbetten, wo gekauft wird",
+      "reviewCount": "{count} Reviews",
+      "reviewerBrandsListAriaLabel": "Marken bewertet von {name}",
+      "reviewerBrandsSeparator": " • ",
+      "recentTimeHours": "vor {count} Std.",
+      "justAddedMetaSeparator": " • ",
+      "stickyAuthAriaLabel": "Bei Expeerly registrieren oder anmelden",
+      "scrollCta": "Reviews entdecken",
+      "reviewersHeading": "Jeder Reviewer hat eine persönliche Geschichte",
+      "brandsHeading": "Video-Reviews zu Marken, die du liebst",
+      "brandsBody": "Tippe auf eine Marke, um Reviews zu sehen.",
+      "categoriesHeading": "Kategorien entdecken",
+      "categoriesBody": "Ob neues Gerät oder Reiseplanung — hier findest du Video-Reviews.",
+      "howItWorksHeading": "So funktioniert Expeerly",
+      "howItWorksBody": "Expeerly ist der Ort, an dem Konsument:innen erfahren, was andere Käufer:innen über Produkte und Services denken. Video-Reviews werden von unserer globalen Tester-Community geteilt.",
+      "learnMore": "Mehr erfahren",
+      "learnMoreAriaLabel": "Mehr darüber, wie Expeerly funktioniert",
+      "ctaHub": "Video-Reviews durchstöbern",
+      "ctaSampleReview": "Beispiel-Review ansehen",
+      "designSystemLink": "Designsystem",
+      "viewAllBrands": "Alle Marken ansehen",
+      "brandCardAriaLabel": "Video-Reviews zu {brand} ansehen",
+      "brandCardNoReviews": "Video-Reviews von echten Testern"
+    },
+    "footer": {
+      "navAriaLabel": "Fußzeile",
+      "contactLabel": "Kontakt",
+      "contactAriaLabel": "So erreichst du Expeerly",
+      "aboutLabel": "Über uns",
+      "aboutAriaLabel": "Mehr über das Expeerly-Team",
+      "termsCompaniesLabel": "AGB Unternehmen",
+      "termsCompaniesAriaLabel": "Allgemeine Geschäftsbedingungen für Unternehmen",
+      "termsReviewersLabel": "AGB Reviewer",
+      "termsReviewersAriaLabel": "Allgemeine Geschäftsbedingungen für Reviewer",
+      "privacyLabel": "Datenschutz",
+      "privacyAriaLabel": "Mehr zu unserer Datenschutzerklärung",
+      "copyright": "© Expeerly AG, {year}"
+    }
+  }
+}

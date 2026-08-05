@@ -23,7 +23,7 @@ export function Badge({ label, variant = "default", iconLeft, className, ...prop
   return (
     <span
       className={cn(
-        "inline-flex h-7 items-center justify-center gap-1 rounded-lg px-3 py-1",
+        "inline-flex h-[32px] items-center justify-center gap-1 rounded-lg px-4",
         "text-body-extra-small",
         variantStyles[variant],
         className,

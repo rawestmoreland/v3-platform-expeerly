@@ -12,3 +12,7 @@ alwaysApply: false
 # Schema contract
 
 - If a migration adds, removes, or changes a **table or column**, read `contracts/schema.dbml` first and **suggest** the matching DBML update in chat (same approval gate — do not edit `schema.dbml` until explicitly approved).
+
+# Prototype reads
+
+- Public player prototype: read `contracts/schema.dbml` for field names; use `lib/fixtures/` only — no migrations or live queries until approved.
