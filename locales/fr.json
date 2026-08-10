@@ -155,6 +155,7 @@
       "metaDescription": "Vos avis vidéo soumis en autonomie et via campagnes.",
       "title": "Mes avis",
       "description": "Community submissions you handed in, plus self-submitted and campaign reviews.",
+      "emptySectionTitle": "Rien ici pour le moment",
       "emptySection": "Aucun avis dans cette section pour le moment.",
       "selfSubmitted": {
         "title": "Avis soumis en autonomie",
@@ -194,6 +195,14 @@
       "campaign": {
         "title": "Participer à une campagne",
         "description": "Rejoignez des campagnes de marque avec brief, calendrier et récompenses dédiées."
+      },
+      "form": {
+        "title": "Complétez votre profil d'évaluateur",
+        "description": "Encore quelques informations avant de commencer.",
+        "displayNameLabel": "Nom d'affichage",
+        "cityLabel": "Ville",
+        "requiredError": "Saisissez votre nom d'affichage et votre ville pour continuer.",
+        "submitCta": "Enregistrer et continuer"
       },
       "campaignListTitle": "Participate in a running campaign",
       "campaignListDescription": "Join brand campaigns with a set brief, timeline, and campaign-specific rewards.",
@@ -318,6 +327,7 @@
       "metaDescription": "Avis vidéo communauté et campagne pour votre marque.",
       "title": "Tous les avis vidéo",
       "description": "Avis communauté de reviewers indépendants et avis issus de vos campagnes.",
+      "emptySectionTitle": "Rien ici pour le moment",
       "emptySection": "Aucun avis dans cette section pour le moment.",
       "community": {
         "title": "Avis communauté",

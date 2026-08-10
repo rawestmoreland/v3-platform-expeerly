@@ -1,27 +1,29 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 import Link from "next/link";
 import { Heading } from "@/components/ui/atoms/Heading";
 import { Icon } from "@/components/ui/atoms/Icon";
 import { Text } from "@/components/ui/atoms/Text";
 import { Badge } from "@/components/ui/atoms/Badge";
 import { Card } from "@/components/ui/composites/Card";
+import { EmptyState } from "@/components/ui/composites/EmptyState";
 import { primaryPinkClassName } from "@/components/ui/atoms/button/buttonClasses";
 import { StarRating } from "@/components/ui/molecules/video-reviews/StarRating";
 import {
   getCommunitySubmissions,
-  type CommunitySubmissionDraft,
+  getServerCommunitySubmissions,
+  subscribeCommunitySubmissions,
 } from "@/lib/fixtures/reviewer-session";
 import { t } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 
 export function ReviewerCommunitySubmissionsSection() {
-  const [submissions, setSubmissions] = useState<CommunitySubmissionDraft[]>([]);
-
-  useEffect(() => {
-    setSubmissions(getCommunitySubmissions());
-  }, []);
+  const submissions = useSyncExternalStore(
+    subscribeCommunitySubmissions,
+    getCommunitySubmissions,
+    getServerCommunitySubmissions,
+  );
 
   return (
     <section aria-labelledby="reviewer-community-submissions-heading">
@@ -38,15 +40,20 @@ export function ReviewerCommunitySubmissionsSection() {
       </div>
 
       {submissions.length === 0 ? (
-        <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-          <Text variant="body-small-muted">{t("app.reviewerMyReviews.emptySection")}</Text>
-          <Link
-            href="/reviewer/submit-review"
-            className={cn(primaryPinkClassName("small"), "inline-flex w-full justify-center sm:w-auto")}
-          >
-            {t("app.reviewerMyReviews.communitySubmitted.cta")}
-          </Link>
-        </div>
+        <EmptyState
+          className="mt-4"
+          icon={<Icon name="receipt" size="md" aria-hidden />}
+          title={t("app.reviewerMyReviews.emptySectionTitle")}
+          description={t("app.reviewerMyReviews.emptySection")}
+          action={
+            <Link
+              href="/reviewer/submit-review"
+              className={cn(primaryPinkClassName("small"))}
+            >
+              {t("app.reviewerMyReviews.communitySubmitted.cta")}
+            </Link>
+          }
+        />
       ) : (
         <Card padding="none" className="mt-5 overflow-hidden">
           <ul aria-label={t("app.reviewerMyReviews.communitySubmitted.listAriaLabel")}>

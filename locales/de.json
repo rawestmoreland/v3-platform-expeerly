@@ -155,6 +155,7 @@
       "metaDescription": "Deine selbst eingereichten und Kampagnen-Video-Reviews.",
       "title": "Meine Reviews",
       "description": "Community submissions you handed in, plus self-submitted and campaign reviews.",
+      "emptySectionTitle": "Hier gibt es noch nichts",
       "emptySection": "In diesem Bereich gibt es noch keine Reviews.",
       "selfSubmitted": {
         "title": "Selbst eingereichte Reviews",
@@ -194,6 +195,14 @@
       "campaign": {
         "title": "An einer Kampagne teilnehmen",
         "description": "Nimm an Markenkampagnen mit Briefing, Zeitplan und kampagnenspezifischen Rewards teil."
+      },
+      "form": {
+        "title": "Vervollständige dein Reviewer-Profil",
+        "description": "Wir brauchen noch ein paar Angaben, bevor es losgeht.",
+        "displayNameLabel": "Anzeigename",
+        "cityLabel": "Stadt",
+        "requiredError": "Gib deinen Anzeigenamen und deine Stadt ein, um fortzufahren.",
+        "submitCta": "Speichern und weiter"
       },
       "campaignListTitle": "Participate in a running campaign",
       "campaignListDescription": "Join brand campaigns with a set brief, timeline, and campaign-specific rewards.",
@@ -318,6 +327,7 @@
       "metaDescription": "Community- und Kampagnen-Video-Reviews für deine Marke.",
       "title": "Alle Video-Reviews",
       "description": "Community-Reviews von unabhängigen Reviewern und Reviews aus deinen Kampagnen.",
+      "emptySectionTitle": "Hier gibt es noch nichts",
       "emptySection": "In diesem Bereich gibt es noch keine Reviews.",
       "community": {
         "title": "Community-Reviews",

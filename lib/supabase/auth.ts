@@ -1,12 +1,12 @@
-import "server-only";
+import 'server-only';
 
-import { createClient } from "@/lib/supabase/server";
+import { createClient } from '@/lib/supabase/server';
 import {
   isProfileApproved,
   needsCampaignOnboarding,
   type UsersAnalyticsV2,
-} from "@/lib/supabase/types";
-import type { User } from "@supabase/supabase-js";
+} from '@/lib/supabase/types';
+import type { User } from '@supabase/supabase-js';
 
 export type CurrentReviewerProfile = UsersAnalyticsV2 & {
   authUser: User;
@@ -23,7 +23,10 @@ export async function getSessionUser(): Promise<User | null> {
 }
 
 export async function getCurrentReviewerProfile(): Promise<CurrentReviewerProfile | null> {
-  if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
+  if (
+    !process.env.NEXT_PUBLIC_SUPABASE_URL ||
+    !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+  ) {
     return null;
   }
 
@@ -36,11 +39,11 @@ export async function getCurrentReviewerProfile(): Promise<CurrentReviewerProfil
     if (!user) return null;
 
     const { data, error } = await supabase
-      .from("users_analytics_v2")
+      .from('users_analytics_v2')
       .select(
-        "id, bubble_id, auth_user_id, auth_method, first_name, last_name, age, email, email_verification_status, avatar_url, phone_number, role, reviewer_status, company_id, company_analytics_id, created_at, updated_at",
+        'id, bubble_id, auth_user_id, auth_method, first_name, last_name, age, email, email_verification_status, avatar_url, phone_number, role, reviewer_status, company_id, company_analytics_id, created_at, updated_at',
       )
-      .eq("auth_user_id", user.id)
+      .eq('auth_user_id', user.id)
       .maybeSingle();
 
     if (error || !data) {
@@ -50,12 +53,12 @@ export async function getCurrentReviewerProfile(): Promise<CurrentReviewerProfil
     const profile = data as UsersAnalyticsV2;
 
     const verified = Boolean(user.email_confirmed_at);
-    if (verified && profile.email_verification_status !== "verified") {
+    if (verified && profile.email_verification_status !== 'verified') {
       await supabase
-        .from("users_analytics_v2")
-        .update({ email_verification_status: "verified" })
-        .eq("auth_user_id", user.id);
-      profile.email_verification_status = "verified";
+        .from('users_analytics_v2')
+        .update({ email_verification_status: 'verified' })
+        .eq('auth_user_id', user.id);
+      profile.email_verification_status = 'verified';
     }
 
     return {

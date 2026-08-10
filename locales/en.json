@@ -155,6 +155,7 @@
       "metaDescription": "Your self-submitted and campaign video reviews.",
       "title": "My reviews",
       "description": "Community submissions you handed in, plus self-submitted and campaign reviews.",
+      "emptySectionTitle": "Nothing here yet",
       "emptySection": "No reviews in this section yet.",
       "selfSubmitted": {
         "title": "Self-submitted reviews",
@@ -194,6 +195,14 @@
       "campaign": {
         "title": "Participate in a campaign",
         "description": "Join brand campaigns with a set brief, timeline, and campaign-specific rewards."
+      },
+      "form": {
+        "title": "Complete your reviewer profile",
+        "description": "Just need a couple of details before you get started.",
+        "displayNameLabel": "Display name",
+        "cityLabel": "City",
+        "requiredError": "Enter your display name and city to continue.",
+        "submitCta": "Save and continue"
       },
       "campaignListTitle": "Participate in a running campaign",
       "campaignListDescription": "Join brand campaigns with a set brief, timeline, and campaign-specific rewards.",
@@ -318,6 +327,7 @@
       "metaDescription": "Community and campaign video reviews for your brand.",
       "title": "All video reviews",
       "description": "Community reviews from independent reviewers and reviews produced through your campaigns.",
+      "emptySectionTitle": "Nothing here yet",
       "emptySection": "No reviews in this section yet.",
       "community": {
         "title": "Community reviews",

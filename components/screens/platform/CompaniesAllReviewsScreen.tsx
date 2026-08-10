@@ -10,6 +10,7 @@ import { t } from "@/lib/i18n";
 export function CompaniesAllReviewsScreen() {
   const communityReviews = getCompaniesCommunityReviews();
   const campaignReviews = getCompaniesCampaignReviews();
+  const emptyTitle = t("app.companiesAllReviews.emptySectionTitle");
   const emptyMessage = t("app.companiesAllReviews.emptySection");
 
   const campaignMetaByReviewId = new Map(
@@ -33,6 +34,7 @@ export function CompaniesAllReviewsScreen() {
         description={t("app.companiesAllReviews.community.description")}
         listLabel={t("app.companiesAllReviews.community.listAriaLabel")}
         reviews={communityReviews}
+        emptyTitle={emptyTitle}
         emptyMessage={emptyMessage}
       />
 
@@ -42,6 +44,7 @@ export function CompaniesAllReviewsScreen() {
         description={t("app.companiesAllReviews.campaign.description")}
         listLabel={t("app.companiesAllReviews.campaign.listAriaLabel")}
         reviews={campaignReviews.map((entry) => entry.review)}
+        emptyTitle={emptyTitle}
         emptyMessage={emptyMessage}
         renderItemMeta={(review) => {
           const labelKey = campaignMetaByReviewId.get(review.publicReviewId);

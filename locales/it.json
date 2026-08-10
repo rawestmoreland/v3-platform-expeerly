@@ -155,6 +155,7 @@
       "metaDescription": "Le tue video review inviate in autonomia e da campagna.",
       "title": "Le mie review",
       "description": "Community submissions you handed in, plus self-submitted and campaign reviews.",
+      "emptySectionTitle": "Ancora niente qui",
       "emptySection": "Nessuna review in questa sezione.",
       "selfSubmitted": {
         "title": "Review inviate in autonomia",
@@ -194,6 +195,14 @@
       "campaign": {
         "title": "Partecipa a una campagna",
         "description": "Unisciti a campagne brand con brief, tempistiche e reward dedicati."
+      },
+      "form": {
+        "title": "Completa il tuo profilo da recensore",
+        "description": "Servono ancora un paio di informazioni prima di iniziare.",
+        "displayNameLabel": "Nome visualizzato",
+        "cityLabel": "Città",
+        "requiredError": "Inserisci nome visualizzato e città per continuare.",
+        "submitCta": "Salva e continua"
       },
       "campaignListTitle": "Participate in a running campaign",
       "campaignListDescription": "Join brand campaigns with a set brief, timeline, and campaign-specific rewards.",
@@ -318,6 +327,7 @@
       "metaDescription": "Video review community e da campagna per il tuo brand.",
       "title": "Tutte le video review",
       "description": "Review community da reviewer indipendenti e review delle tue campagne.",
+      "emptySectionTitle": "Ancora niente qui",
       "emptySection": "Nessuna review in questa sezione.",
       "community": {
         "title": "Review community",

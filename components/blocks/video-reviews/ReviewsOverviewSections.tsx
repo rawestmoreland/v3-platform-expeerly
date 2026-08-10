@@ -1,27 +1,35 @@
 import { Icon } from "@/components/ui/atoms/Icon";
 import { Heading } from "@/components/ui/atoms/Heading";
 import { Text } from "@/components/ui/atoms/Text";
+import { EmptyState } from "@/components/ui/composites/EmptyState";
 import { VideoRatingThumbnailCard } from "@/components/ui";
 import type { IconName } from "@/components/ui/icons";
 import type { ReviewFixture } from "@/lib/fixtures/video-reviews";
 import { cn } from "@/lib/utils";
 
 export function ReviewsOverviewStrip({
+  icon,
   reviews,
   listLabel,
+  emptyTitle,
   emptyMessage,
   renderItemMeta,
 }: {
+  icon: IconName;
   reviews: ReviewFixture[];
   listLabel: string;
+  emptyTitle: string;
   emptyMessage: string;
   renderItemMeta?: (review: ReviewFixture) => string | undefined;
 }) {
   if (reviews.length === 0) {
     return (
-      <Text variant="body-small-muted" className="mt-4">
-        {emptyMessage}
-      </Text>
+      <EmptyState
+        className="mt-4"
+        icon={<Icon name={icon} size="md" aria-hidden />}
+        title={emptyTitle}
+        description={emptyMessage}
+      />
     );
   }
 
@@ -54,6 +62,7 @@ export function ReviewsOverviewSection({
   description,
   listLabel,
   reviews,
+  emptyTitle,
   emptyMessage,
   renderItemMeta,
 }: {
@@ -62,6 +71,7 @@ export function ReviewsOverviewSection({
   description: string;
   listLabel: string;
   reviews: ReviewFixture[];
+  emptyTitle: string;
   emptyMessage: string;
   renderItemMeta?: (review: ReviewFixture) => string | undefined;
 }) {
@@ -86,8 +96,10 @@ export function ReviewsOverviewSection({
         </div>
       </div>
       <ReviewsOverviewStrip
+        icon={icon}
         reviews={reviews}
         listLabel={listLabel}
+        emptyTitle={emptyTitle}
         emptyMessage={emptyMessage}
         renderItemMeta={renderItemMeta}
       />
