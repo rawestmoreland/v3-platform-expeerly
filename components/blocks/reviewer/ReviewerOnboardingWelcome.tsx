@@ -7,6 +7,8 @@ import { Text } from '@/components/ui/atoms/Text';
 import { PrimaryPink } from '@/components/ui/atoms/button/PrimaryPink';
 import { Card, CardContent } from '@/components/ui/composites/Card';
 import { ComboboxField } from '@/components/ui/composites/ComboboxField';
+import { AvatarUploadField } from '@/components/ui/molecules/AvatarUploadField';
+import { FileUploadField } from '@/components/ui/molecules/FileUploadField';
 import { InputField } from '@/components/ui/molecules/InputField';
 import type { InterestCategoryRecord } from '@/lib/data/interest-categories-dev';
 import type { LanguageOptionRecord } from '@/lib/data/language-options-dev';
@@ -47,6 +49,12 @@ export function ReviewerOnboardingWelcome({
   const [interestCategoryIds, setInterestCategoryIds] = useState<string[]>(
     profile.interest_unique_category_ids ?? [],
   );
+  const [avatarFile, setAvatarFile] = useState<File | null>(null);
+  const [sampleImages, setSampleImages] = useState<File[]>([]);
+  const [sampleVideo, setSampleVideo] = useState<File[]>([]);
+  const [avatarError, setAvatarError] = useState<string | undefined>();
+  const [sampleImagesError, setSampleImagesError] = useState<string | undefined>();
+  const [sampleVideoError, setSampleVideoError] = useState<string | undefined>();
   const [error, setError] = useState<string | undefined>();
   const [isSaving, setIsSaving] = useState(false);
 
@@ -62,11 +70,25 @@ export function ReviewerOnboardingWelcome({
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (!displayName.trim() || !city.trim()) {
-      setError(t('app.reviewerOnboarding.form.requiredError'));
+
+    const missingRequiredFields = !displayName.trim() || !city.trim();
+    const missingAvatar = !avatarFile;
+    const missingSampleImages = sampleImages.length < 3;
+    const missingSampleVideo = sampleVideo.length < 1;
+
+    setError(missingRequiredFields ? t('app.reviewerOnboarding.form.requiredError') : undefined);
+    setAvatarError(missingAvatar ? t('app.reviewerOnboarding.form.avatarRequiredError') : undefined);
+    setSampleImagesError(
+      missingSampleImages ? t('app.reviewerOnboarding.form.sampleImagesRequiredError') : undefined,
+    );
+    setSampleVideoError(
+      missingSampleVideo ? t('app.reviewerOnboarding.form.sampleVideoRequiredError') : undefined,
+    );
+
+    if (missingRequiredFields || missingAvatar || missingSampleImages || missingSampleVideo) {
       return;
     }
-    setError(undefined);
+
     setIsSaving(true);
     const result = await completeCampaignOnboarding({
       displayName,
@@ -174,6 +196,53 @@ export function ReviewerOnboardingWelcome({
               values={interestCategoryIds}
               onValuesChange={setInterestCategoryIds}
             />
+
+            <div className='mt-2 flex flex-col gap-6 border-t border-border pt-6'>
+              <div>
+                <Heading as='h3' variant='title-2'>
+                  {t('app.reviewerOnboarding.form.mediaSectionTitle')}
+                </Heading>
+                <Text as='p' variant='body-small-muted' className='mt-1'>
+                  {t('app.reviewerOnboarding.form.mediaSectionDescription')}
+                </Text>
+              </div>
+
+              <AvatarUploadField
+                label={t('app.reviewerOnboarding.form.avatarLabel')}
+                requiredLabel={t('app.reviewerOnboarding.form.avatarRequiredLabel')}
+                hint={t('app.reviewerOnboarding.form.avatarHint')}
+                accept='image/png,image/jpeg'
+                error={avatarError}
+                onFileChange={(file) => {
+                  setAvatarFile(file);
+                  if (avatarError) setAvatarError(undefined);
+                }}
+              />
+
+              <FileUploadField
+                label={t('app.reviewerOnboarding.form.sampleImagesLabel')}
+                hint={t('app.reviewerOnboarding.form.sampleImagesHint')}
+                accept='image/png,image/jpeg'
+                multiple
+                error={sampleImagesError}
+                onFilesChange={(files) => {
+                  setSampleImages(files);
+                  if (sampleImagesError) setSampleImagesError(undefined);
+                }}
+              />
+
+              <FileUploadField
+                label={t('app.reviewerOnboarding.form.sampleVideoLabel')}
+                hint={t('app.reviewerOnboarding.form.sampleVideoHint')}
+                accept='video/mp4,video/quicktime'
+                maxSizeBytes={50 * 1024 * 1024}
+                error={sampleVideoError}
+                onFilesChange={(files) => {
+                  setSampleVideo(files);
+                  if (sampleVideoError) setSampleVideoError(undefined);
+                }}
+              />
+            </div>
 
             <PrimaryPink
               type='submit'

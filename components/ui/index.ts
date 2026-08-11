@@ -32,6 +32,7 @@ export { OutlineDestructive } from "./atoms/button/OutlineDestructive";
 export { IconButton } from "./atoms/button/IconButton";
 export { CtaLinkPink } from "./atoms/button/CtaLinkPink";
 // Molecules
+export { AvatarUploadField } from "./molecules/AvatarUploadField";
 export { CheckboxField } from "./molecules/CheckboxField";
 export { FieldTrigger, fieldTriggerClasses } from "./molecules/FieldTrigger";
 export { DateField, type DateRangeValue } from "./composites/DateField";
