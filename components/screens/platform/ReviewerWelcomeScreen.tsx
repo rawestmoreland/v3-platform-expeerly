@@ -5,6 +5,8 @@ import { ReviewerDashboardReviewList } from "@/components/blocks/reviewer/Review
 import { ReviewerDashboardStats } from "@/components/blocks/reviewer/ReviewerDashboardStats";
 import { ReviewerOnboardingWelcome } from "@/components/blocks/reviewer/ReviewerOnboardingWelcome";
 import { ReviewerSubmitReviewCard } from "@/components/blocks/reviewer/ReviewerSubmitReviewCard";
+import { getAllInterestCategories } from "@/lib/data/interest-categories-dev";
+import { getAllLanguageOptions } from "@/lib/data/language-options-dev";
 import {
   getReviewerDashboardProfile,
   getReviewerDashboardReviews,
@@ -23,7 +25,13 @@ import { getCurrentReviewerProfile } from "@/lib/supabase/auth";
 export async function ReviewerWelcomeScreen() {
   const reviewerProfile = await getCurrentReviewerProfile();
   if (reviewerProfile?.needsOnboarding) {
-    return <ReviewerOnboardingWelcome profile={reviewerProfile} />;
+    return (
+      <ReviewerOnboardingWelcome
+        profile={reviewerProfile}
+        interestCategories={getAllInterestCategories()}
+        languageOptions={getAllLanguageOptions()}
+      />
+    );
   }
 
   const profile = getReviewerDashboardProfile();

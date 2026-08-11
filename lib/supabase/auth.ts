@@ -41,7 +41,7 @@ export async function getCurrentReviewerProfile(): Promise<CurrentReviewerProfil
     const { data, error } = await supabase
       .from('users_analytics_v2')
       .select(
-        'id, bubble_id, auth_user_id, auth_method, first_name, last_name, age, email, email_verification_status, avatar_url, phone_number, role, reviewer_status, company_id, company_analytics_id, created_at, updated_at',
+        'id, bubble_id, auth_user_id, auth_method, first_name, last_name, age, email, email_verification_status, avatar_url, phone_number, social_linkedin, social_instagram, social_facebook, social_tiktok, interest_unique_category_ids, spoken_language_codes, role, reviewer_status, company_id, company_analytics_id, created_at, updated_at',
       )
       .eq('auth_user_id', user.id)
       .maybeSingle();

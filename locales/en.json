@@ -62,6 +62,11 @@
     "tag": {
       "removeAriaLabel": "Remove {label}"
     },
+    "comboboxField": {
+      "selectedCount": "{count} selected",
+      "searchPlaceholder": "Search",
+      "emptyLabel": "No matches"
+    },
     "starRating": {
       "valueLabel": "{value} of {max} stars",
       "unset": "—"
@@ -201,6 +206,18 @@
         "description": "Just need a couple of details before you get started.",
         "displayNameLabel": "Display name",
         "cityLabel": "City",
+        "socialLinkedinLabel": "LinkedIn",
+        "socialLinkedinPlaceholder": "https://linkedin.com/in/yourname",
+        "socialInstagramLabel": "Instagram",
+        "socialInstagramPlaceholder": "https://instagram.com/yourhandle",
+        "socialFacebookLabel": "Facebook",
+        "socialFacebookPlaceholder": "https://facebook.com/yourprofile",
+        "socialTiktokLabel": "TikTok",
+        "socialTiktokPlaceholder": "https://tiktok.com/@yourhandle",
+        "spokenLanguagesLabel": "Spoken languages",
+        "spokenLanguagesPlaceholder": "Select languages",
+        "interestCategoriesLabel": "Interest categories",
+        "interestCategoriesPlaceholder": "Select categories",
         "requiredError": "Enter your display name and city to continue.",
         "submitCta": "Save and continue"
       },

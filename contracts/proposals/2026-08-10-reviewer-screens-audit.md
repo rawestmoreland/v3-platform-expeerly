@@ -82,3 +82,25 @@ Audited, not modified. See "Mock-only" below — the gap here is architectural (
   A  components/blocks/reviewer/ReviewerOnboardingWelcome.tsx
   A  supabase/migrations/20260809175828_grant_users_analytics_v2_authenticated.sql
   ```
+
+---
+
+## 4. Design system proposal — `ComboboxField` (multi-select)
+
+**Trigger:** extending `ReviewerOnboardingWelcome`'s form with social handles, spoken languages, and interest categories surfaced a real gap — `users_analytics_v2` already has `spoken_language_codes text[]` and `interest_unique_category_ids text[]` columns (added in the original `20260709095307` migration, never wired to any UI), but the design system has no multi-select primitive. `SelectField` (`molecules/select/`) is single-value only; `SingleSelectFilterButton` (`composites/`) is a single-value popover for toolbar filters. Per `design-system-atomic.mdc`, this is a missing-piece flag, not a license to hand-roll checkboxes with arbitrary Tailwind on the onboarding screen.
+
+**Proposal:** add `ComboboxField` at `components/ui/composites/ComboboxField.tsx` — a DS-root composite (not product-scoped; campaigns already reference language-code arrays for `reviewer_languages`, `additional_subtitle_languages`, and `additional_voice_over_languages`, and `shipping_country_codes`, all of which are future callers).
+
+**Composition (no new atoms, no ad-hoc markup):**
+- `Label` atom — field label, same convention as `InputField`/`SelectField`.
+- `FieldTrigger` molecule — closed-state box (reused as-is; already exists for `DateField`/`DateRangeField`-style fields).
+- `Popover` / `PopoverTrigger` / `PopoverContent` composite — dropdown surface, same primitive `ReviewFilterToolbar` and `SingleSelectFilterButton` already build on.
+- `Icon` atom (`chevron-down`, `search`) — trigger caret and optional in-popover filter, matching `SelectField`'s chevron pattern; never an inline SVG per the hierarchy rule.
+- `CheckboxField` molecule — one per option inside the popover list.
+- `Tag` atom — selected values rendered as removable chips below the trigger, same pattern as `ReviewFilterToolbar`'s `ActiveFilterTags`.
+
+**New tokens/strings:** none beyond `ui.comboboxField.*` i18n keys (selected-count label, filter placeholder, empty-state text) — no new colors, spacing, or type scale values; entirely built from existing `tokens/*.css` wiring already used by `FieldTrigger`/`Popover`/`Checkbox`.
+
+**Showcase:** added to `app/(platform)/bdn/designsystem/ui/showcase/inputs-showcase.tsx` alongside `SelectField`, under `designsystem.showcase.inputs.comboboxField*` copy in `locales/bdn/{en,de,fr,it}.json`, so this isn't a one-off built only for the reviewer screen.
+
+**Status:** flagged here per governance instead of implemented silently; building it as part of this same session since the alternative (checkbox list + Tailwind glued directly into `ReviewerOnboardingWelcome`) would be exactly the "ad-hoc UI" `platform-ui-governance.mdc` says to stop and flag rather than ship.

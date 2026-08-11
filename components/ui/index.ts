@@ -102,6 +102,7 @@ export {
 } from "./composites/DialogWindow";
 export { InPageAlert } from "./composites/InPageAlert";
 export { Popover } from "./composites/Popover";
+export { ComboboxField, type ComboboxOption, type ComboboxFieldProps } from "./composites/ComboboxField";
 export { InfoBox } from "./composites/InfoBox";
 export { MainVideoCard, type MainVideoCardProps } from "./composites/video-reviews/MainVideoCard";
 export {
