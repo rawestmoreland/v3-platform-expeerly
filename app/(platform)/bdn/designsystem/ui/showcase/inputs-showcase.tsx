@@ -1,5 +1,6 @@
 import {
   CheckboxField,
+  ComboboxField,
   DateField,
   DateRangeField,
   FileUploadField,
@@ -475,6 +476,60 @@ export function InputsShowcase() {
                   <SelectItem value="two">{t("designsystem.showcase.inputs.optionTwo")}</SelectItem>
                   <SelectItem value="three">{t("designsystem.showcase.inputs.optionThree")}</SelectItem>
                 </SelectField>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h2 className="text-title-2 text-foreground-title">{t("designsystem.showcase.inputs.comboboxFieldTitle")}</h2>
+          <p className="mt-1 text-body-small text-foreground-muted">
+            {t("designsystem.showcase.inputs.comboboxFieldIntro")}
+          </p>
+          <div className="mt-3 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+            <div className="rounded-lg border border-border bg-surface p-3">
+              <p className="text-body-extra-small text-foreground-muted">{t("designsystem.showcase.common.stateDefault")}</p>
+              <div className="mt-2">
+                <ComboboxField
+                  label={t("designsystem.showcase.inputs.comboboxLabel")}
+                  placeholder={t("designsystem.showcase.inputs.chooseOptions")}
+                  hint={t("designsystem.showcase.common.helperText")}
+                  options={[
+                    { value: "one", label: t("designsystem.showcase.inputs.optionOne") },
+                    { value: "two", label: t("designsystem.showcase.inputs.optionTwo") },
+                    { value: "three", label: t("designsystem.showcase.inputs.optionThree") },
+                  ]}
+                />
+              </div>
+            </div>
+            <div className="rounded-lg border border-border bg-surface p-3">
+              <p className="text-body-extra-small text-foreground-muted">{t("designsystem.showcase.inputs.stateSelected")}</p>
+              <div className="mt-2">
+                <ComboboxField
+                  label={t("designsystem.showcase.inputs.comboboxLabel")}
+                  placeholder={t("designsystem.showcase.inputs.chooseOptions")}
+                  defaultValues={["two", "three"]}
+                  options={[
+                    { value: "one", label: t("designsystem.showcase.inputs.optionOne") },
+                    { value: "two", label: t("designsystem.showcase.inputs.optionTwo") },
+                    { value: "three", label: t("designsystem.showcase.inputs.optionThree") },
+                  ]}
+                />
+              </div>
+            </div>
+            <div className="rounded-lg border border-border bg-surface p-3">
+              <p className="text-body-extra-small text-foreground-muted">{t("designsystem.showcase.common.stateDisabled")}</p>
+              <div className="mt-2">
+                <ComboboxField
+                  label={t("designsystem.showcase.inputs.comboboxLabel")}
+                  placeholder={t("designsystem.showcase.inputs.chooseOptions")}
+                  defaultValues={["one"]}
+                  disabled
+                  options={[
+                    { value: "one", label: t("designsystem.showcase.inputs.optionOne") },
+                    { value: "two", label: t("designsystem.showcase.inputs.optionTwo") },
+                  ]}
+                />
               </div>
             </div>
           </div>

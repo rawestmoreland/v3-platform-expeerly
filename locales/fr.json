@@ -62,6 +62,11 @@
     "tag": {
       "removeAriaLabel": "Supprimer {label}"
     },
+    "comboboxField": {
+      "selectedCount": "{count} sélectionné(s)",
+      "searchPlaceholder": "Rechercher",
+      "emptyLabel": "Aucun résultat"
+    },
     "starRating": {
       "valueLabel": "{value} of {max} stars",
       "unset": "—"
@@ -155,6 +160,7 @@
       "metaDescription": "Vos avis vidéo soumis en autonomie et via campagnes.",
       "title": "Mes avis",
       "description": "Community submissions you handed in, plus self-submitted and campaign reviews.",
+      "emptySectionTitle": "Rien ici pour le moment",
       "emptySection": "Aucun avis dans cette section pour le moment.",
       "selfSubmitted": {
         "title": "Avis soumis en autonomie",
@@ -194,6 +200,38 @@
       "campaign": {
         "title": "Participer à une campagne",
         "description": "Rejoignez des campagnes de marque avec brief, calendrier et récompenses dédiées."
+      },
+      "form": {
+        "title": "Complétez votre profil d'évaluateur",
+        "description": "Encore quelques informations avant de commencer.",
+        "displayNameLabel": "Nom d'affichage",
+        "cityLabel": "Ville",
+        "socialLinkedinLabel": "LinkedIn",
+        "socialLinkedinPlaceholder": "https://linkedin.com/in/votrenom",
+        "socialInstagramLabel": "Instagram",
+        "socialInstagramPlaceholder": "https://instagram.com/votrepseudo",
+        "socialFacebookLabel": "Facebook",
+        "socialFacebookPlaceholder": "https://facebook.com/votreprofil",
+        "socialTiktokLabel": "TikTok",
+        "socialTiktokPlaceholder": "https://tiktok.com/@votrepseudo",
+        "spokenLanguagesLabel": "Langues parlées",
+        "spokenLanguagesPlaceholder": "Sélectionner des langues",
+        "interestCategoriesLabel": "Catégories d'intérêt",
+        "interestCategoriesPlaceholder": "Sélectionner des catégories",
+        "requiredError": "Saisissez votre nom d'affichage et votre ville pour continuer.",
+        "mediaSectionTitle": "Photo de profil et médias d'exemple",
+        "mediaSectionDescription": "Les évaluateurs sont approuvés plus rapidement avec une vraie photo de profil et quelques exemples de leur travail.",
+        "avatarLabel": "Photo de profil",
+        "avatarRequiredLabel": "(obligatoire)",
+        "avatarHint": "Utilisez une photo carrée qui montre clairement votre visage.",
+        "avatarRequiredError": "Ajoutez une photo de profil pour continuer.",
+        "sampleImagesLabel": "Ajoutez 3 photos d'exemple",
+        "sampleImagesHint": "Des photos de vous dans différentes situations, face à la caméra. PNG, JPEG ou JPG uniquement.",
+        "sampleImagesRequiredError": "Ajoutez au moins 3 photos d'exemple pour continuer.",
+        "sampleVideoLabel": "Ajoutez une vidéo d'exemple",
+        "sampleVideoHint": "Une courte vidéo de vous face à la caméra. MOV ou MP4, 50 Mo max.",
+        "sampleVideoRequiredError": "Ajoutez une vidéo d'exemple pour continuer.",
+        "submitCta": "Enregistrer et continuer"
       },
       "campaignListTitle": "Participate in a running campaign",
       "campaignListDescription": "Join brand campaigns with a set brief, timeline, and campaign-specific rewards.",
@@ -318,6 +356,7 @@
       "metaDescription": "Avis vidéo communauté et campagne pour votre marque.",
       "title": "Tous les avis vidéo",
       "description": "Avis communauté de reviewers indépendants et avis issus de vos campagnes.",
+      "emptySectionTitle": "Rien ici pour le moment",
       "emptySection": "Aucun avis dans cette section pour le moment.",
       "community": {
         "title": "Avis communauté",

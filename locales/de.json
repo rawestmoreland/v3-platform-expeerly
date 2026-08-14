@@ -62,6 +62,11 @@
     "tag": {
       "removeAriaLabel": "{label} entfernen"
     },
+    "comboboxField": {
+      "selectedCount": "{count} ausgewählt",
+      "searchPlaceholder": "Suchen",
+      "emptyLabel": "Keine Treffer"
+    },
     "starRating": {
       "valueLabel": "{value} of {max} stars",
       "unset": "—"
@@ -155,6 +160,7 @@
       "metaDescription": "Deine selbst eingereichten und Kampagnen-Video-Reviews.",
       "title": "Meine Reviews",
       "description": "Community submissions you handed in, plus self-submitted and campaign reviews.",
+      "emptySectionTitle": "Hier gibt es noch nichts",
       "emptySection": "In diesem Bereich gibt es noch keine Reviews.",
       "selfSubmitted": {
         "title": "Selbst eingereichte Reviews",
@@ -194,6 +200,38 @@
       "campaign": {
         "title": "An einer Kampagne teilnehmen",
         "description": "Nimm an Markenkampagnen mit Briefing, Zeitplan und kampagnenspezifischen Rewards teil."
+      },
+      "form": {
+        "title": "Vervollständige dein Reviewer-Profil",
+        "description": "Wir brauchen noch ein paar Angaben, bevor es losgeht.",
+        "displayNameLabel": "Anzeigename",
+        "cityLabel": "Stadt",
+        "socialLinkedinLabel": "LinkedIn",
+        "socialLinkedinPlaceholder": "https://linkedin.com/in/deinname",
+        "socialInstagramLabel": "Instagram",
+        "socialInstagramPlaceholder": "https://instagram.com/deinhandle",
+        "socialFacebookLabel": "Facebook",
+        "socialFacebookPlaceholder": "https://facebook.com/deinprofil",
+        "socialTiktokLabel": "TikTok",
+        "socialTiktokPlaceholder": "https://tiktok.com/@deinhandle",
+        "spokenLanguagesLabel": "Gesprochene Sprachen",
+        "spokenLanguagesPlaceholder": "Sprachen auswählen",
+        "interestCategoriesLabel": "Interessenkategorien",
+        "interestCategoriesPlaceholder": "Kategorien auswählen",
+        "requiredError": "Gib deinen Anzeigenamen und deine Stadt ein, um fortzufahren.",
+        "mediaSectionTitle": "Profilbild & Beispielmedien",
+        "mediaSectionDescription": "Reviewer werden schneller freigegeben, wenn sie ein echtes Profilbild und ein paar Arbeitsbeispiele hinterlegen.",
+        "avatarLabel": "Profilbild",
+        "avatarRequiredLabel": "(erforderlich)",
+        "avatarHint": "Verwende ein quadratisches Foto, auf dem dein Gesicht gut zu erkennen ist.",
+        "avatarRequiredError": "Lade ein Profilbild hoch, um fortzufahren.",
+        "sampleImagesLabel": "3 Beispielbilder hochladen",
+        "sampleImagesHint": "Fotos von dir in verschiedenen Situationen, frontal zur Kamera. Nur PNG, JPEG oder JPG.",
+        "sampleImagesRequiredError": "Lade mindestens 3 Beispielbilder hoch, um fortzufahren.",
+        "sampleVideoLabel": "Beispielvideo hochladen",
+        "sampleVideoHint": "Ein kurzes Video von dir vor der Kamera. MOV oder MP4, max. 50 MB.",
+        "sampleVideoRequiredError": "Lade ein Beispielvideo hoch, um fortzufahren.",
+        "submitCta": "Speichern und weiter"
       },
       "campaignListTitle": "Participate in a running campaign",
       "campaignListDescription": "Join brand campaigns with a set brief, timeline, and campaign-specific rewards.",
@@ -318,6 +356,7 @@
       "metaDescription": "Community- und Kampagnen-Video-Reviews für deine Marke.",
       "title": "Alle Video-Reviews",
       "description": "Community-Reviews von unabhängigen Reviewern und Reviews aus deinen Kampagnen.",
+      "emptySectionTitle": "Hier gibt es noch nichts",
       "emptySection": "In diesem Bereich gibt es noch keine Reviews.",
       "community": {
         "title": "Community-Reviews",

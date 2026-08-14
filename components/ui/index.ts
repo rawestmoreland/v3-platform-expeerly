@@ -32,6 +32,7 @@ export { OutlineDestructive } from "./atoms/button/OutlineDestructive";
 export { IconButton } from "./atoms/button/IconButton";
 export { CtaLinkPink } from "./atoms/button/CtaLinkPink";
 // Molecules
+export { AvatarUploadField } from "./molecules/AvatarUploadField";
 export { CheckboxField } from "./molecules/CheckboxField";
 export { FieldTrigger, fieldTriggerClasses } from "./molecules/FieldTrigger";
 export { DateField, type DateRangeValue } from "./composites/DateField";
@@ -102,6 +103,7 @@ export {
 } from "./composites/DialogWindow";
 export { InPageAlert } from "./composites/InPageAlert";
 export { Popover } from "./composites/Popover";
+export { ComboboxField, type ComboboxOption, type ComboboxFieldProps } from "./composites/ComboboxField";
 export { InfoBox } from "./composites/InfoBox";
 export { MainVideoCard, type MainVideoCardProps } from "./composites/video-reviews/MainVideoCard";
 export {

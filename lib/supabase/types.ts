@@ -24,6 +24,12 @@ export type UsersAnalyticsV2 = {
   email_verification_status: EmailVerificationStatus;
   avatar_url: string | null;
   phone_number: string | null;
+  social_linkedin: string | null;
+  social_instagram: string | null;
+  social_facebook: string | null;
+  social_tiktok: string | null;
+  interest_unique_category_ids: string[];
+  spoken_language_codes: string[];
   role: UsersAnalyticsRole | null;
   reviewer_status: ReviewerProfileStatus | null;
   company_id: string | null;

@@ -62,6 +62,11 @@
     "tag": {
       "removeAriaLabel": "Remove {label}"
     },
+    "comboboxField": {
+      "selectedCount": "{count} selected",
+      "searchPlaceholder": "Search",
+      "emptyLabel": "No matches"
+    },
     "starRating": {
       "valueLabel": "{value} of {max} stars",
       "unset": "—"
@@ -155,6 +160,7 @@
       "metaDescription": "Your self-submitted and campaign video reviews.",
       "title": "My reviews",
       "description": "Community submissions you handed in, plus self-submitted and campaign reviews.",
+      "emptySectionTitle": "Nothing here yet",
       "emptySection": "No reviews in this section yet.",
       "selfSubmitted": {
         "title": "Self-submitted reviews",
@@ -194,6 +200,38 @@
       "campaign": {
         "title": "Participate in a campaign",
         "description": "Join brand campaigns with a set brief, timeline, and campaign-specific rewards."
+      },
+      "form": {
+        "title": "Complete your reviewer profile",
+        "description": "Just need a couple of details before you get started.",
+        "displayNameLabel": "Display name",
+        "cityLabel": "City",
+        "socialLinkedinLabel": "LinkedIn",
+        "socialLinkedinPlaceholder": "https://linkedin.com/in/yourname",
+        "socialInstagramLabel": "Instagram",
+        "socialInstagramPlaceholder": "https://instagram.com/yourhandle",
+        "socialFacebookLabel": "Facebook",
+        "socialFacebookPlaceholder": "https://facebook.com/yourprofile",
+        "socialTiktokLabel": "TikTok",
+        "socialTiktokPlaceholder": "https://tiktok.com/@yourhandle",
+        "spokenLanguagesLabel": "Spoken languages",
+        "spokenLanguagesPlaceholder": "Select languages",
+        "interestCategoriesLabel": "Interest categories",
+        "interestCategoriesPlaceholder": "Select categories",
+        "requiredError": "Enter your display name and city to continue.",
+        "mediaSectionTitle": "Profile & sample media",
+        "mediaSectionDescription": "Reviewers get approved faster with a real profile picture and a few samples of their work.",
+        "avatarLabel": "Profile picture",
+        "avatarRequiredLabel": "(required)",
+        "avatarHint": "Use a square photo that clearly shows your face.",
+        "avatarRequiredError": "Upload a profile picture to continue.",
+        "sampleImagesLabel": "Upload 3 sample pictures",
+        "sampleImagesHint": "Photos of you in different situations, facing the camera. PNG, JPEG, or JPG only.",
+        "sampleImagesRequiredError": "Upload at least 3 sample pictures to continue.",
+        "sampleVideoLabel": "Upload a sample video",
+        "sampleVideoHint": "One short video of you talking to the camera. MOV or MP4, 50MB max.",
+        "sampleVideoRequiredError": "Upload a sample video to continue.",
+        "submitCta": "Save and continue"
       },
       "campaignListTitle": "Participate in a running campaign",
       "campaignListDescription": "Join brand campaigns with a set brief, timeline, and campaign-specific rewards.",
@@ -318,6 +356,7 @@
       "metaDescription": "Community and campaign video reviews for your brand.",
       "title": "All video reviews",
       "description": "Community reviews from independent reviewers and reviews produced through your campaigns.",
+      "emptySectionTitle": "Nothing here yet",
       "emptySection": "No reviews in this section yet.",
       "community": {
         "title": "Community reviews",

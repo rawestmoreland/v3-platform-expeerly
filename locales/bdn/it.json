@@ -824,7 +824,11 @@
         "optionOne": "Option One",
         "optionTwo": "Option Two",
         "optionThree": "Option Three",
-        "stateSelected": "selected"
+        "stateSelected": "selected",
+        "comboboxFieldTitle": "Combobox field",
+        "comboboxFieldIntro": "Multi-select field: FieldTrigger popover with a searchable checkbox list and removable Tag chips for selected values.",
+        "comboboxLabel": "Combobox",
+        "chooseOptions": "Choose options"
       },
       "lists": {
         "imageListItemTitle": "Image list item",

@@ -62,6 +62,11 @@
     "tag": {
       "removeAriaLabel": "Rimuovi {label}"
     },
+    "comboboxField": {
+      "selectedCount": "{count} selezionati",
+      "searchPlaceholder": "Cerca",
+      "emptyLabel": "Nessun risultato"
+    },
     "starRating": {
       "valueLabel": "{value} of {max} stars",
       "unset": "—"
@@ -155,6 +160,7 @@
       "metaDescription": "Le tue video review inviate in autonomia e da campagna.",
       "title": "Le mie review",
       "description": "Community submissions you handed in, plus self-submitted and campaign reviews.",
+      "emptySectionTitle": "Ancora niente qui",
       "emptySection": "Nessuna review in questa sezione.",
       "selfSubmitted": {
         "title": "Review inviate in autonomia",
@@ -194,6 +200,38 @@
       "campaign": {
         "title": "Partecipa a una campagna",
         "description": "Unisciti a campagne brand con brief, tempistiche e reward dedicati."
+      },
+      "form": {
+        "title": "Completa il tuo profilo da recensore",
+        "description": "Servono ancora un paio di informazioni prima di iniziare.",
+        "displayNameLabel": "Nome visualizzato",
+        "cityLabel": "Città",
+        "socialLinkedinLabel": "LinkedIn",
+        "socialLinkedinPlaceholder": "https://linkedin.com/in/iltuonome",
+        "socialInstagramLabel": "Instagram",
+        "socialInstagramPlaceholder": "https://instagram.com/iltuohandle",
+        "socialFacebookLabel": "Facebook",
+        "socialFacebookPlaceholder": "https://facebook.com/iltuoprofilo",
+        "socialTiktokLabel": "TikTok",
+        "socialTiktokPlaceholder": "https://tiktok.com/@iltuohandle",
+        "spokenLanguagesLabel": "Lingue parlate",
+        "spokenLanguagesPlaceholder": "Seleziona le lingue",
+        "interestCategoriesLabel": "Categorie di interesse",
+        "interestCategoriesPlaceholder": "Seleziona le categorie",
+        "requiredError": "Inserisci nome visualizzato e città per continuare.",
+        "mediaSectionTitle": "Foto profilo e contenuti di esempio",
+        "mediaSectionDescription": "I recensori vengono approvati più rapidamente con una vera foto profilo e alcuni esempi del loro lavoro.",
+        "avatarLabel": "Foto profilo",
+        "avatarRequiredLabel": "(obbligatoria)",
+        "avatarHint": "Usa una foto quadrata che mostri chiaramente il tuo viso.",
+        "avatarRequiredError": "Carica una foto profilo per continuare.",
+        "sampleImagesLabel": "Carica 3 foto di esempio",
+        "sampleImagesHint": "Foto di te in diverse situazioni, rivolto verso la fotocamera. Solo PNG, JPEG o JPG.",
+        "sampleImagesRequiredError": "Carica almeno 3 foto di esempio per continuare.",
+        "sampleVideoLabel": "Carica un video di esempio",
+        "sampleVideoHint": "Un breve video di te davanti alla fotocamera. MOV o MP4, massimo 50 MB.",
+        "sampleVideoRequiredError": "Carica un video di esempio per continuare.",
+        "submitCta": "Salva e continua"
       },
       "campaignListTitle": "Participate in a running campaign",
       "campaignListDescription": "Join brand campaigns with a set brief, timeline, and campaign-specific rewards.",
@@ -318,6 +356,7 @@
       "metaDescription": "Video review community e da campagna per il tuo brand.",
       "title": "Tutte le video review",
       "description": "Review community da reviewer indipendenti e review delle tue campagne.",
+      "emptySectionTitle": "Ancora niente qui",
       "emptySection": "Nessuna review in questa sezione.",
       "community": {
         "title": "Review community",

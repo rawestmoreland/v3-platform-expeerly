@@ -6,6 +6,12 @@ import { revalidatePath } from "next/cache";
 export type CompleteCampaignOnboardingInput = {
   displayName: string;
   city: string;
+  socialLinkedin?: string;
+  socialInstagram?: string;
+  socialFacebook?: string;
+  socialTiktok?: string;
+  spokenLanguageCodes?: string[];
+  interestUniqueCategoryIds?: string[];
 };
 
 export type CompleteCampaignOnboardingResult =
@@ -41,6 +47,12 @@ export async function completeCampaignOnboarding(
       last_name: lastName,
       reviewer_status: "profile_approved",
       // city is not a column yet — stored in spoken note via metadata later; keep profile fields only
+      social_linkedin: input.socialLinkedin?.trim() || null,
+      social_instagram: input.socialInstagram?.trim() || null,
+      social_facebook: input.socialFacebook?.trim() || null,
+      social_tiktok: input.socialTiktok?.trim() || null,
+      spoken_language_codes: input.spokenLanguageCodes ?? [],
+      interest_unique_category_ids: input.interestUniqueCategoryIds ?? [],
     })
     .eq("auth_user_id", user.id);
 
